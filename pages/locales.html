@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Locales - SimiAPP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/locales.css">
+</head>
+
+<body>
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a href="/pages/home.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Gestión de Locales</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container-fluid">
+            <div class="locales-layout">
+                <div class="locale-form-container">
+                    <div class="form-header">
+                        <h3 id="form-title">
+                            <i data-lucide="store"></i> <span id="form-action-text">Crear Local</span>
+                        </h3>
+                        <button id="reset-form-btn" type="button" class="btn btn-sm" style="color: var(--text-muted);"
+                            title="Limpiar Formulario">
+                            <i data-lucide="rotate-ccw" style="width:16px;"></i>
+                        </button>
+                    </div>
+
+                    <form id="locale-form">
+                        <input type="hidden" id="edit-id">
+
+                        <div class="grid grid-cols-2 gap-3 mb-3">
+                            <div>
+                                <label class="form-label">Tipo</label>
+                                <select id="tipo" class="form-control" required>
+                                    <option value="Sucursal">Sucursal</option>
+                                    <option value="Franquicia">Franquicia</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="form-label">Número</label>
+                                <input id="numero" type="number" min="1" step="1" class="form-control"
+                                    placeholder="302" required>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-3">
+                            <div>
+                                <label class="form-label">ID</label>
+                                <input id="locale-id-preview" type="text" class="form-control" readonly>
+                            </div>
+                            <div>
+                                <label class="form-label">Nombre del Local</label>
+                                <input id="nombre_local" type="text" class="form-control"
+                                    placeholder="Local Buin Centro" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Dirección</label>
+                            <input id="direccion" type="text" class="form-control" placeholder="Av. Principal 123"
+                                required>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-3">
+                            <div>
+                                <label class="form-label">Región</label>
+                                <select id="region" class="form-control" required>
+                                    <option value="">Selecciona una región...</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="form-label">Comuna</label>
+                                <select id="comuna" class="form-control" required>
+                                    <option value="">Selecciona una comuna...</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-3">
+                            <div>
+                                <label class="form-label">Teléfono</label>
+                                <input id="telefono" type="text" class="form-control" placeholder="+56 9 1234 5678">
+                            </div>
+                            <div>
+                                <label class="form-label">Anexo</label>
+                                <input id="anexo" type="text" class="form-control" placeholder="101">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Correo Oficial</label>
+                            <input id="correo_oficial" type="email" class="form-control"
+                                placeholder="local@simi.cl">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Correo Alternativo</label>
+                            <input id="correo_alternativo" type="email" class="form-control"
+                                placeholder="backup@simi.cl">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Horario de Atención</label>
+                            <div id="schedule-weekly" class="schedule-weekly"></div>
+                            <p class="schedule-help">Activa cada día para abrirlo y define sus horas. Si está
+                                desactivado, quedará como cerrado.</p>
+                        </div>
+
+                        <div class="locale-form-actions">
+                            <button type="submit" class="btn btn-success flex-1">GUARDAR</button>
+                            <button type="button" id="cancel-btn" class="btn btn-secondary flex-1">CANCELAR</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="list-section">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="section-title">Locales</h2>
+                        <span id="locale-count" class="badge badge-role">0</span>
+                    </div>
+
+                    <div id="locales-grid" class="locales-grid">
+                        <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+                            Cargando locales...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="/pages/locales.js"></script>
+</body>
+
+</html>

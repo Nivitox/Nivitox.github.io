@@ -1,0 +1,24 @@
+# Node.js
+   # Node.js     
+   node_modules/
+   npm-debug.log
+   yarn-error.log
+   .eslintcache
+   .env
+   .DS_Store
+    
+   # Optional: Build outputs
+   dist/
+   build/
+   
+   # Firebase specific
+   *.firebaseapp.com
+   firebase-debug.log
+   .firebaserc
+   firebase.json
+   
+   # macOS
+   .DS_Store
+   
+   # Visual Studio Code
+   .vscode/

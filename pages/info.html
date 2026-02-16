@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información - SimiAPP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/info.css">
+</head>
+
+<body>
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-md">
+                <a href="/pages/home.html" class="btn btn-sm btn-back">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px;"></i>
+                </a>
+                <h1 class="page-title">Información</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger btn-logout">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="subheader-fixed">
+        <div class="container-fluid">
+            <div class="locale-context">
+                <label for="info-locale-select" id="locale-label">Local:</label>
+                <select id="info-locale-select" class="form-control"></select>
+                <span id="info-locale-fixed" class="locale-fixed hidden"></span>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="card mb-md">
+                <div class="section-head">
+                    <h2 class="card-title">Datos del Local</h2>
+                    <span id="workers-count-badge" class="badge-soft">0 trabajadores</span>
+                </div>
+                <div id="locale-info-grid" class="locale-info-grid"></div>
+            </section>
+
+            <section class="card mb-md">
+                <h2 class="card-title">Horario de Atención</h2>
+                <div id="locale-schedule-grid" class="locale-schedule-grid"></div>
+            </section>
+
+            <section class="card">
+                <h2 class="card-title">Trabajadores del Local</h2>
+                <div id="workers-grid" class="workers-grid"></div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="/pages/info.js"></script>
+</body>
+
+</html>

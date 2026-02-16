@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimientos - SimiAPP</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- PDF.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.3.136/pdf.min.mjs" type="module"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/inventario.css">
+    <link rel="stylesheet" href="/styles/movements.css">
+</head>
+
+<body>
+
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/inventario.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 id="page-title" style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Movimientos</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <input type="file" id="data-upload-input" accept=".pdf" style="display: none;" />
+        <div class="container">
+            <!-- Movements View (Initially Hidden) -->
+            <div id="movements-view">
+                <div class="movements-header">
+                    <h2>Movimientos de Inventario</h2>
+                    <div class="flex items-center gap-md">
+                        <span id="last-update-display" class="text-muted"></span>
+                        <input type="file" id="pdf-upload" accept=".pdf" style="display: none;">
+                        <label for="pdf-upload" class="btn btn-primary"
+                            title='Esta lista se obtiene del "SPOS/Reportes/Lista de Productos" en formato PDF.'>
+                            <i data-lucide="list-checks"></i>
+                            <span>Lista de Productos</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="movements-lists">
+
+
+                    <div class="flex items-center justify-between mt-4 mb-md">
+                        <h3>Listas Predeterminadas</h3>
+                        <div class="flex items-center gap-md">
+                            <button id="add-manual-product-btn" class="btn btn-primary mt-3" disabled>Agregar Producto
+                                Manual</button>
+                            <button id="configure-motives-btn" class="btn btn-secondary mt-3">Configuración</button>
+                        </div>
+                    </div>
+
+                    <ul class="tabs-nav" id="predefined-lists">
+                        <li class="tab-item active" data-list-id="diferencias"><a href="#">Diferencias</a></li>
+                        <li class="tab-item" data-list-id="faltantes"><a href="#">Faltantes</a></li>
+                        <li class="tab-item" data-list-id="sobrantes"><a href="#">Sobrantes</a></li>
+                        <li class="tab-item" data-list-id="transito"><a href="#">Tránsito</a></li>
+                        <li class="tab-item" data-list-id="otros"><a href="#">Otros</a></li>
+                    </ul>
+
+                    <div class="transit-summary mb-3">
+                        <div class="summary-item">
+                            <span>Total Códigos:</span>
+                            <span id="transit-total-codes" class="font-bold">0</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Total Unidades:</span>
+                            <span id="transit-total-quantity" class="font-bold">0</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Total Precio:</span>
+                            <span id="transit-total-price" class="font-bold">$0.</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Fecha:</span>
+                            <span id="transit-current-date" class="font-bold"></span>
+                        </div>
+                        <div class="summary-actions">
+                            <button id="bulk-actions-btn" class="btn btn-secondary" style="display: none;">
+                                Acciones
+                                <i data-lucide="chevron-down" style="width:16px; height:16px; vertical-align:middle;"></i>
+                            </button>
+                            <div id="bulk-actions-dropdown" class="dropdown-menu" style="display: none;">
+                                <a href="#" id="bulk-delete-btn" class="dropdown-item">Eliminar Seleccionados</a>
+                                <a href="#" id="bulk-move-btn" class="dropdown-item">Mover a Lista</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="predefined-list-content" class="tab-content">
+                        <div id="diferencias-tab-pane" class="tab-pane active">
+                            <div class="table-container">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>Unidades</th>
+                                            <th>Subtotal</th>
+                                            <th>Eliminar</th>
+                                            <th>Ver</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="diferencias-table-body">
+                                        <!-- Diferencias data will be populated here -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="faltantes-tab-pane" class="tab-pane" style="display: none;">
+                            <div class="table-container">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>Unidades</th>
+                                            <th>Subtotal</th>
+                                            <th>Eliminar</th>
+                                            <th>Ver</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="faltantes-table-body">
+                                        <!-- Faltantes data will be populated here -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="sobrantes-tab-pane" class="tab-pane" style="display: none;">
+                            <div class="table-container">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>Unidades</th>
+                                            <th>Subtotal</th>
+                                            <th>Eliminar</th>
+                                            <th>Ver</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="sobrantes-table-body">
+                                        <!-- Sobrantes data will be populated here -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="transito-tab-pane" class="tab-pane" style="display: none;">
+                            <div class="table-container">
+                                <table id="transit-list-table" class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th></th> <!-- Checkbox -->
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>Cant.</th>
+                                            <th>Motivo</th>
+                                            <th>Eliminar</th>
+                                            <th>Ver</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="transito-table-body">
+                                        <!-- Tránsito data will be populated here -->
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                        <div id="otros-tab-pane" class="tab-pane" style="display: none;">
+                            <div class="table-container">
+                                <table id="otros-list-table" class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Código</th>
+                                            <th>Nombre</th>
+                                            <th>Cant.</th>
+                                            <th>Motivo</th>
+                                            <th>Eliminar</th>
+                                            <th>Ver</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="otros-table-body">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="mt-4">Listas Personalizadas</h3>
+                    <ul class="list-group" id="custom-lists">
+                        <!-- Personalized lists will be populated here -->
+                    </ul>
+                    <button id="add-custom-list-btn" class="btn btn-secondary mt-3">
+                        <i data-lucide="plus"></i>
+                        Crear Nueva Lista Personalizada
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Manual Product Entry Modal for Tránsito -->
+    <div id="manual-product-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Agregar Producto a Tránsito</h2>
+            <div class="form-group">
+                <label for="modal-product-code" class="form-label">Código:</label>
+                <input type="text" id="modal-product-code" class="form-control" autocomplete="off">
+                <div id="product-suggestions" class="autocomplete-suggestions"></div>
+            </div>
+            <div class="form-group">
+                <label for="modal-product-name" class="form-label">Nombre:</label>
+                <input type="text" id="modal-product-name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="modal-units" class="form-label">Unidades:</label>
+                <input type="number" id="modal-units" class="form-control" value="1" min="1">
+            </div>
+            <div class="form-group">
+                <label for="modal-motivo" class="form-label">Motivo:</label>
+                <select id="modal-motivo" class="form-control"></select>
+            </div>
+            <div class="form-group">
+                <label for="modal-unit-price" class="form-label">Precio Unitario:</label>
+                <input type="number" id="modal-unit-price" class="form-control" step="0.01" readonly>
+            </div>
+            <div class="form-group">
+                <label for="modal-subtotal" class="form-label">Subtotal:</label>
+                <input type="number" id="modal-subtotal" class="form-control" step="0.01" readonly>
+            </div>
+            <div class="flex justify-end gap-md mt-md">
+                <button id="modal-cancel-btn" class="btn btn-secondary">Cancelar</button>
+                <button id="modal-add-btn" class="btn btn-primary">Agregar</button>
+            </div>
+        </div>
+        </div>
+    
+        <!-- Move to List Modal -->
+        <div id="move-to-list-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Mover Ítems Seleccionados</h2>
+                <div class="form-group">
+                    <label for="modal-target-list" class="form-label">Seleccionar Lista de Destino:</label>
+                    <select id="modal-target-list" class="form-control">
+                        <!-- Options will be populated by JS -->
+                    </select>
+                </div>
+                <div class="flex justify-end gap-md mt-md">
+                    <button id="modal-move-cancel-btn" class="btn btn-secondary">Cancelar</button>
+                    <button id="modal-move-confirm-btn" class="btn btn-primary">Mover</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Motives Configuration Modal -->
+        <div id="motives-config-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span id="motives-config-close" class="close-button">&times;</span>
+                <h2>Configuración</h2>
+                <p class="text-muted">Motivos para agregar productos en Tránsito u otras listas.</p>
+                <div id="motives-input-list" class="form-group"></div>
+                <div class="flex justify-end gap-md mt-md">
+                    <button id="motives-config-cancel" class="btn btn-secondary">Cancelar</button>
+                    <button id="motives-config-save" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="image-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div class="modal-header-info">
+                    <span id="image-modal-product-code" class="modal-code"></span>
+                    <span id="image-modal-product-name" class="modal-name"></span>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-image-container"
+                        style="position: relative; min-height: 200px; display: flex; align-items: center; justify-content: center;">
+                        <img id="modal-image" src="" alt="Producto"
+                            style="display: none; max-width: 100%; max-height: 300px;">
+                        <span id="modal-source-badge" class="source-badge"></span>
+                    </div>
+                    <div id="modal-loader" class="loader" style="display: none;"></div>
+                    <div id="modal-message" class="modal-message" style="display: none;">No hay imágenes disponibles</div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <style>
+            .pc-only {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .pc-only {
+                display: inline;
+                margin-left: 4px;
+            }
+        }
+    </style>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="movimientos.js"></script>
+</body>
+
+</html>

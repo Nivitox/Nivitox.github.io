@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario - SimiAPP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/calendario.css">
+</head>
+
+<body>
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/home.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 id="page-title" style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Calendario</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="card calendar-shell">
+                <div class="calendar-toolbar">
+                    <div class="calendar-nav">
+                        <button id="prev-period" class="btn"><i data-lucide="chevron-left"></i></button>
+                        <h2 id="period-label">Periodo</h2>
+                        <button id="next-period" class="btn"><i data-lucide="chevron-right"></i></button>
+                        <button id="today-btn" class="btn">Hoy</button>
+                    </div>
+                    <div class="calendar-actions">
+                        <div class="view-switch" id="view-switch">
+                            <button class="btn active" data-view="month">Mes</button>
+                            <button class="btn" data-view="week">Semana</button>
+                            <button class="btn" data-view="day">Día</button>
+                        </div>
+                        <button id="new-reminder-btn" class="btn btn-primary">
+                            <i data-lucide="plus"></i>
+                            <span>Nuevo Recordatorio</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="sa-filters-bar" class="calendar-sa-filters hidden">
+                    <div class="sa-filter-item sa-filter-toggle">
+                        <label for="sa-view-all-toggle">Vista SA global</label>
+                        <input id="sa-view-all-toggle" type="checkbox">
+                    </div>
+                    <div class="sa-filter-item">
+                        <label for="sa-filter-locale">Local</label>
+                        <select id="sa-filter-locale" class="form-control">
+                            <option value="all">Todos los locales</option>
+                        </select>
+                    </div>
+                    <div class="sa-filter-item">
+                        <label for="sa-filter-date">Fecha</label>
+                        <input id="sa-filter-date" type="date" class="form-control">
+                    </div>
+                    <div class="sa-filter-item">
+                        <label for="sa-filter-role">Trabajadores</label>
+                        <select id="sa-filter-role" class="form-control">
+                            <option value="all">Todos</option>
+                            <option value="qf">QF</option>
+                            <option value="af">AF</option>
+                        </select>
+                    </div>
+                    <div class="sa-filter-item">
+                        <label>&nbsp;</label>
+                        <button id="sa-filter-clear" class="btn">Limpiar filtros</button>
+                    </div>
+                </div>
+
+                <div class="calendar-layout">
+                    <section class="calendar-board card" id="calendar-board"></section>
+
+                    <aside class="calendar-sidebar card">
+                        <h3 id="selected-date-label">Recordatorios</h3>
+                        <div class="calendar-help">
+                            <p><strong>Opciones útiles:</strong></p>
+                            <p>1. Edita rápido con el botón <strong>Editar</strong>.</p>
+                            <p>2. Usa <strong>Notas</strong> para contexto operativo.</p>
+                            <p>3. Marca como <strong>Leído</strong> o <strong>Completado</strong>.</p>
+                        </div>
+                        <div id="selected-day-list" class="event-list"></div>
+                    </aside>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="calendar-modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-content calendar-modal-content">
+            <button class="close-button" id="close-calendar-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="calendar-modal-title">Nuevo Recordatorio</h2>
+
+            <div class="calendar-form-grid">
+                <div class="form-group">
+                    <label class="form-label" for="event-title">Título</label>
+                    <input id="event-title" class="form-control" type="text" maxlength="120">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="event-date">Fecha</label>
+                    <input id="event-date" class="form-control" type="date">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="event-start-time">Inicio</label>
+                    <input id="event-start-time" class="form-control" type="time">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="event-end-time">Término</label>
+                    <input id="event-end-time" class="form-control" type="time">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="event-importance">Importancia</label>
+                    <select id="event-importance" class="form-control">
+                        <option value="baja">Baja</option>
+                        <option value="media" selected>Media</option>
+                        <option value="alta">Alta</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="event-type">Tipo</label>
+                    <select id="event-type" class="form-control">
+                        <option value="recordatorio">Recordatorio</option>
+                        <option value="tarea">Tarea</option>
+                        <option value="aviso">Aviso</option>
+                    </select>
+                </div>
+
+                <div class="form-group form-group-wide">
+                    <label class="form-label" for="event-scope">Publicación</label>
+                    <select id="event-scope" class="form-control"></select>
+                </div>
+
+                <div class="form-group form-group-wide" id="task-assignee-wrap">
+                    <label class="form-label" for="task-assignee">Asignar a AF (opcional)</label>
+                    <select id="task-assignee" class="form-control"></select>
+                </div>
+
+                <div class="form-group form-group-wide">
+                    <label class="form-label" for="event-description">Descripción</label>
+                    <textarea id="event-description" class="form-control" rows="2"></textarea>
+                </div>
+
+                <div class="form-group form-group-wide">
+                    <label class="form-label" for="event-notes">Notas</label>
+                    <textarea id="event-notes" class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="modal-footer-actions">
+                <button id="save-event-btn" class="btn btn-primary">Guardar</button>
+                <button id="cancel-event-btn" class="btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="calendar-view-modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-content calendar-view-modal-content">
+            <button class="close-button" id="close-calendar-view-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="calendar-view-title">Detalle del Mensaje</h2>
+
+            <div id="calendar-view-body" class="calendar-view-grid"></div>
+
+            <div class="modal-footer-actions">
+                <button id="view-toggle-state-btn" class="btn">Marcar leído</button>
+                <button id="view-edit-btn" class="btn btn-primary">Editar</button>
+                <button id="view-close-btn" class="btn">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="/pages/calendario.js"></script>
+</body>
+
+</html>

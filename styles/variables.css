@@ -1,0 +1,80 @@
+:root {
+    /* Color Palette - Light Theme (Default) */
+    --primary-color: #0b5fff;
+    --primary-hover: #0847be;
+    --secondary-color: #4b5563;
+    --accent-color: #0f9f6d;
+    --success-color: var(--accent-color);
+    --danger-color: #d93e37;
+    --warning-color: #f7b500;
+
+    --bg-body: #f4f7fb;
+    --bg-card: #ffffff;
+    --bg-header: rgba(255, 255, 255, 0.88);
+    --text-main: #132033;
+    --text-muted: #5d6a7a;
+    --border-color: #d9e2ec;
+
+    --background-muted: #eef3f9;
+    --surface-soft: #f8fbff;
+    --surface-strong: #e8f1ff;
+    --focus-ring: rgba(11, 95, 255, 0.2);
+
+    --bg-gradient-main: radial-gradient(circle at 0% 0%, rgba(11, 95, 255, 0.12), transparent 45%),
+        radial-gradient(circle at 100% 100%, rgba(15, 159, 109, 0.12), transparent 35%),
+        linear-gradient(160deg, #f7faff 0%, #eef4fc 55%, #edf5ff 100%);
+    --hero-gradient: linear-gradient(135deg, #0b5fff 0%, #3e86ff 60%, #67a5ff 100%);
+
+    /* Grid & Cards */
+    --card-hover-bg: #f1f5f9;
+    --header-height: 60px;
+    --subheader-height: 50px;
+
+    /* Typography */
+    --font-family-base: "Space Grotesk", "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-family-mono: "IBM Plex Mono", "Consolas", monospace;
+    --font-size-base: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.25rem;
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 3rem;
+
+    /* Border Radius */
+    --border-radius: 0.5rem;
+    --border-radius-lg: 1rem;
+
+    /* Shadows */
+    --shadow-sm: 0 8px 20px -18px rgba(14, 35, 64, 0.35);
+    --shadow-md: 0 20px 36px -30px rgba(14, 35, 64, 0.4), 0 8px 16px -12px rgba(14, 35, 64, 0.2);
+    --shadow-lg: 0 36px 60px -38px rgba(14, 35, 64, 0.5), 0 16px 26px -18px rgba(14, 35, 64, 0.25);
+}
+
+[data-theme="dark"] {
+    --primary-color: #5f92ff;
+    --primary-hover: #7ca6ff;
+    --bg-body: #07111f;
+    --bg-card: #13233a;
+    --bg-header: rgba(10, 22, 37, 0.88);
+    --text-main: #e8f1ff;
+    --text-muted: #a1b4cc;
+    --border-color: #1e3757;
+    --background-muted: #0f1f34;
+    --surface-soft: #0f1f34;
+    --surface-strong: #173157;
+    --card-hover-bg: #1a3252;
+    --focus-ring: rgba(95, 146, 255, 0.24);
+    --bg-gradient-main: radial-gradient(circle at 0% 0%, rgba(95, 146, 255, 0.2), transparent 45%),
+        radial-gradient(circle at 100% 100%, rgba(15, 159, 109, 0.14), transparent 35%),
+        linear-gradient(160deg, #07111f 0%, #081729 55%, #0d2038 100%);
+    --hero-gradient: linear-gradient(135deg, #245bd8 0%, #4e7de4 55%, #77a2ff 100%);
+    --shadow-sm: 0 10px 22px -16px rgba(0, 0, 0, 0.7);
+    --shadow-md: 0 22px 42px -30px rgba(0, 0, 0, 0.75), 0 10px 20px -15px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 36px 64px -34px rgba(0, 0, 0, 0.85), 0 18px 30px -16px rgba(0, 0, 0, 0.65);
+}

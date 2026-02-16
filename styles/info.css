@@ -1,0 +1,362 @@
+.page-title {
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.btn-back {
+    background: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+}
+
+.btn-logout {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-left: auto;
+}
+
+.user-name {
+    display: none;
+}
+
+.user-sigla {
+    display: inline-block;
+    background: var(--hero-gradient);
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.pc-only {
+    display: none;
+}
+
+.locale-context {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    width: 100%;
+}
+
+.locale-context label {
+    font-weight: 700;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+#info-locale-select {
+    max-width: 360px;
+}
+
+.locale-fixed {
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid var(--border-color);
+    background: var(--surface-soft);
+    border-radius: var(--border-radius);
+    font-weight: 600;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.badge-soft {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    background: var(--surface-soft);
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.role-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    padding: 0.2rem 0.62rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.role-af {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.role-qf {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.role-sa {
+    background: var(--danger-color);
+    border-color: var(--danger-color);
+    color: #ffffff;
+}
+
+.role-other {
+    background: var(--surface-soft);
+    border-color: var(--border-color);
+    color: var(--text-muted);
+}
+
+.worker-code-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 86px;
+    padding: 0.2rem 0.62rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    background: var(--surface-soft);
+    color: var(--text-main);
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.locale-info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+}
+
+.locale-schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+}
+
+.schedule-row {
+    display: grid;
+    grid-template-columns: minmax(120px, 1fr) minmax(120px, auto);
+    align-items: center;
+    gap: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background:
+        linear-gradient(120deg, color-mix(in srgb, var(--primary-color) 8%, #ffffff) 0%, #ffffff 100%);
+    padding: 0.62rem 0.78rem;
+}
+
+.schedule-day {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text-main);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.schedule-hours {
+    justify-self: end;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.schedule-status {
+    justify-self: end;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--danger-color) 32%, #ffffff);
+    background: color-mix(in srgb, var(--danger-color) 12%, #ffffff);
+    color: var(--danger-color);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.16rem 0.52rem;
+}
+
+.schedule-row-fallback .schedule-day {
+    color: var(--text-muted);
+}
+
+.info-item {
+    background: var(--surface-soft);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.65rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.info-label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+}
+
+.info-value {
+    font-weight: 600;
+}
+
+.copy-value {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+    border-bottom: 1px dashed color-mix(in srgb, var(--primary-color) 55%, transparent);
+}
+
+.copy-value:hover {
+    color: var(--primary-color);
+}
+
+.copy-value.copied {
+    color: var(--success-color);
+    border-bottom-color: var(--success-color);
+}
+
+.workers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+}
+
+.worker-card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+    background: var(--surface-soft);
+}
+
+.worker-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    margin-bottom: 0.45rem;
+}
+
+.worker-head h3 {
+    margin: 0;
+    font-size: 0.96rem;
+}
+
+.worker-badges {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.worker-head-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.worker-edit-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    text-decoration: none;
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 0.2rem 0.55rem;
+}
+
+.worker-edit-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.worker-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    font-size: 0.87rem;
+}
+
+.empty-message {
+    color: var(--text-muted);
+    padding: 0.45rem 0.1rem;
+}
+
+@media (min-width: 768px) {
+    .user-name {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.2;
+    }
+
+    .user-name .name {
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-sm);
+    }
+
+    .user-name .cargo {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+    }
+
+    .pc-only {
+        display: inline;
+        margin-left: 4px;
+    }
+
+    .locale-info-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .workers-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .schedule-row {
+        grid-template-columns: 1fr;
+        gap: 0.3rem;
+    }
+
+    .schedule-hours,
+    .schedule-status {
+        justify-self: start;
+    }
+}

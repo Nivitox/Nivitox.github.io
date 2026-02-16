@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajadores - SimiAPP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/trabajadores.css">
+</head>
+
+<body>
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/home.html" class="btn btn-sm btn-back">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 class="page-title">Trabajadores</h1>
+            </div>
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger btn-logout">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container-fluid">
+            <section class="card trabajadores-card">
+                <div class="trabajadores-head">
+                    <h2>Listado de Trabajadores</h2>
+                    <p id="trabajadores-subtitle" class="subtitle">Cargando trabajadores...</p>
+                </div>
+
+                <div class="table-scroll">
+                    <table class="table trabajadores-table">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Nombre</th>
+                                <th>Rol</th>
+                                <th>Tipo</th>
+                                <th>Local Asignado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="trabajadores-table-body">
+                            <tr>
+                                <td colspan="5" class="text-muted">Cargando...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="/pages/trabajadores.js"></script>
+</body>
+
+</html>

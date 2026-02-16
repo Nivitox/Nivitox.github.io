@@ -1,0 +1,187 @@
+/* Styles for inventario.html */
+
+/* General table styling */
+#transit-list-table {
+    width: 100%;
+    table-layout: fixed; /* Distribute columns evenly */
+}
+
+.transit-item-row {
+    vertical-align: middle;
+}
+
+.transit-item-row:hover {
+    background-color: var(--background-hover);
+}
+
+/* Column specific adjustments */
+#transit-list-table th:nth-child(1),
+#transit-list-table td:nth-child(1) { /* Checkbox column */
+    width: 30px;
+    text-align: center;
+}
+
+#transit-list-table th:nth-child(2),
+#transit-list-table td:nth-child(2) { /* Código / P. Unitario */
+    width: 15%;
+    vertical-align: middle;
+}
+
+#transit-list-table th:nth-child(3),
+#transit-list-table td:nth-child(3) { /* Nombre / Subtotal */
+    width: 30%;
+    vertical-align: middle;
+}
+
+#transit-list-table th:nth-child(4),
+#transit-list-table td:nth-child(4) { /* Cantidad */
+    width: 8%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#transit-list-table th:nth-child(5),
+#transit-list-table td:nth-child(5) { /* Motivo / Añadir a Lista */
+    width: 20%;
+    vertical-align: middle;
+}
+
+#transit-list-table th:nth-child(6),
+#transit-list-table td:nth-child(6) { /* Fecha Edición / Acciones */
+    width: 17%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Styles for combined info in cells */
+.transit-item-row td > div {
+    /* General styling for divs inside a td */
+    padding: 2px 0;
+}
+
+.transit-item-row .secondary-info {
+    font-size: 0.85em;
+    color: var(--text-muted);
+}
+
+.transit-item-row .custom-list-controls {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.transit-item-row .custom-list-controls .custom-list-selector {
+    flex-grow: 1;
+    min-width: 0; /* Allow select to shrink */
+}
+
+.transit-item-row .item-actions {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure icons in buttons are correctly sized */
+.item-actions .btn i[data-lucide] {
+    width: 16px;
+    height: 16px;
+}
+
+/* New styles for transit summary and bulk actions */
+.transit-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 10px; /* Space between items */
+    position: relative; /* For dropdown positioning */
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.summary-item span:first-child {
+    color: var(--text-muted);
+    font-size: 0.8em;
+}
+
+.summary-item span:last-child {
+    color: var(--text-main);
+    font-size: 1.1em;
+}
+
+.summary-actions {
+    position: relative;
+    display: inline-block;
+}
+
+.summary-actions .btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Position below the button */
+    right: 0; /* Align to the right of the button */
+    background-color: var(--background-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    min-width: 180px;
+    z-index: 100;
+    overflow: hidden; /* Ensure rounded corners */
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 15px;
+    color: var(--text-main);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--background-hover);
+    color: var(--primary-color);
+}
+
+
+.transit-motivo-selector {
+    width: auto; /* Adjust width to content */
+    min-width: 120px;
+    max-width: 150px;
+}
+
+.secondary-actions .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+}
+
+.last-update-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    padding: 2px 6px;
+    border-radius: var(--border-radius-full);
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.last-update-badge.today {
+    color: var(--accent-color); /* Green for today */
+}
+
+.last-update-badge.outdated {
+    color: var(--danger-color); /* Red for outdated */
+}

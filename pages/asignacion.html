@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación - SimiAPP</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/inventario.css">
+    <link rel="stylesheet" href="/styles/movements.css">
+    <link rel="stylesheet" href="/styles/asignacion.css">
+</head>
+
+<body>
+
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/inventario.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 id="page-title" style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Asignación</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <input type="file" id="pdf-upload-inventario" accept=".pdf" style="display: none;" />
+
+            <div class="assignment-top-row">
+                <div class="assignment-upload-col">
+                    <button id="experimental-pdf-btn" class="home-btn">
+                        <i data-lucide="upload"></i>
+                        <span>Cargar Datos</span>
+                        <span id="experimental-last-update" class="last-update-badge"></span>
+                    </button>
+                </div>
+                <div class="assignment-summary-col">
+                    <h2>Último Inventario Cargado</h2>
+                    <div id="inventory-summary-display">
+                        <!-- Summary data (fecha_procesado, total_productos) will be displayed here -->
+                        <p>Cargando datos del inventario...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4 assignment-card">
+                <div class="card-header">
+                    <h3>Asignación de Inventario</h3>
+                </div>
+                <div class="card-body">
+                    <p class="assignment-subtitle">Configura el reparto y genera una nueva asignación para todo el inventario.</p>
+
+                    <div class="assignment-grid">
+                        <div class="assignment-block">
+                            <label class="assignment-label">Repartir entre</label>
+                            <div class="toggle-group">
+                                <input type="radio" id="reparto-af" name="reparto" value="af" checked>
+                                <label for="reparto-af" class="toggle-button">Solo AF</label>
+
+                                <input type="radio" id="reparto-todos" name="reparto" value="todos">
+                                <label for="reparto-todos" class="toggle-button">Todos</label>
+                            </div>
+                        </div>
+
+                        <div class="assignment-block">
+                            <label class="assignment-label">Método de asignación</label>
+                            <div class="toggle-group">
+                                <input type="radio" id="metodo-auto" name="metodo" value="auto" checked>
+                                <label for="metodo-auto" class="toggle-button">Automático</label>
+
+                                <input type="radio" id="metodo-manual" name="metodo" value="manual">
+                                <label for="metodo-manual" class="toggle-button">Manual</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="auto-options" class="mt-3 assignment-block">
+                        <div class="form-group">
+                            <label for="start-index" class="assignment-label">Índice de inicio (automático)</label>
+                            <input type="number" id="start-index" class="form-control" value="1" min="1">
+                        </div>
+                    </div>
+
+                    <div id="manual-options" class="mt-3 assignment-block" style="display: none;">
+                        <!-- Worker-specific assignment controls will be injected here -->
+                    </div>
+
+                    <div class="assignment-actions">
+                        <button id="assign-button" class="btn btn-primary mt-4">Asignar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header flex justify-between items-center">
+                    <h3>Gestión de Almacenamiento</h3>
+                    <button id="toggle-storage-management" class="btn btn-sm btn-secondary">
+                        <i data-lucide="package" class="icon-toggle"></i>
+                        <span>Mostrar Gestión</span>
+                    </button>
+                </div>
+                <div id="storage-management-container" style="display: none;">
+                    <div class="card-body">
+                        <h4>Lugares de Almacenamiento Predeterminados</h4>
+                        <ul id="predetermined-storage-list" class="list-group mb-3">
+                            <li class="list-group-item">Estándar</li>
+                            <li class="list-group-item">Refrigerador</li>
+                            <li class="list-group-item">Controlados</li>
+                        </ul>
+
+                        <h4>Lugares de Almacenamiento Personalizados</h4>
+                        <div class="input-group mb-3">
+                            <input type="text" id="custom-storage-input" class="form-control" placeholder="Añadir nuevo lugar (Ej: Bodega)">
+                            <button id="add-custom-storage-btn" class="btn btn-primary">Añadir</button>
+                        </div>
+                        <ul id="custom-storage-list" class="list-group mb-3">
+                            <!-- Custom storage locations will be injected here by JavaScript -->
+                        </ul>
+                        <button id="save-custom-storage-btn" class="btn btn-secondary mt-3">Guardar Lugares Personalizados</button>
+
+                        <h4 class="mt-4">Asignación de Almacenamiento por Producto</h4>
+                        <div id="product-storage-list" class="product-list-storage">
+                            <!-- Product list with storage selectors will be injected here by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header flex justify-between items-center">
+                    <h3>Personal del Local</h3>
+                    <button id="toggle-workers-list" class="btn btn-sm btn-secondary">
+                        <i data-lucide="users" class="icon-toggle"></i>
+                        <span>Mostrar Personal</span>
+                    </button>
+                </div>
+                <div id="workers-list-container" style="display: none;">
+                    <!-- Workers list will be injected here by JavaScript -->
+                    <div id="qf-list-container" class="worker-role-section">
+                        <h4>Químicos Farmacéuticos (QF)</h4>
+                        <ul id="qf-list" class="list-group"></ul>
+                    </div>
+                    <div id="af-list-container" class="worker-role-section mt-3">
+                        <h4>Auxiliares de Farmacia (AF)</h4>
+                        <ul id="af-list" class="list-group"></ul>
+                    </div>
+                    <div id="sa-list-container" class="worker-role-section mt-3" style="display: none;">
+                        <h4>Super Administradores (SA)</h4>
+                        <ul id="sa-list" class="list-group"></ul>
+                    </div>
+                    <p id="no-workers-message" style="display: none;">No se encontró personal para este local.</p>
+                </div>
+            </div>
+
+            <div class="card mt-4">
+                <div class="card-header flex justify-between items-center">
+                    <h3>Detalles del Inventario</h3>
+                    <button id="toggle-inventory-table" class="btn btn-sm btn-secondary">
+                        <i data-lucide="chevron-down" class="icon-toggle"></i>
+                        <span>Mostrar Detalles</span>
+                    </button>
+                </div>
+                <div id="inventory-table-container" style="display: none;">
+                    <!-- Inventory table will be injected here by JavaScript -->
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="/pages/asignacion.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

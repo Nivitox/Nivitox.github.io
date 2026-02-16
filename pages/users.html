@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios - SimiAPP</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/users.css">
+</head>
+
+<body>
+
+    <!-- Fixed Header (Project Style) -->
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a href="/pages/home.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Gestión de Usuarios</h1>
+            </div>
+
+                <div class="user-info">
+                    <div id="user-sigla" class="user-sigla">--</div>
+                    <div class="user-name">
+                        <span id="user-name-text" class="name">Cargando...</span>
+                        <span id="user-cargo-text" class="cargo">...</span>
+                    </div>
+                    <button id="logout-btn" class="btn btn-danger"
+                        style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                        <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                        <span class="pc-only">Salir</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+    <!-- Subheader for Context -->
+    <div class="subheader-fixed">
+        <div class="container-fluid">
+             <!-- Context Bar for SA -->
+            <div id="context-bar" class="flex items-center gap-2">
+                <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted);">VISTA DE LOCAL:</span>
+                <div id="locale-selector-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container-fluid">
+
+            <div class="users-layout">
+                <!-- Left: Form -->
+                <div class="user-form-container">
+                    <div class="form-header">
+                        <h3 id="form-title">
+                            <i data-lucide="user-plus"></i> <span id="form-action-text">Crear Usuario</span>
+                        </h3>
+                        <button onclick="resetForm()" class="btn btn-sm" style="color: var(--text-muted);"
+                            title="Limpiar Formulario">
+                            <i data-lucide="rotate-ccw" style="width:16px;"></i>
+                        </button>
+                    </div>
+
+                    <form id="user-form">
+                        <input type="hidden" id="edit-rut">
+
+                        <!-- Main Identity -->
+                        <div class="grid grid-cols-2 gap-3 mb-3">
+                            <div>
+                                <label class="form-label">RUT (Login)</label>
+                                <input type="text" id="rut" class="form-control" placeholder="12345678-9" required>
+                            </div>
+                            <div>
+                                <label class="form-label">Cod. Trabajador</label>
+                                <input type="text" id="worker_code" class="form-control" placeholder="Ej: 1234">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Nombres</label>
+                            <input type="text" id="names" class="form-control" placeholder="Juan Andrés" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Apellidos</label>
+                            <input type="text" id="last_names" class="form-control" placeholder="Pérez Soto" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Contraseña</label>
+                            <div class="password-input-wrap">
+                                <input type="password" id="password" class="form-control" placeholder="••••••••"
+                                    required>
+                                <button type="button" id="toggle-password-visibility" class="password-toggle-btn"
+                                    aria-label="Mostrar contraseña" title="Mostrar contraseña">
+                                    <span id="password-icon-show">
+                                        <i data-lucide="eye" style="width:16px; height:16px;"></i>
+                                    </span>
+                                    <span id="password-icon-hide" class="hidden">
+                                        <i data-lucide="eye-off" style="width:16px; height:16px;"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Cargo</label>
+                            <select id="cargo" class="form-control" required>
+                                <option value="Auxiliar de Farmacia">Auxiliar de Farmacia</option>
+                                <option value="Químico Farmacéutico">Químico Farmacéutico</option>
+                                <option value="Super Admin">Super Admin</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3" id="locale-group">
+                            <label class="form-label">Local Asignado</label>
+                            <select id="locale_id" class="form-control" required>
+                                <option value="">Cargando locales...</option>
+                            </select>
+                        </div>
+
+                        <!-- SA Only Options -->
+                        <div class="mb-3" id="type-group" style="display: none;">
+                            <label class="form-label">Tipo de Usuario</label>
+                            <select id="type" class="form-control">
+                                <option value="Estandar">Estandar</option>
+                                <option value="Beta Tester">Beta Tester</option>
+                            </select>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-4">
+                            <div>
+                                <label class="form-label">Estado</label>
+                                <select id="estado" class="form-control">
+                                    <option value="Habilitado">Habilitado</option>
+                                    <option value="Deshabilitado">Deshabilitado</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="form-label">Color Perfil</label>
+                                <div id="current-color-preview"
+                                    style="height: 38px; border-radius: var(--border-radius); border: 1px solid var(--border-color); background: #888; cursor: pointer;"
+                                    title="Clic para seleccionar"></div>
+                                <input type="hidden" id="user-color" value="#888888">
+                            </div>
+                        </div>
+
+                        <!-- Color Picker Area -->
+                        <div id="color-picker-section" class="mb-4">
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">Seleccionar Color:</span>
+                            <div id="color-grid" class="color-grid"></div>
+                        </div>
+
+                        <hr class="mb-4" style="border-top: 1px dashed var(--border-color);">
+
+                        <!-- Extra Info Toggle -->
+                        <details class="mb-4">
+                            <summary style="cursor: pointer; color: var(--primary-color); font-weight: 500;">Información
+                                Adicional</summary>
+                            <div class="mt-3">
+                                <div class="grid grid-cols-2 gap-3 mb-3">
+                                    <div>
+                                        <label class="form-label text-sm">F. Nacimiento</label>
+                                        <input type="date" id="birth_date" class="form-control text-sm">
+                                    </div>
+                                    <div>
+                                        <label class="form-label text-sm">F. Incoporación</label>
+                                        <input type="date" id="incorporation_date" class="form-control text-sm">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-sm">Teléfono</label>
+                                    <input type="text" id="contact_number" class="form-control text-sm"
+                                        placeholder="+56 9...">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-sm">Email</label>
+                                    <input type="email" id="contact_email" class="form-control text-sm"
+                                        placeholder="correo@ejemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label text-sm">Dirección</label>
+                                    <input type="text" id="address" class="form-control text-sm"
+                                        placeholder="Av. Principal 123">
+                                </div>
+                            </div>
+                        </details>
+
+                        <div class="user-form-actions">
+                            <button type="submit" class="btn btn-success flex-1">GUARDAR</button>
+                            <button type="button" onclick="resetForm()"
+                                class="btn btn-secondary flex-1">CANCELAR</button>
+                        </div>
+
+                    </form>
+                </div>
+                <!-- Right: List -->
+                <div class="list-section">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="section-title text-xl font-bold text-gray-800">Colaboradores</h2>
+                        <span id="user-count" class="badge badge-role">0</span>
+                    </div>
+
+                    <div id="users-grid" class="users-grid">
+                        <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+                            Cargando usuarios...
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script type="module" src="users.js"></script>
+</body>
+
+</html>

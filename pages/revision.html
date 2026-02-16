@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisión de Inventario - SimiAPP</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/revision.css">
+</head>
+
+<body>
+
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/inventario.html" class="header-icon-btn" aria-label="Volver">
+                    <i data-lucide="arrow-left"></i>
+                </a>
+                <button id="toggle-filter-btn" class="header-icon-btn" aria-label="Filtrar">
+                    <i data-lucide="filter"></i>
+                </button>
+                <h1 id="page-title">Revisión</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="filter-subheader" class="subheader hidden">
+        <div id="filter-controls" class="filter-controls-scroll">
+            <button class="filter-btn active" data-filter="asignados">
+                <i data-lucide="user"></i> Asignados
+            </button>
+            <button class="filter-btn" data-filter="pendientes">
+                <i data-lucide="clock"></i> Pendientes
+            </button>
+            <button class="filter-btn" data-filter="revisados">
+                <i data-lucide="check-circle"></i> Revisados
+            </button>
+            <button class="filter-btn" data-filter="destacados">
+                <i data-lucide="star"></i> Destacados
+            </button>
+            <button class="filter-btn" data-filter="todos">
+                <i data-lucide="layers"></i> Todos
+            </button>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container" id="product-list">
+            <!-- Product cards will be inserted here by JavaScript -->
+        </div>
+
+        <!-- Template for the product card -->
+        <template id="product-card-template">
+            <div class="product-card">
+                <!-- Header (Code, Index, Star, Name) -->
+                <div class="card-header-styled">
+                    <div class="header-top-row">
+                        <div class="code-badge">
+                            <span class="product-code"></span>
+                        </div>
+                        <div class="header-meta">
+                            <span class="inventory-index"></span>
+                            <i data-lucide="star" class="favorite-star"></i>
+                        </div>
+                    </div>
+                    <div class="product-name"></div>
+                </div>
+
+                <!-- Body Content -->
+                <div class="card-body">
+                    <!-- Status Section -->
+                    <div class="card-section info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Tipo de Almacenamiento</span>
+                            <span class="info-value"><span class="info-bubble">Estándar</span></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Estado</span>
+                            <span class="info-value"><span class="info-bubble" id="status-1">Pendiente</span></span>
+                        </div>
+                    </div>
+
+                    <!-- Reviewer Section -->
+                    <div class="card-section info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Revisado por</span>
+                            <span class="info-value" id="reviewer-name-1">N/A</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Fecha de Revisión</span>
+                            <!-- We will inject two bubbles here via JS -->
+                            <div class="info-value date-container" id="review-date-1">
+                                <span class="bubble-gray">--/--/--</span>
+                                <span class="bubble-gray">--:--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Transit Section -->
+                    <div class="card-section info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Productos en Tránsito</span>
+                            <span class="info-value"><span class="bubble-gray" id="transit-val-1">0</span></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Vencimiento Cercano</span>
+                            <span class="info-value"><span class="bubble-gray" id="expiry-val-1">NO</span></span>
+                        </div>
+                    </div>
+
+                    <!-- Quantity Buttons Section -->
+                    <div class="card-section quantity-buttons">
+                        <div class="quantity-btn btn-sistema">
+                            <span class="quantity-label">Sistema</span>
+                            <span class="quantity-value">0</span>
+                        </div>
+                        <div class="quantity-btn btn-real">
+                            <span class="quantity-label">Real</span>
+                            <span class="quantity-value">0</span>
+                        </div>
+                        <div class="quantity-btn btn-diferencia">
+                            <span class="quantity-label">Diferencia</span>
+                            <span class="quantity-value">0</span>
+                        </div>
+                    </div>
+
+                    <div class="extra-counts-container" style="display: none;">
+                        <!-- Dynamic inputs will be added here -->
+                    </div>
+                </div>
+
+                <!-- Footer (Actions) -->
+                <div class="card-footer-styled">
+                    <div class="actions-toolbar">
+                        <button class="action-btn btn-plus"><i data-lucide="plus"></i></button>
+                        <button class="action-btn btn-minus"><i data-lucide="minus"></i></button>
+                        <button class="action-btn btn-clear"><i data-lucide="trash-2"></i></button>
+                        <button class="action-btn btn-star"><i data-lucide="star"></i></button>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </main>
+
+    <div id="image-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-header-info">
+                <span id="modal-product-code" class="modal-code"></span>
+                <span id="modal-product-name" class="modal-name"></span>
+            </div>
+
+            <div class="modal-body">
+                <div id="modal-image-container"
+                    style="position: relative; min-height: 200px; display: flex; align-items: center; justify-content: center;">
+                    <img id="modal-image" src="" alt="Producto"
+                        style="display: none; max-width: 100%; max-height: 300px;">
+                    <span id="modal-source-badge" class="source-badge"></span>
+                </div>
+                <div id="modal-loader" class="loader" style="display: none;"></div>
+                <div id="modal-message" class="modal-message" style="display: none;">No hay imágenes disponibles</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="/pages/revision.js"></script>
+    <style>
+        .pc-only {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .pc-only {
+                display: inline;
+                margin-left: 4px;
+            }
+        }
+    </style>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

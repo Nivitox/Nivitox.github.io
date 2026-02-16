@@ -1,0 +1,6775 @@
+{
+  "fecha_procesado": "2026-02-14T14:40:09.252Z",
+  "fecha_original": "2025-09-20",
+  "total_productos": 1128,
+  "productos": [
+    {
+      "n": 1,
+      "codigo": "CH0095 *",
+      "nombre": "INDOMETACINA 25MG 24COMP",
+      "cantidad": 16
+    },
+    {
+      "n": 2,
+      "codigo": "BE0202 *",
+      "nombre": "OLANZAPINA 10MG 30COMPRIMIDOS REC",
+      "cantidad": 3
+    },
+    {
+      "n": 3,
+      "codigo": "CH6106",
+      "nombre": "A LAVANDULA AGUSTIFOLIA 80MG 28CAP",
+      "cantidad": 2
+    },
+    {
+      "n": 4,
+      "codigo": "CH6107",
+      "nombre": "A SATIVA/COFFEA/PASSIF/VALER 50COMP",
+      "cantidad": 11
+    },
+    {
+      "n": 5,
+      "codigo": "CH6160",
+      "nombre": "AC ACETIL/PARACETAMOL/CAFEINA 8 COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 6,
+      "codigo": "AR2190",
+      "nombre": "AC ACETILSA 100MG 100COMP MAST (BE)",
+      "cantidad": 18
+    },
+    {
+      "n": 7,
+      "codigo": "CH5788",
+      "nombre": "AC ACETILSA/CAF 0.5/0.04GR 40COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 8,
+      "codigo": "CH6161",
+      "nombre": "AC ACETILSA/CAFEINA 325/15 MG 8COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 9,
+      "codigo": "CH5286",
+      "nombre": "AC ACETILSA/CAFEINA 400/15MG 1SOB 5UNID",
+      "cantidad": 40
+    },
+    {
+      "n": 10,
+      "codigo": "BE0049",
+      "nombre": "AC ACETILSALICILICO 100MG 100COMP",
+      "cantidad": 13
+    },
+    {
+      "n": 11,
+      "codigo": "CH5787",
+      "nombre": "AC ACETILSALICILICO 500MG 20COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 12,
+      "codigo": "CH6103",
+      "nombre": "AC FUSIDICO/BETAMETASONA CREMA TOPICA",
+      "cantidad": 2
+    },
+    {
+      "n": 13,
+      "codigo": "CH5714",
+      "nombre": "AC GLUTAMICO/VIT B6 50COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 14,
+      "codigo": "CH5831",
+      "nombre": "AC LACTICO/AC SALICILICO SOL TOPICA",
+      "cantidad": 3
+    },
+    {
+      "n": 15,
+      "codigo": "246",
+      "nombre": "AC MEFENAMICO 500MG 10TAB (BE)",
+      "cantidad": 28
+    },
+    {
+      "n": 16,
+      "codigo": "CH7168",
+      "nombre": "AC SALICILICO UNGUENTO 5GR",
+      "cantidad": 1
+    },
+    {
+      "n": 17,
+      "codigo": "CH5548",
+      "nombre": "AC UNDECILENICO SOL TOPICA SOL 30ML",
+      "cantidad": 7
+    },
+    {
+      "n": 18,
+      "codigo": "CH7080",
+      "nombre": "AC VALPROICO 200MG 30COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 19,
+      "codigo": "CA7323",
+      "nombre": "AC VALPROICO 500MG 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 20,
+      "codigo": "CH7213",
+      "nombre": "ACEITE HIG BACALAO/CLOR/OXIP 10 SUPOS",
+      "cantidad": 4
+    },
+    {
+      "n": 21,
+      "codigo": "CH7206",
+      "nombre": "ACEITE HIG BACALAO/CLOR/OXIP CREMA 20GR",
+      "cantidad": 10
+    },
+    {
+      "n": 22,
+      "codigo": "CH7417",
+      "nombre": "ACEITE RICINO SABOR FRUTILLA 20GR",
+      "cantidad": 3
+    },
+    {
+      "n": 23,
+      "codigo": "CH0099",
+      "nombre": "ACENOCUMAROL 4MG 30COMP (BE)",
+      "cantidad": 4
+    },
+    {
+      "n": 24,
+      "codigo": "BE0238",
+      "nombre": "ACETAZOLAMIDA 250MG 20COMP",
+      "cantidad": 1
+    },
+    {
+      "n": 25,
+      "codigo": "BE0269",
+      "nombre": "ACICLOVIR 200MG 24COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 26,
+      "codigo": "CH0270",
+      "nombre": "ACICLOVIR 3% UNG OFTALMICO 3.5GR",
+      "cantidad": 3
+    },
+    {
+      "n": 27,
+      "codigo": "BE0171",
+      "nombre": "ACICLOVIR 400MG 32COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 28,
+      "codigo": "4",
+      "nombre": "ACICLOVIR 400MG 35COMP (BE)",
+      "cantidad": 11
+    },
+    {
+      "n": 29,
+      "codigo": "CA0167",
+      "nombre": "ACICLOVIR 5% CREMA 15GR",
+      "cantidad": 23
+    },
+    {
+      "n": 30,
+      "codigo": "CA4019",
+      "nombre": "ACIDO FOLICO 1MG 30COMP (BE)",
+      "cantidad": 7
+    },
+    {
+      "n": 31,
+      "codigo": "AR0008",
+      "nombre": "ACIDO FOLICO 5MG 30COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 32,
+      "codigo": "2244",
+      "nombre": "ACIDO IBANDRONICO 150MG 1COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 33,
+      "codigo": "CH6011",
+      "nombre": "ADAPALENO 0.1% GEL DERMICO 30GR",
+      "cantidad": 2
+    },
+    {
+      "n": 34,
+      "codigo": "CH5256",
+      "nombre": "ADIFENINA/PROPIF 50/440MG 6 SUPOS AD",
+      "cantidad": 8
+    },
+    {
+      "n": 35,
+      "codigo": "CH6266",
+      "nombre": "AGUA SOL INYECTABLE ESTERIL 10ML 5AMP",
+      "cantidad": 4
+    },
+    {
+      "n": 36,
+      "codigo": "11",
+      "nombre": "ALBENDAZOL 200MG 2TAB",
+      "cantidad": 6
+    },
+    {
+      "n": 37,
+      "codigo": "CH7454",
+      "nombre": "ALBENDAZOL 40MG/ML SUSP ORAL 10ML",
+      "cantidad": 5
+    },
+    {
+      "n": 38,
+      "codigo": "CH5923",
+      "nombre": "ALCANFOR/MENTOL/EUCALIPTO UNG 50GR",
+      "cantidad": 49
+    },
+    {
+      "n": 39,
+      "codigo": "CH6002",
+      "nombre": "ALCOHOL 70% DESNAT SOL TOPICA 250ML",
+      "cantidad": 57
+    },
+    {
+      "n": 40,
+      "codigo": "CH5080",
+      "nombre": "ALENDRONATO 70MG 10COMP (BE)",
+      "cantidad": 4
+    },
+    {
+      "n": 41,
+      "codigo": "CH5615",
+      "nombre": "ALGINATO DE SODIO SACHET MENTA 10ML",
+      "cantidad": 12
+    },
+    {
+      "n": 42,
+      "codigo": "CH5815",
+      "nombre": "ALGINATO DE SODIO SUSP MENTA 150ML",
+      "cantidad": 5
+    },
+    {
+      "n": 43,
+      "codigo": "CH5671",
+      "nombre": "ALGINATO SODIO 8TAB MAST",
+      "cantidad": 4
+    },
+    {
+      "n": 44,
+      "codigo": "CH0018",
+      "nombre": "ALOPURINOL 100MG 20COMP (BE)",
+      "cantidad": 52
+    },
+    {
+      "n": 45,
+      "codigo": "268",
+      "nombre": "ALOPURINOL 300MG 20TAB (BE)",
+      "cantidad": 4
+    },
+    {
+      "n": 46,
+      "codigo": "AR3001",
+      "nombre": "ALPRAZOLAM 0.50MG 30COMP (BE)",
+      "cantidad": 30
+    },
+    {
+      "n": 47,
+      "codigo": "CH5355",
+      "nombre": "ALUM/MAGN/SIMETI 200/200/25MG 8COMP",
+      "cantidad": 16
+    },
+    {
+      "n": 48,
+      "codigo": "CH0005",
+      "nombre": "ALUMINIO HIDROXIDO 6% SUSP 180ML",
+      "cantidad": 5
+    },
+    {
+      "n": 49,
+      "codigo": "CH0006",
+      "nombre": "AMBROXOL 15MG/5ML JBE INF 100ML",
+      "cantidad": 40
+    },
+    {
+      "n": 50,
+      "codigo": "CH0007",
+      "nombre": "AMBROXOL 30MG/5ML JBE AD 100ML",
+      "cantidad": 33
+    },
+    {
+      "n": 51,
+      "codigo": "AR2010",
+      "nombre": "AMIODARONA 200MG 20COMP (BE)",
+      "cantidad": 10
+    },
+    {
+      "n": 52,
+      "codigo": "BE0192",
+      "nombre": "AMITRIPTILINA 25 MG  100 COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 53,
+      "codigo": "CH6183",
+      "nombre": "AMITRIPTILINA/CLORDIAZ 12.5/5MG 30 COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 54,
+      "codigo": "BE0082",
+      "nombre": "AMLODIPINA 10MG 30COMP",
+      "cantidad": 21
+    },
+    {
+      "n": 55,
+      "codigo": "BE0083",
+      "nombre": "AMLODIPINA 5MG 30COMP",
+      "cantidad": 34
+    },
+    {
+      "n": 56,
+      "codigo": "CH5985",
+      "nombre": "AMOROLFINA 5% LACA PARA UÑAS 3ML",
+      "cantidad": 4
+    },
+    {
+      "n": 57,
+      "codigo": "CH50380",
+      "nombre": "AMOXI/AC CLAVULAN 400/57MG SUSP 70ML",
+      "cantidad": 3
+    },
+    {
+      "n": 58,
+      "codigo": "CH5035",
+      "nombre": "AMOXICILINA 1GR 14COMP DISPERSABLE (BE)",
+      "cantidad": 8
+    },
+    {
+      "n": 59,
+      "codigo": "CA0109",
+      "nombre": "AMOXICILINA 250MG/5ML SUSP 60ML",
+      "cantidad": 14
+    },
+    {
+      "n": 60,
+      "codigo": "BE0155",
+      "nombre": "AMOXICILINA 500MG 21CAP",
+      "cantidad": 21
+    },
+    {
+      "n": 61,
+      "codigo": "CH0009",
+      "nombre": "AMOXICILINA 500MG/5ML SUSP 60ML",
+      "cantidad": 28
+    },
+    {
+      "n": 62,
+      "codigo": "CH0011",
+      "nombre": "AMOXICILINA 750MG 10COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 63,
+      "codigo": "CH5196",
+      "nombre": "AMOXICILINA 875MG 21COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 64,
+      "codigo": "CH7473",
+      "nombre": "AMOXICILINA/AC CLAV 500/125MG 20COMP(BE)",
+      "cantidad": 11
+    },
+    {
+      "n": 65,
+      "codigo": "BE0015",
+      "nombre": "AMOXICILINA/AC CLAV 875/125MG 14COMP",
+      "cantidad": 29
+    },
+    {
+      "n": 66,
+      "codigo": "CH5038",
+      "nombre": "AMOXICILINA/AC CLAVULANICO 400/57MG 70ML",
+      "cantidad": 6
+    },
+    {
+      "n": 67,
+      "codigo": "BE0188",
+      "nombre": "ANFEBUTAMONA 150MG 30COMP LP",
+      "cantidad": 6
+    },
+    {
+      "n": 68,
+      "codigo": "BE0303",
+      "nombre": "ANFEBUTAMONA 300 MG 30 C0MP LP",
+      "cantidad": 3
+    },
+    {
+      "n": 69,
+      "codigo": "CH6235",
+      "nombre": "ANTAZOLINA/NAFAZOLINA SOL OFT 10ML",
+      "cantidad": 2
+    },
+    {
+      "n": 70,
+      "codigo": "BE0304",
+      "nombre": "APIXABAN 2.5MG 60 COMPRIMIDOS RECUB",
+      "cantidad": 1
+    },
+    {
+      "n": 71,
+      "codigo": "BE0305",
+      "nombre": "APIXABAN 5 MG 60 COMPRIMIDOS RECUB",
+      "cantidad": 1
+    },
+    {
+      "n": 72,
+      "codigo": "BE0108",
+      "nombre": "ARIPIPRAZOL 10MG 30COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 73,
+      "codigo": "BE0211",
+      "nombre": "ARIPIPRAZOL 15MG 28COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 74,
+      "codigo": "BE0237",
+      "nombre": "ARIPIPRAZOL 15MG 30COMPRIMIDOS",
+      "cantidad": 3
+    },
+    {
+      "n": 75,
+      "codigo": "BE0210",
+      "nombre": "ARIPIPRAZOL 5MG 28COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 76,
+      "codigo": "CH6142",
+      "nombre": "ARNICA MONTANA TM EMUL TOPICA 50GR",
+      "cantidad": 2
+    },
+    {
+      "n": 77,
+      "codigo": "CH6033",
+      "nombre": "ATAPULGITA/NIFUROX 350/200MG 20COMP",
+      "cantidad": 13
+    },
+    {
+      "n": 78,
+      "codigo": "BE0051",
+      "nombre": "ATENOLOL 100MG 20COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 79,
+      "codigo": "AR0576",
+      "nombre": "ATENOLOL 50MG 20COMP (BE)",
+      "cantidad": 14
+    },
+    {
+      "n": 80,
+      "codigo": "AR2015",
+      "nombre": "ATORVASTATINA 10MG 30COMP (BE)",
+      "cantidad": 22
+    },
+    {
+      "n": 81,
+      "codigo": "AR2016",
+      "nombre": "ATORVASTATINA 20MG 30COMP (BE)",
+      "cantidad": 27
+    },
+    {
+      "n": 82,
+      "codigo": "BE0225",
+      "nombre": "ATORVASTATINA 40MG 30COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 83,
+      "codigo": "BE0272",
+      "nombre": "ATORVASTATINA 80MG 30COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 84,
+      "codigo": "CH0102",
+      "nombre": "ATROPINA 1 % SOL OFT 10ML",
+      "cantidad": 4
+    },
+    {
+      "n": 85,
+      "codigo": "CH0253",
+      "nombre": "ATROPINA/PAPAVERINA 0.5/40MG 10COMP",
+      "cantidad": 16
+    },
+    {
+      "n": 86,
+      "codigo": "CH5644",
+      "nombre": "ATROPINA/PAPAVERINA 0.5/40MG 15COMP",
+      "cantidad": 28
+    },
+    {
+      "n": 87,
+      "codigo": "BE0134",
+      "nombre": "AZATIOPRINA 50MG 100COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 88,
+      "codigo": "CH7082",
+      "nombre": "AZITROMICINA 200MG/5ML SUSP 30ML",
+      "cantidad": 16
+    },
+    {
+      "n": 89,
+      "codigo": "595",
+      "nombre": "AZITROMICINA 500MG 3TAB (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 90,
+      "codigo": "CH7121",
+      "nombre": "AZITROMICINA 500MG 6COMP REC (BE)",
+      "cantidad": 26
+    },
+    {
+      "n": 91,
+      "codigo": "CA0081",
+      "nombre": "BACITRACI/NEOMICINA 500UI/500MG UNG 15GR",
+      "cantidad": 16
+    },
+    {
+      "n": 92,
+      "codigo": "41",
+      "nombre": "BENCILPENICILI B 1200000U/5ML",
+      "cantidad": 12
+    },
+    {
+      "n": 93,
+      "codigo": "CH5665",
+      "nombre": "BENZ/MENTOL/TRICLO/ALCAN CREMA 20GR",
+      "cantidad": 20
+    },
+    {
+      "n": 94,
+      "codigo": "CH7194",
+      "nombre": "BENZOCAINA 2GR UNG 28GR",
+      "cantidad": 5
+    },
+    {
+      "n": 95,
+      "codigo": "CH6195",
+      "nombre": "BENZOCAINA/CETILP 5.00/0.50 GR GEL",
+      "cantidad": 8
+    },
+    {
+      "n": 96,
+      "codigo": "BE0104",
+      "nombre": "BETAHISTINA 16MG 30 COMPRIMIDOS",
+      "cantidad": 6
+    },
+    {
+      "n": 97,
+      "codigo": "BE0103",
+      "nombre": "BETAHISTINA 24MG 30 COMPRIMIDOS",
+      "cantidad": 9
+    },
+    {
+      "n": 98,
+      "codigo": "CH0016",
+      "nombre": "BETAMETASONA 0.05% CREMA 15GR",
+      "cantidad": 23
+    },
+    {
+      "n": 99,
+      "codigo": "CH0196",
+      "nombre": "BETAMETASONA 0.1% SOL OFT 10ML",
+      "cantidad": 2
+    },
+    {
+      "n": 100,
+      "codigo": "CH6164",
+      "nombre": "BETAMETASONA 0.5MG/ML SOL GTS 30ML",
+      "cantidad": 2
+    },
+    {
+      "n": 101,
+      "codigo": "CH9033",
+      "nombre": "BETAMETASONA 4MG/1ML 5SOL INY",
+      "cantidad": 5
+    },
+    {
+      "n": 102,
+      "codigo": "CH6067",
+      "nombre": "BETAMETASONA D/BETAME FD SUSP INY",
+      "cantidad": 4
+    },
+    {
+      "n": 103,
+      "codigo": "CH6140",
+      "nombre": "BETAMETASONA RAPI LENTA SUSP INY AMP",
+      "cantidad": 1
+    },
+    {
+      "n": 104,
+      "codigo": "CH0104",
+      "nombre": "BETAXOLOL 0.5% SOL OFT 5ML",
+      "cantidad": 3
+    },
+    {
+      "n": 105,
+      "codigo": "BE0128",
+      "nombre": "BICALUTAMIDA 50MG 30COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 106,
+      "codigo": "CH5810",
+      "nombre": "BILASTINA 20MG 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 107,
+      "codigo": "CH6108",
+      "nombre": "BISGLICINATO FERROSO/A FOLICO 30COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 108,
+      "codigo": "CH5913",
+      "nombre": "BISOPROLOL 1.25MG 30COMP REC (BE)",
+      "cantidad": 13
+    },
+    {
+      "n": 109,
+      "codigo": "BE0274",
+      "nombre": "BISOPROLOL 10MG 35COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 110,
+      "codigo": "BE0172",
+      "nombre": "BISOPROLOL 2.5MG 30COMP REC",
+      "cantidad": 15
+    },
+    {
+      "n": 111,
+      "codigo": "CH5914",
+      "nombre": "BISOPROLOL 5MG 30COMP REC (BE)",
+      "cantidad": 14
+    },
+    {
+      "n": 112,
+      "codigo": "CH6000",
+      "nombre": "BRIMONIDINA 0.2% SOL OFTALMICA 5ML",
+      "cantidad": 3
+    },
+    {
+      "n": 113,
+      "codigo": "BE0113",
+      "nombre": "BROMAZEPAM 3MG 30COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 114,
+      "codigo": "CH6104",
+      "nombre": "BROMHEXINA 4MG/5ML JBE INF 120ML",
+      "cantidad": 15
+    },
+    {
+      "n": 115,
+      "codigo": "CH6260",
+      "nombre": "BROMHEXINA 4MG/5ML JBE INF 125ML",
+      "cantidad": 6
+    },
+    {
+      "n": 116,
+      "codigo": "436",
+      "nombre": "BROMHEXINA 4MG/5ML SOL 100ML",
+      "cantidad": 5
+    },
+    {
+      "n": 117,
+      "codigo": "CH6196",
+      "nombre": "BROMHEXINA 8MG/5ML JBE AD 100 ML",
+      "cantidad": 13
+    },
+    {
+      "n": 118,
+      "codigo": "CH6101",
+      "nombre": "BROMHEXINA 8MG/5ML JBE AD 120ML",
+      "cantidad": 28
+    },
+    {
+      "n": 119,
+      "codigo": "CH6261",
+      "nombre": "BROMHEXINA 8MG/5ML JBE AD 125 ML",
+      "cantidad": 7
+    },
+    {
+      "n": 120,
+      "codigo": "CH5818",
+      "nombre": "BUDESONIDA 100MCG/DOSIS SUSP NASAL",
+      "cantidad": 1
+    },
+    {
+      "n": 121,
+      "codigo": "CH0294",
+      "nombre": "BUDESONIDA 200MCG 200DOSIS",
+      "cantidad": 7
+    },
+    {
+      "n": 122,
+      "codigo": "CH6079",
+      "nombre": "CALCIO/AC IBANDR/VIT D3 1COMP+30CAP",
+      "cantidad": 3
+    },
+    {
+      "n": 123,
+      "codigo": "CH6271",
+      "nombre": "CALENDULA ECHINACEA 10 OVULOS VAG",
+      "cantidad": 2
+    },
+    {
+      "n": 124,
+      "codigo": "CH5876",
+      "nombre": "CANDESARTAN/HIDROC 16/12.5MG 30COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 125,
+      "codigo": "53",
+      "nombre": "CAPTOPRIL 25MG 30TAB (BE)",
+      "cantidad": 2
+    },
+    {
+      "n": 126,
+      "codigo": "BE0032",
+      "nombre": "CARBAMAZEPINA 200MG 20COMP",
+      "cantidad": 13
+    },
+    {
+      "n": 127,
+      "codigo": "CH6256",
+      "nombre": "CARBONATO DE CALCIO 500MG 4 COMP MAST",
+      "cantidad": 12
+    },
+    {
+      "n": 128,
+      "codigo": "CH0198",
+      "nombre": "CARBOXIMETILCISTEINA 250MG/5ML JBE 120ML (BE)",
+      "cantidad": 14
+    },
+    {
+      "n": 129,
+      "codigo": "CH5874",
+      "nombre": "CARMELOSA 0.5% SOL OFTALMICA 15ML",
+      "cantidad": 4
+    },
+    {
+      "n": 130,
+      "codigo": "BE0026",
+      "nombre": "CARVEDILOL 12.5MG 30COMP",
+      "cantidad": 51
+    },
+    {
+      "n": 131,
+      "codigo": "BE0010",
+      "nombre": "CARVEDILOL 25MG 30COMP",
+      "cantidad": 15
+    },
+    {
+      "n": 132,
+      "codigo": "BE0091",
+      "nombre": "CARVEDILOL 6.25MG 30COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 133,
+      "codigo": "CH5903",
+      "nombre": "CASSIA ANGUSTIFOLIA V 125MG 24COMP",
+      "cantidad": 16
+    },
+    {
+      "n": 134,
+      "codigo": "CH6143",
+      "nombre": "CASTAÑO INDIAS TM 60 COMPRIMIDOS",
+      "cantidad": 8
+    },
+    {
+      "n": 135,
+      "codigo": "AR0284",
+      "nombre": "CEFADROXILO 250MG/5ML SUSP 60ML",
+      "cantidad": 7
+    },
+    {
+      "n": 136,
+      "codigo": "AR0283",
+      "nombre": "CEFADROXILO 500MG 8CAP (BE)",
+      "cantidad": 54
+    },
+    {
+      "n": 137,
+      "codigo": "BE0261",
+      "nombre": "CEFPODOXIMA 200MG 20COMP REC",
+      "cantidad": 2
+    },
+    {
+      "n": 138,
+      "codigo": "CH0105",
+      "nombre": "CEFRADINA 500MG 8CAP",
+      "cantidad": 3
+    },
+    {
+      "n": 139,
+      "codigo": "CH7269",
+      "nombre": "CEFUROXIMO 500MG 14COMP (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 140,
+      "codigo": "BE0042",
+      "nombre": "CELECOXIB 200MG 10CAP",
+      "cantidad": 67
+    },
+    {
+      "n": 141,
+      "codigo": "BE0127",
+      "nombre": "CELECOXIB 200MG 30CAP",
+      "cantidad": 28
+    },
+    {
+      "n": 142,
+      "codigo": "CH5230",
+      "nombre": "CENTELLA ASIATICA 1% UNG 40GR",
+      "cantidad": 4
+    },
+    {
+      "n": 143,
+      "codigo": "CH5866",
+      "nombre": "CETILPIRIDINIO ALANT 16COMP BUCAL",
+      "cantidad": 3
+    },
+    {
+      "n": 144,
+      "codigo": "BE0059",
+      "nombre": "CETIRIZINA 10MG 30COMP",
+      "cantidad": 28
+    },
+    {
+      "n": 145,
+      "codigo": "CH5900",
+      "nombre": "CETIRIZINA 10MG/ML SOL ORAL GTS15ML",
+      "cantidad": 4
+    },
+    {
+      "n": 146,
+      "codigo": "CH0267",
+      "nombre": "CETIRIZINA/DICLORHIDRAT 5MG/5ML JBE 60ML",
+      "cantidad": 1
+    },
+    {
+      "n": 147,
+      "codigo": "CH0221",
+      "nombre": "CETIRIZINA/PSEUDO 5/120MG 10CAP LP",
+      "cantidad": 17
+    },
+    {
+      "n": 148,
+      "codigo": "CH0229",
+      "nombre": "CICLOBENZAPRINA 10MG 20COMP (BE)",
+      "cantidad": 20
+    },
+    {
+      "n": 149,
+      "codigo": "CH5439",
+      "nombre": "CICLOBENZAPRINA 5MG 20COMP (BE)",
+      "cantidad": 8
+    },
+    {
+      "n": 150,
+      "codigo": "CH5832",
+      "nombre": "CICLOPIROX 8% LACA PARA UÑAS 5ML",
+      "cantidad": 2
+    },
+    {
+      "n": 151,
+      "codigo": "CH6262",
+      "nombre": "CICLOPIROX OLAMINA 1% CREMA TOPICA 30G",
+      "cantidad": 3
+    },
+    {
+      "n": 152,
+      "codigo": "BE0062",
+      "nombre": "CILOSTAZOL 100MG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 153,
+      "codigo": "BE0212",
+      "nombre": "CILOSTAZOL 50MG 28COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 154,
+      "codigo": "CH5829",
+      "nombre": "CIPROFIBRATO 100MG 30 CAPSULAS (BE)",
+      "cantidad": 11
+    },
+    {
+      "n": 155,
+      "codigo": "CH6184",
+      "nombre": "CIPROFLO/DEXAMETA 0.3/0.1% SUSP OFT",
+      "cantidad": 3
+    },
+    {
+      "n": 156,
+      "codigo": "CH6185",
+      "nombre": "CIPROFLO/DEXAMETA 0.3/0.1% SUSP OTICA",
+      "cantidad": 5
+    },
+    {
+      "n": 157,
+      "codigo": "BE0031",
+      "nombre": "CIPROFLOXACINA 500MG 6COMP",
+      "cantidad": 56
+    },
+    {
+      "n": 158,
+      "codigo": "453",
+      "nombre": "CIPROFLOXACINO .003GR/1ML SOL OFT",
+      "cantidad": 3
+    },
+    {
+      "n": 159,
+      "codigo": "CH7270",
+      "nombre": "CIPROFLOXACINO 0.3% UNG OFT 3.5GR",
+      "cantidad": 2
+    },
+    {
+      "n": 160,
+      "codigo": "BE0292",
+      "nombre": "CIPROTERONA/ETINIL 2/0.035MG 21COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 161,
+      "codigo": "CH5426",
+      "nombre": "CIPROTERONA/ETINIL 2/0.035MG 21COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 162,
+      "codigo": "CH5259",
+      "nombre": "CIPROTERONA/ETINILEST 2000/35MCG 21COMP (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 163,
+      "codigo": "CH7398",
+      "nombre": "CITALOPRAM 20MG 30COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 164,
+      "codigo": "CH6123",
+      "nombre": "CLARITROMICINA 250MG/5ML SUSP 60ML",
+      "cantidad": 5
+    },
+    {
+      "n": 165,
+      "codigo": "CH0027",
+      "nombre": "CLARITROMICINA 500MG 14COMP (BE)",
+      "cantidad": 10
+    },
+    {
+      "n": 166,
+      "codigo": "529",
+      "nombre": "CLINDAMICINA GEL 1GR 1%",
+      "cantidad": 5
+    },
+    {
+      "n": 167,
+      "codigo": "CH0239",
+      "nombre": "CLOBETASOL 0.05% 25GR UNG",
+      "cantidad": 8
+    },
+    {
+      "n": 168,
+      "codigo": "CH0028",
+      "nombre": "CLOBETASOL 0.05% CREMA 25GR",
+      "cantidad": 16
+    },
+    {
+      "n": 169,
+      "codigo": "CH6163",
+      "nombre": "CLOBETASOL 0.05% LOCION CAPILAR 40ML",
+      "cantidad": 2
+    },
+    {
+      "n": 170,
+      "codigo": "BE0152",
+      "nombre": "CLOFEDIANOL/BROMHEXINA JBE AD 100ML",
+      "cantidad": 4
+    },
+    {
+      "n": 171,
+      "codigo": "CH5892",
+      "nombre": "CLOFEDIANOL/BROMHEXINA JBE INF 100ML",
+      "cantidad": 5
+    },
+    {
+      "n": 172,
+      "codigo": "BE0006",
+      "nombre": "CLONAZEPAM 0.5MG 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 173,
+      "codigo": "CH7487",
+      "nombre": "CLONAZEPAM 2MG 30COMP (BE)",
+      "cantidad": 30
+    },
+    {
+      "n": 174,
+      "codigo": "480",
+      "nombre": "CLONIXINATO DE LISINA 125MG 10COMP",
+      "cantidad": 30
+    },
+    {
+      "n": 175,
+      "codigo": "BE0096",
+      "nombre": "CLOPIDOGREL 75MG 28COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 176,
+      "codigo": "BE0193",
+      "nombre": "CLOPIDOGREL 75MG 30COMPRIMIDOS REC",
+      "cantidad": 8
+    },
+    {
+      "n": 177,
+      "codigo": "CH0204",
+      "nombre": "CLORANFENICOL 0.5% SOL OFT 10ML",
+      "cantidad": 5
+    },
+    {
+      "n": 178,
+      "codigo": "CH6004",
+      "nombre": "CLORANFENICOL 1% UNG OFT 5GR",
+      "cantidad": 2
+    },
+    {
+      "n": 179,
+      "codigo": "CH5834",
+      "nombre": "CLORFE/BETAME 2/0.25MG/5ML JBE120ML",
+      "cantidad": 24
+    },
+    {
+      "n": 180,
+      "codigo": "289",
+      "nombre": "CLORFENAMINA 2MG/5ML JBE 120ML",
+      "cantidad": 2
+    },
+    {
+      "n": 181,
+      "codigo": "BE0003",
+      "nombre": "CLORFENAMINA 4MG 20COMP",
+      "cantidad": 19
+    },
+    {
+      "n": 182,
+      "codigo": "CH5983",
+      "nombre": "CLORFENAMINA/BETAMETA 2/0.25MG 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 183,
+      "codigo": "CH6059",
+      "nombre": "CLORHEXIDINA GLUCONATO 0.12% 120ML",
+      "cantidad": 12
+    },
+    {
+      "n": 184,
+      "codigo": "CH7367",
+      "nombre": "CLORHEXIDINAGLUC 0.1% SOL 120ML",
+      "cantidad": 2
+    },
+    {
+      "n": 185,
+      "codigo": "BE0289",
+      "nombre": "CLORMADINONA/ETINIL 2/0.03MG 28COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 186,
+      "codigo": "CH5041",
+      "nombre": "CLORODIAZEPOXIDO/CLIDINIO 30COMP",
+      "cantidad": 13
+    },
+    {
+      "n": 187,
+      "codigo": "BE0228",
+      "nombre": "CLORTALIDONA 50MG 30COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 188,
+      "codigo": "AR2220",
+      "nombre": "CLORURO DE SODIO 0.9% SOL INY 500ML",
+      "cantidad": 21
+    },
+    {
+      "n": 189,
+      "codigo": "CH5801",
+      "nombre": "CLORURO POTASIO 600MG 50COMP LP",
+      "cantidad": 3
+    },
+    {
+      "n": 190,
+      "codigo": "CH5928",
+      "nombre": "CLOTIAZEPAM 10MG 30COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 191,
+      "codigo": "CH5660",
+      "nombre": "CLOTIAZEPAM 5MG 30COMP REC",
+      "cantidad": 2
+    },
+    {
+      "n": 192,
+      "codigo": "CH5300",
+      "nombre": "CLOTRIMAZOL 1% 100GR PVO",
+      "cantidad": 7
+    },
+    {
+      "n": 193,
+      "codigo": "AR2141",
+      "nombre": "CLOTRIMAZOL 1% CREMA 20GR",
+      "cantidad": 78
+    },
+    {
+      "n": 194,
+      "codigo": "306",
+      "nombre": "CLOTRIMAZOL 100MG 6 OVULOS",
+      "cantidad": 13
+    },
+    {
+      "n": 195,
+      "codigo": "CL0048",
+      "nombre": "CLOTRIMAZOL 500MG 1 UNID VAGINAL",
+      "cantidad": 9
+    },
+    {
+      "n": 196,
+      "codigo": "CH0013",
+      "nombre": "CLOTRIMAZOL/BETAMETA 1.0/0.5G CREMA",
+      "cantidad": 21
+    },
+    {
+      "n": 197,
+      "codigo": "CH0206",
+      "nombre": "CLOXACILINA 500MG 12CAP",
+      "cantidad": 12
+    },
+    {
+      "n": 198,
+      "codigo": "BE0166",
+      "nombre": "CLOZAPINA 100MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 199,
+      "codigo": "BE0165",
+      "nombre": "CLOZAPINA 25MG 20COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 200,
+      "codigo": "BE0257",
+      "nombre": "CODEINA/PSEUDO/CLORFE 10/7.5/0.5MG JBE",
+      "cantidad": 7
+    },
+    {
+      "n": 201,
+      "codigo": "CH0199",
+      "nombre": "CODEINA/PSEUDO/CLORFE 10MG/7.5MG/0.5MG",
+      "cantidad": 16
+    },
+    {
+      "n": 202,
+      "codigo": "CH0034",
+      "nombre": "COLCHICINA 0.5MG 40COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 203,
+      "codigo": "CH6085",
+      "nombre": "COMPLEJO DE HIERRO III 100MG 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 204,
+      "codigo": "CH0035",
+      "nombre": "COTRIMOXAZOL 400MG 20COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 205,
+      "codigo": "CH0036",
+      "nombre": "COTRIMOXAZOL FORTE 10COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 206,
+      "codigo": "CH5960",
+      "nombre": "DAPAGLIFLOZINA 10MG 28COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 207,
+      "codigo": "CH7362",
+      "nombre": "DESLORATADINA 2.5MG/5ML SOL 60ML",
+      "cantidad": 9
+    },
+    {
+      "n": 208,
+      "codigo": "BE0019",
+      "nombre": "DESLORATADINA 5MG 30COMP REC",
+      "cantidad": 21
+    },
+    {
+      "n": 209,
+      "codigo": "CH5622",
+      "nombre": "DESOGESTREL 0.075MG 28COMP REC (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 210,
+      "codigo": "BE0284",
+      "nombre": "DESOGESTREL 75MCG 28 COMPRIMIDOS REC",
+      "cantidad": 7
+    },
+    {
+      "n": 211,
+      "codigo": "BE0194",
+      "nombre": "DESOGESTREL 75MCG 28 COMPRIMIDOS REC",
+      "cantidad": 3
+    },
+    {
+      "n": 212,
+      "codigo": "CH52581",
+      "nombre": "DESOGESTREL/ETINILEST 0.15/0.03MG 21COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 213,
+      "codigo": "CH5427",
+      "nombre": "DESOGESTREL/ETINILEST 150/20MCG 28COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 214,
+      "codigo": "BE0295",
+      "nombre": "DESVENLAFAXINA 100MG 30COMP REC LP",
+      "cantidad": 5
+    },
+    {
+      "n": 215,
+      "codigo": "BE0296",
+      "nombre": "DESVENLAFAXINA 50MG 30COMP REC LP",
+      "cantidad": 1
+    },
+    {
+      "n": 216,
+      "codigo": "CH5953",
+      "nombre": "DEXAMETASONA 4MG 10COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 217,
+      "codigo": "CH5044",
+      "nombre": "DEXCLORFENIR/BETAMETA 2/0.25MG 30COMP",
+      "cantidad": 40
+    },
+    {
+      "n": 218,
+      "codigo": "CH5040",
+      "nombre": "DEXCLORFENIR/BETAMETA 2/0.25MG/5ML JBE",
+      "cantidad": 15
+    },
+    {
+      "n": 219,
+      "codigo": "CH6147",
+      "nombre": "DEXPANTENOL UNGUENTO 30GR",
+      "cantidad": 11
+    },
+    {
+      "n": 220,
+      "codigo": "CH5669",
+      "nombre": "DEXTRAN 70/HPMC SOL 15ML",
+      "cantidad": 11
+    },
+    {
+      "n": 221,
+      "codigo": "CH0114",
+      "nombre": "DIAZEPAM 10MG 20COMP (BE)",
+      "cantidad": 2
+    },
+    {
+      "n": 222,
+      "codigo": "CH5805",
+      "nombre": "DICLOFENACO 1.16% SOL TOPICA SPRAY",
+      "cantidad": 4
+    },
+    {
+      "n": 223,
+      "codigo": "CH0039",
+      "nombre": "DICLOFENACO 12.5MG 5 SUPOS INF",
+      "cantidad": 8
+    },
+    {
+      "n": 224,
+      "codigo": "CH7493",
+      "nombre": "DICLOFENACO 15MG/1ML SOL 20ML",
+      "cantidad": 8
+    },
+    {
+      "n": 225,
+      "codigo": "CH0040",
+      "nombre": "DICLOFENACO 25MG 20COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 226,
+      "codigo": "AR0082",
+      "nombre": "DICLOFENACO 50MG 10COMP",
+      "cantidad": 49
+    },
+    {
+      "n": 227,
+      "codigo": "CH0041",
+      "nombre": "DICLOFENACO 50MG 5 SUPOS AD",
+      "cantidad": 9
+    },
+    {
+      "n": 228,
+      "codigo": "CA0294",
+      "nombre": "DICLOFENACO 75MG/3ML 5SOL INY",
+      "cantidad": 24
+    },
+    {
+      "n": 229,
+      "codigo": "CH5304",
+      "nombre": "DICLOFENACO COLESTIRAMINA 140MG 10CAP",
+      "cantidad": 22
+    },
+    {
+      "n": 230,
+      "codigo": "CH0292",
+      "nombre": "DICLOFENACO DE SODIO GEL 1.16% 30GR",
+      "cantidad": 35
+    },
+    {
+      "n": 231,
+      "codigo": "CH0043",
+      "nombre": "DICLOFENACO SODICO RETARD 100MG 8CAP",
+      "cantidad": 83
+    },
+    {
+      "n": 232,
+      "codigo": "CH6087",
+      "nombre": "DICLOFENACO/TRAMADOL 25/25MG 10COMP",
+      "cantidad": 8
+    },
+    {
+      "n": 233,
+      "codigo": "CH5617",
+      "nombre": "DICLOFENACO/VIT B6/VIT B1/VIT B12 20CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 234,
+      "codigo": "BE0255",
+      "nombre": "DIENOGEST 2MG 30COMPRIMIDOS REC",
+      "cantidad": 4
+    },
+    {
+      "n": 235,
+      "codigo": "CH5429",
+      "nombre": "DIENOGEST/ETINI2.00/0.03MG 28COMP(BE)",
+      "cantidad": 61
+    },
+    {
+      "n": 236,
+      "codigo": "BE0285",
+      "nombre": "DIENOGEST/ETINIL 2/0.03MG 28COMP REC",
+      "cantidad": 17
+    },
+    {
+      "n": 237,
+      "codigo": "CH5618",
+      "nombre": "DIFENIDOL 25MG 30COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 238,
+      "codigo": "AR2099",
+      "nombre": "DIGOXINA 0.25MG 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 239,
+      "codigo": "CH5698",
+      "nombre": "DILTIAZEM 60MG 20COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 240,
+      "codigo": "CH5085",
+      "nombre": "DIMENHIDRINATO 100MG 20COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 241,
+      "codigo": "CH5777",
+      "nombre": "DIOSMINA/HESPER 450/50MG 30COMP(BE)",
+      "cantidad": 6
+    },
+    {
+      "n": 242,
+      "codigo": "CH0234",
+      "nombre": "DIPIRONA 1GR/2ML 5SOL INY",
+      "cantidad": 1
+    },
+    {
+      "n": 243,
+      "codigo": "CH0115",
+      "nombre": "DIPIRONA 250MG 5SUPOS",
+      "cantidad": 5
+    },
+    {
+      "n": 244,
+      "codigo": "CH0235",
+      "nombre": "DIPIRONA 300MG 20COMP (BE)",
+      "cantidad": 39
+    },
+    {
+      "n": 245,
+      "codigo": "CH0044",
+      "nombre": "DOMPERIDONA 10MG 20COMP (BE)",
+      "cantidad": 38
+    },
+    {
+      "n": 246,
+      "codigo": "CH7358",
+      "nombre": "DOMPERIDONA 10MG/1ML SUSP ORAL 20ML",
+      "cantidad": 3
+    },
+    {
+      "n": 247,
+      "codigo": "BE0129",
+      "nombre": "DONEPEZILO 10MG 30COMP RECUB",
+      "cantidad": 1
+    },
+    {
+      "n": 248,
+      "codigo": "BE0232",
+      "nombre": "DORZOLAMIDA/TIMOLOL 20/5MG SOL OFT",
+      "cantidad": 4
+    },
+    {
+      "n": 249,
+      "codigo": "BE0141",
+      "nombre": "DOXAZOSINA 4MG 30COMP REC",
+      "cantidad": 8
+    },
+    {
+      "n": 250,
+      "codigo": "BE0301",
+      "nombre": "DOXICICLINA 100 MG 14 COMPRIMIDOS",
+      "cantidad": 4
+    },
+    {
+      "n": 251,
+      "codigo": "BE0195",
+      "nombre": "DOXICICLINA 100MG 10CAPSULAS",
+      "cantidad": 45
+    },
+    {
+      "n": 252,
+      "codigo": "CH6068",
+      "nombre": "DOXILAMINA/PIRIDOXINA 10/10MG 30COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 253,
+      "codigo": "CH6129",
+      "nombre": "DROSPIRENONA/ESTRADIOL 2/1MG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 254,
+      "codigo": "CH5967",
+      "nombre": "DROSPIRENONA/ESTRADIOL 2/1MG 30COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 255,
+      "codigo": "CH5620",
+      "nombre": "DROSPIRENONA/ETINI 3MG/20MCG 28 (BE)",
+      "cantidad": 15
+    },
+    {
+      "n": 256,
+      "codigo": "BE0287",
+      "nombre": "DROSPIRENONA/ETINILES 3/0.02MG 28COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 257,
+      "codigo": "BE0286",
+      "nombre": "DROSPIRENONA/ETINILES 3/0.03MG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 258,
+      "codigo": "CH7403",
+      "nombre": "DROSPIRENONA/ETINILEST 3/0.03MG 28COMP (BE)",
+      "cantidad": 12
+    },
+    {
+      "n": 259,
+      "codigo": "BE0111",
+      "nombre": "DULOXETINA 30MG 28CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 260,
+      "codigo": "BE0077",
+      "nombre": "DULOXETINA 60MG 30CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 261,
+      "codigo": "BE0097",
+      "nombre": "DUTASTERIDA 0.5MG 30CAP BLANDAS",
+      "cantidad": 7
+    },
+    {
+      "n": 262,
+      "codigo": "BE0213",
+      "nombre": "DUTASTERIDA/TAMSULOS 0.5/0.4MG 30CAP",
+      "cantidad": 18
+    },
+    {
+      "n": 263,
+      "codigo": "CH5822",
+      "nombre": "ECHINACEA/VIT C 250/50MG 20COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 264,
+      "codigo": "BE0302",
+      "nombre": "ELETRIPTAN 40 MG 6 COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 265,
+      "codigo": "CH0045",
+      "nombre": "ENALAPRIL 10MG 20COMP (BE)",
+      "cantidad": 29
+    },
+    {
+      "n": 266,
+      "codigo": "BE0030",
+      "nombre": "ENALAPRIL 20MG 20COMP",
+      "cantidad": 16
+    },
+    {
+      "n": 267,
+      "codigo": "CH5148",
+      "nombre": "ENALAPRIL 5MG 20COMP (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 268,
+      "codigo": "CH7089",
+      "nombre": "ENALAPRIL 5MG 30COMPRIMIDOS (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 269,
+      "codigo": "CH7166",
+      "nombre": "ENEMA DESECHABLE SOL 133ML",
+      "cantidad": 11
+    },
+    {
+      "n": 270,
+      "codigo": "CH6023",
+      "nombre": "ENEMA INF SOL SALINA LAXANTE 66ML",
+      "cantidad": 5
+    },
+    {
+      "n": 271,
+      "codigo": "CH7359",
+      "nombre": "ERITROMICINA 500MG 8COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 272,
+      "codigo": "CH5502",
+      "nombre": "ESCITALOPRAM 10MG 30COMP (BE)",
+      "cantidad": 26
+    },
+    {
+      "n": 273,
+      "codigo": "BE0053",
+      "nombre": "ESCITALOPRAM 20MG 28COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 274,
+      "codigo": "BE0081",
+      "nombre": "ESCITALOPRAM 20MG 30COMP",
+      "cantidad": 20
+    },
+    {
+      "n": 275,
+      "codigo": "CH5905",
+      "nombre": "ESCOPOLAMINA 20MG/ML SOL INY 5AMP",
+      "cantidad": 3
+    },
+    {
+      "n": 276,
+      "codigo": "BE0187",
+      "nombre": "ESOMEPRAZOL 20MG 30 COMPRIMIDOS REC",
+      "cantidad": 12
+    },
+    {
+      "n": 277,
+      "codigo": "BE0020",
+      "nombre": "ESOMEPRAZOL 20MG 30CAP",
+      "cantidad": 14
+    },
+    {
+      "n": 278,
+      "codigo": "BE0186",
+      "nombre": "ESOMEPRAZOL 40MG 30 COMPRIMIDOS REC",
+      "cantidad": 10
+    },
+    {
+      "n": 279,
+      "codigo": "BE0021",
+      "nombre": "ESOMEPRAZOL 40MG 30CAP",
+      "cantidad": 31
+    },
+    {
+      "n": 280,
+      "codigo": "CH0048",
+      "nombre": "ESPIRONOLACTONA 25MG 20COMP (BE)",
+      "cantidad": 38
+    },
+    {
+      "n": 281,
+      "codigo": "CH6252",
+      "nombre": "ESTETROL DROSPIRENONA 14.2/3MG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 282,
+      "codigo": "CH6253",
+      "nombre": "ESTRADIOL 1.53MG/DOSIS SOL TRANSD",
+      "cantidad": 3
+    },
+    {
+      "n": 283,
+      "codigo": "CH5968",
+      "nombre": "ESTRADIOL 1MG 30COMPRIMIDOS REC",
+      "cantidad": 5
+    },
+    {
+      "n": 284,
+      "codigo": "CH5969",
+      "nombre": "ESTRADIOL 2MG 30COMPRIMIDOS REC",
+      "cantidad": 6
+    },
+    {
+      "n": 285,
+      "codigo": "CH6162",
+      "nombre": "ESTRIOL 5MG GEL INTRAVAGINAL 30GR",
+      "cantidad": 3
+    },
+    {
+      "n": 286,
+      "codigo": "BE0086",
+      "nombre": "ESZOPICLONA 3MG 30COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 287,
+      "codigo": "CH5540",
+      "nombre": "ESZOPICLONA 3MG 30COMP REC (BE)",
+      "cantidad": 7
+    },
+    {
+      "n": 288,
+      "codigo": "CH5830",
+      "nombre": "ETORICOXIB 120MG 7COMP REC (BE)",
+      "cantidad": 26
+    },
+    {
+      "n": 289,
+      "codigo": "BE0177",
+      "nombre": "ETORICOXIB 60MG 14COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 290,
+      "codigo": "BE0214",
+      "nombre": "ETORICOXIB 90MG 14COMP REC",
+      "cantidad": 8
+    },
+    {
+      "n": 291,
+      "codigo": "CH5825",
+      "nombre": "EUCALIPTUS/PALTO/ANIS/MIEL JBE AD200ML",
+      "cantidad": 25
+    },
+    {
+      "n": 292,
+      "codigo": "CH5824",
+      "nombre": "EUCALIPTUS/PALTO/MIEL JBE INF 125ML",
+      "cantidad": 4
+    },
+    {
+      "n": 293,
+      "codigo": "CH6250",
+      "nombre": "EXTRACTO ROMERO CON ALCOHOL LOC 100ML",
+      "cantidad": 2
+    },
+    {
+      "n": 294,
+      "codigo": "BE0229",
+      "nombre": "EZETIMIBA 10MG 28COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 295,
+      "codigo": "BE0230",
+      "nombre": "EZETIMIBA/SIMVAS 10/10MG 28COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 296,
+      "codigo": "BE0107",
+      "nombre": "EZETIMIBA/SIMVAS 10/20MG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 297,
+      "codigo": "CH0049",
+      "nombre": "FAMOTIDINA 20MG 20COMP (BE)",
+      "cantidad": 40
+    },
+    {
+      "n": 298,
+      "codigo": "BE0017",
+      "nombre": "FAMOTIDINA 40MG 10COMP",
+      "cantidad": 73
+    },
+    {
+      "n": 299,
+      "codigo": "BE0263",
+      "nombre": "FEBUXOSTAT 40MG 30COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 300,
+      "codigo": "CH0121",
+      "nombre": "FENITOINA 100MG 30COMP (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 301,
+      "codigo": "CH5761",
+      "nombre": "FENOLFTALEINA/NUX VOMICA 90COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 302,
+      "codigo": "CH5778",
+      "nombre": "FENTERMINA 37.5MG 30CAP (BE)",
+      "cantidad": 1
+    },
+    {
+      "n": 303,
+      "codigo": "BE0262",
+      "nombre": "FEXOFENADINA 120MG 30COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 304,
+      "codigo": "BE0220",
+      "nombre": "FEXOFENADINA 180MG 30COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 305,
+      "codigo": "BE0149",
+      "nombre": "FINASTERIDA 1MG 90COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 306,
+      "codigo": "CH5741",
+      "nombre": "FLAVOXATO 200MG 30 COMP REC",
+      "cantidad": 13
+    },
+    {
+      "n": 307,
+      "codigo": "CH0207",
+      "nombre": "FLUCLOXACILINA 500MG 12CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 308,
+      "codigo": "AR0520",
+      "nombre": "FLUCONAZOL 150MG 2CAP (BE)",
+      "cantidad": 15
+    },
+    {
+      "n": 309,
+      "codigo": "BE0190",
+      "nombre": "FLUNARIZINA 10MG 30COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 310,
+      "codigo": "CH0231",
+      "nombre": "FLUNARIZINA 5MG 30COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 311,
+      "codigo": "BE0011",
+      "nombre": "FLUOXETINA 20MG 20COMP",
+      "cantidad": 29
+    },
+    {
+      "n": 312,
+      "codigo": "CH5948",
+      "nombre": "FLURBIPROFENO 8.75MG 8COMP DIS BUCAL",
+      "cantidad": 37
+    },
+    {
+      "n": 313,
+      "codigo": "CH5956",
+      "nombre": "FLUTICASONA 125MCG/D INH 120 DOSIS",
+      "cantidad": 3
+    },
+    {
+      "n": 314,
+      "codigo": "CH6240",
+      "nombre": "FLUTICASONA/SALMETEROL 250/25MCG 120 D",
+      "cantidad": 2
+    },
+    {
+      "n": 315,
+      "codigo": "CH5908",
+      "nombre": "FTALILSULF/NIFUR500/200MG AD 16COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 316,
+      "codigo": "BE0009",
+      "nombre": "FUROSEMIDA 40MG 12COMP",
+      "cantidad": 28
+    },
+    {
+      "n": 317,
+      "codigo": "BE0114",
+      "nombre": "GABAPENTINA 300MG 30CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 318,
+      "codigo": "BE0189",
+      "nombre": "GABAPENTINA 400MG 30CAP",
+      "cantidad": 3
+    },
+    {
+      "n": 319,
+      "codigo": "CH7249",
+      "nombre": "GEL ARNICA 100GR",
+      "cantidad": 23
+    },
+    {
+      "n": 320,
+      "codigo": "CH7250",
+      "nombre": "GEL CASTAÑO DE INDIA 100GR",
+      "cantidad": 4
+    },
+    {
+      "n": 321,
+      "codigo": "CH7251",
+      "nombre": "GEL CENTELLA ASIATICA 100GR",
+      "cantidad": 5
+    },
+    {
+      "n": 322,
+      "codigo": "CH7252",
+      "nombre": "GEL DE CALENDULA 100GR",
+      "cantidad": 6
+    },
+    {
+      "n": 323,
+      "codigo": "CH7143",
+      "nombre": "GEMFIBROZILO 300MG 30COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 324,
+      "codigo": "BE0048",
+      "nombre": "GEMFIBROZILO 600MG 30COMP",
+      "cantidad": 13
+    },
+    {
+      "n": 325,
+      "codigo": "CH0233",
+      "nombre": "GENTAMICINA 0.1% CREMA 10GR",
+      "cantidad": 2
+    },
+    {
+      "n": 326,
+      "codigo": "CH7145",
+      "nombre": "GENTAMICINA 0.3% UNG OFTALMICO 3.5GR",
+      "cantidad": 2
+    },
+    {
+      "n": 327,
+      "codigo": "CA0059",
+      "nombre": "GENTAMICINA 3MG COLIRIO SOL OFT 5ML",
+      "cantidad": 5
+    },
+    {
+      "n": 328,
+      "codigo": "CH5346",
+      "nombre": "GENTAMICINA 80MG/2ML SOL INY 5AMP",
+      "cantidad": 3
+    },
+    {
+      "n": 329,
+      "codigo": "BE0169",
+      "nombre": "GESTODENO/ETINIL 0.075/0.02MG 21COMP",
+      "cantidad": 1
+    },
+    {
+      "n": 330,
+      "codigo": "CH5621",
+      "nombre": "GESTODENO/ETINILEST 60/15MCG 28COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 331,
+      "codigo": "BE0288",
+      "nombre": "GESTODENO/ETINILEST 75/20MCG 21COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 332,
+      "codigo": "BE0290",
+      "nombre": "GESTODENO/ETINILEST 75/20MCG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 333,
+      "codigo": "CH5424",
+      "nombre": "GESTODENO/ETINILEST 75/20MCG 28COMP REC",
+      "cantidad": 10
+    },
+    {
+      "n": 334,
+      "codigo": "CH5428",
+      "nombre": "GESTODENO/ETINILEST 75/30MCG 28COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 335,
+      "codigo": "CH4019",
+      "nombre": "GINKGO BILOBA 40MG 30COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 336,
+      "codigo": "CH7256",
+      "nombre": "GINSENG BLANCO 250MG 60CAP",
+      "cantidad": 6
+    },
+    {
+      "n": 337,
+      "codigo": "CH4020",
+      "nombre": "GINSENG ROJO KOREA 250MG 40CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 338,
+      "codigo": "BE0005",
+      "nombre": "GLIBENCLAMIDA 5MG 60COMP",
+      "cantidad": 8
+    },
+    {
+      "n": 339,
+      "codigo": "CH5165",
+      "nombre": "GLICERINA 1GR SUPOS INF",
+      "cantidad": 4
+    },
+    {
+      "n": 340,
+      "codigo": "BE0264",
+      "nombre": "GLICLAZIDA 60MG 30COMP REC LP",
+      "cantidad": 3
+    },
+    {
+      "n": 341,
+      "codigo": "BE0231",
+      "nombre": "GLIMEPIRIDA 4MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 342,
+      "codigo": "CH5490",
+      "nombre": "GLUCOSAMINA/CONDR 1500/1200MG 30SOB",
+      "cantidad": 3
+    },
+    {
+      "n": 343,
+      "codigo": "CH5460",
+      "nombre": "GLUCOSAMINA/CONDR 500/400MG 60COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 344,
+      "codigo": "CH0135",
+      "nombre": "HALOPERIDOL 1MG 30COMP (BE)",
+      "cantidad": 2
+    },
+    {
+      "n": 345,
+      "codigo": "AR3015",
+      "nombre": "HALOPERIDOL 5MG 20COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 346,
+      "codigo": "CH7247",
+      "nombre": "HEDERA HELIX 35MG/5ML SOL 120ML",
+      "cantidad": 49
+    },
+    {
+      "n": 347,
+      "codigo": "CH6073",
+      "nombre": "HIDRALAZINA 50 MG 30COMP (BE)",
+      "cantidad": 7
+    },
+    {
+      "n": 348,
+      "codigo": "BE0041",
+      "nombre": "HIDROCLOROTIAZIDA 50MG 20COMP",
+      "cantidad": 24
+    },
+    {
+      "n": 349,
+      "codigo": "CH5915",
+      "nombre": "HIDROCORTISONA 1% CREMA TOPICA 15GR",
+      "cantidad": 7
+    },
+    {
+      "n": 350,
+      "codigo": "CH6109",
+      "nombre": "HIDROCORTISONA 20MG 20COMPRIMIDOS",
+      "cantidad": 3
+    },
+    {
+      "n": 351,
+      "codigo": "CH5180",
+      "nombre": "HIDROCORTISONA ACETA1% UNG 10GR",
+      "cantidad": 6
+    },
+    {
+      "n": 352,
+      "codigo": "BE0131",
+      "nombre": "HIDROXICLOROQUINA 200MG 30COMP RECUB",
+      "cantidad": 3
+    },
+    {
+      "n": 353,
+      "codigo": "CH5821",
+      "nombre": "HIDROXIDO MAGNESIO 8.5GR/100ML SUSP",
+      "cantidad": 3
+    },
+    {
+      "n": 354,
+      "codigo": "CH5189",
+      "nombre": "HIDROXIZINA BASE 20MG 20COMP",
+      "cantidad": 8
+    },
+    {
+      "n": 355,
+      "codigo": "CH5190",
+      "nombre": "HIDROXIZINA BASE 20MG/10ML SOL 120ML (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 356,
+      "codigo": "CH5611",
+      "nombre": "HIPROMELOSA 0.3% SOL OFT 15ML",
+      "cantidad": 5
+    },
+    {
+      "n": 357,
+      "codigo": "CH6031",
+      "nombre": "HIPROMELOSA/DEXTRAN/NAFAZOLINA SOL OFT",
+      "cantidad": 6
+    },
+    {
+      "n": 358,
+      "codigo": "CH5202",
+      "nombre": "IBUPRO/PSEUDO/CLOR 200/30/2MG SUSP 100ML",
+      "cantidad": 10
+    },
+    {
+      "n": 359,
+      "codigo": "CH00530",
+      "nombre": "IBUPROFENO 100MG/5ML SUSP PED 100ML",
+      "cantidad": 7
+    },
+    {
+      "n": 360,
+      "codigo": "CH00531",
+      "nombre": "IBUPROFENO 100MG/5ML SUSP PED 100ML",
+      "cantidad": 5
+    },
+    {
+      "n": 361,
+      "codigo": "CA0138",
+      "nombre": "IBUPROFENO 200MG 20COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 362,
+      "codigo": "BE0023",
+      "nombre": "IBUPROFENO 400MG 20CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 363,
+      "codigo": "BE0022",
+      "nombre": "IBUPROFENO 400MG 20COMP",
+      "cantidad": 54
+    },
+    {
+      "n": 364,
+      "codigo": "CH6156",
+      "nombre": "IBUPROFENO 5% CREMA TOPICA 45GR",
+      "cantidad": 6
+    },
+    {
+      "n": 365,
+      "codigo": "BE0024",
+      "nombre": "IBUPROFENO 600MG 10CAP",
+      "cantidad": 25
+    },
+    {
+      "n": 366,
+      "codigo": "BE0044",
+      "nombre": "IBUPROFENO 600MG 20COMP",
+      "cantidad": 142
+    },
+    {
+      "n": 367,
+      "codigo": "CH5699",
+      "nombre": "IBUPROFENO/PSEUDO/CLORFEN 10COMP",
+      "cantidad": 25
+    },
+    {
+      "n": 368,
+      "codigo": "CH0271",
+      "nombre": "IBUPROFENO200MG/5ML SUSP ORAL 100ML",
+      "cantidad": 74
+    },
+    {
+      "n": 369,
+      "codigo": "CH0143",
+      "nombre": "IMIPRAMINA 25MG 40COMP (BE)",
+      "cantidad": 3
+    },
+    {
+      "n": 370,
+      "codigo": "CH6102",
+      "nombre": "IMIQUIMOD 5% CREMA TOPICA 3GR",
+      "cantidad": 2
+    },
+    {
+      "n": 371,
+      "codigo": "CH6013",
+      "nombre": "INDOMETACINA 25MG 30CAP",
+      "cantidad": 3
+    },
+    {
+      "n": 372,
+      "codigo": "CH6125",
+      "nombre": "INSULINA(HM) (NPH) 100UI/ML 10ML AMP",
+      "cantidad": 2
+    },
+    {
+      "n": 373,
+      "codigo": "CH6124",
+      "nombre": "INSULINA(HM) RAPIDA 100UI/ML 10ML AMP",
+      "cantidad": 1
+    },
+    {
+      "n": 374,
+      "codigo": "CH7277",
+      "nombre": "IPRATROPIO 0.025% SOL INHALA 20ML",
+      "cantidad": 1
+    },
+    {
+      "n": 375,
+      "codigo": "CH5977",
+      "nombre": "IPRATROPIO 20MCG/DOSIS INH 250 DOSIS",
+      "cantidad": 11
+    },
+    {
+      "n": 376,
+      "codigo": "BE0063",
+      "nombre": "IRBESARTAN 150MG 28COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 377,
+      "codigo": "BE0136",
+      "nombre": "IRBESARTAN 300MG 28COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 378,
+      "codigo": "CH0054",
+      "nombre": "ISOSORBIDE DINIT 10MG 60COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 379,
+      "codigo": "BE0151",
+      "nombre": "ISOTRETINOINA 10MG 30CAP BLANDAS",
+      "cantidad": 9
+    },
+    {
+      "n": 380,
+      "codigo": "BE0198",
+      "nombre": "ITRACONAZOL 100MG 15CAP MICROGRANULOS",
+      "cantidad": 2
+    },
+    {
+      "n": 381,
+      "codigo": "CH6170",
+      "nombre": "KETOCONAZOL 1% SHAMPOO VIA TOPICA100ML",
+      "cantidad": 9
+    },
+    {
+      "n": 382,
+      "codigo": "CA0213",
+      "nombre": "KETOCONAZOL 2% CREMA 20GR",
+      "cantidad": 12
+    },
+    {
+      "n": 383,
+      "codigo": "CH7469",
+      "nombre": "KETOCONAZOL 2% SHAMPOO 150ML",
+      "cantidad": 21
+    },
+    {
+      "n": 384,
+      "codigo": "125",
+      "nombre": "KETOCONAZOL 200MG 10TAB",
+      "cantidad": 4
+    },
+    {
+      "n": 385,
+      "codigo": "CH7279",
+      "nombre": "KETOPROFENO 100MG/2ML I.V. INY 5AMP",
+      "cantidad": 5
+    },
+    {
+      "n": 386,
+      "codigo": "BE0256",
+      "nombre": "KETOPROFENO 150MG 10COMP LP",
+      "cantidad": 6
+    },
+    {
+      "n": 387,
+      "codigo": "CA0268",
+      "nombre": "KETOPROFENO 2.5%GEL 60GR",
+      "cantidad": 7
+    },
+    {
+      "n": 388,
+      "codigo": "CH7221",
+      "nombre": "KETOPROFENO 200MG 10COMP LP",
+      "cantidad": 44
+    },
+    {
+      "n": 389,
+      "codigo": "BE0007",
+      "nombre": "KETOPROFENO 50MG 20CAP",
+      "cantidad": 27
+    },
+    {
+      "n": 390,
+      "codigo": "CH6169",
+      "nombre": "KETOROLACO 10MG 10COMP SUBLINGUALES",
+      "cantidad": 2
+    },
+    {
+      "n": 391,
+      "codigo": "CH6130",
+      "nombre": "KETOROLACO 30MG 4COMP SUBLINGUALES",
+      "cantidad": 22
+    },
+    {
+      "n": 392,
+      "codigo": "315",
+      "nombre": "KETOROLACO TROMET 10MG 10TAB",
+      "cantidad": 81
+    },
+    {
+      "n": 393,
+      "codigo": "CH0148",
+      "nombre": "LACTULOSA 65% SOLUCION ORAL 200ML",
+      "cantidad": 7
+    },
+    {
+      "n": 394,
+      "codigo": "CH5350",
+      "nombre": "LAMOTRIGINA 100MG 30COMP (BE)",
+      "cantidad": 8
+    },
+    {
+      "n": 395,
+      "codigo": "CH53501",
+      "nombre": "LAMOTRIGINA 100MG 30COMP DISP (BE)",
+      "cantidad": 9
+    },
+    {
+      "n": 396,
+      "codigo": "BE0178",
+      "nombre": "LAMOTRIGINA 200MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 397,
+      "codigo": "BE0025",
+      "nombre": "LAMOTRIGINA 50MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 398,
+      "codigo": "CH5645",
+      "nombre": "LAMOTRIGINA 50MG 30COMP DISP",
+      "cantidad": 2
+    },
+    {
+      "n": 399,
+      "codigo": "BE0085",
+      "nombre": "LANSOPRAZOL 30MG 30CAP",
+      "cantidad": 20
+    },
+    {
+      "n": 400,
+      "codigo": "1195",
+      "nombre": "LATANOPROST 50MCG/ML SOL OFT 2.5ML",
+      "cantidad": 8
+    },
+    {
+      "n": 401,
+      "codigo": "CH5711",
+      "nombre": "LAXANTE SOL ORAL JENG LIMON 45ML",
+      "cantidad": 7
+    },
+    {
+      "n": 402,
+      "codigo": "BE0106",
+      "nombre": "LEFLUNOMIDA 20MG 30COMP REC",
+      "cantidad": 2
+    },
+    {
+      "n": 403,
+      "codigo": "BE00670",
+      "nombre": "LEVETIRACETAM 1000MG 30 COMP REC",
+      "cantidad": 2
+    },
+    {
+      "n": 404,
+      "codigo": "BE0067",
+      "nombre": "LEVETIRACETAM 1000MG 30COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 405,
+      "codigo": "BE0209",
+      "nombre": "LEVETIRACETAM 100MG/ML SOL ORAL 300ML",
+      "cantidad": 4
+    },
+    {
+      "n": 406,
+      "codigo": "BE00640",
+      "nombre": "LEVETIRACETAM 500MG 30 COMP REC",
+      "cantidad": 22
+    },
+    {
+      "n": 407,
+      "codigo": "BE0064",
+      "nombre": "LEVETIRACETAM 500MG 30COMP REC",
+      "cantidad": 10
+    },
+    {
+      "n": 408,
+      "codigo": "CH7471",
+      "nombre": "LEVOCETIRIZINA 5MG 30COMP (BE)",
+      "cantidad": 9
+    },
+    {
+      "n": 409,
+      "codigo": "CH74710",
+      "nombre": "LEVOCETIRIZINA 5MG 30COMP REC (BE)",
+      "cantidad": 28
+    },
+    {
+      "n": 410,
+      "codigo": "CH5451",
+      "nombre": "LEVOCETIRIZINA 5MG/5ML JBE 120ML",
+      "cantidad": 7
+    },
+    {
+      "n": 411,
+      "codigo": "CH5229",
+      "nombre": "LEVOCETIRIZINA DICLORHID 2.5MG/5ML 100ML",
+      "cantidad": 10
+    },
+    {
+      "n": 412,
+      "codigo": "CH5211",
+      "nombre": "LEVOCETIRIZINA DICLORHIDRATO 5MG 20ML",
+      "cantidad": 8
+    },
+    {
+      "n": 413,
+      "codigo": "BE0293",
+      "nombre": "LEVODOPA/BENSERAZIDA 200/50MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 414,
+      "codigo": "CH0149",
+      "nombre": "LEVODOPA/CARBIDOPA 250/25MG 30 (BE)",
+      "cantidad": 4
+    },
+    {
+      "n": 415,
+      "codigo": "1194",
+      "nombre": "LEVODROPROPIZINA 30MG/5ML 120ML",
+      "cantidad": 43
+    },
+    {
+      "n": 416,
+      "codigo": "CH5120",
+      "nombre": "LEVOFLOXACINO 500MG 7COMP (BE)",
+      "cantidad": 19
+    },
+    {
+      "n": 417,
+      "codigo": "1648",
+      "nombre": "LEVOFLOXACINO 750MG 7COMP (BE)",
+      "cantidad": 13
+    },
+    {
+      "n": 418,
+      "codigo": "CA0072",
+      "nombre": "LEVONORG/ETINILEST 0.15/0.03MG 21TAB",
+      "cantidad": 11
+    },
+    {
+      "n": 419,
+      "codigo": "BE0153",
+      "nombre": "LEVONORGESTREL 0.75MG 2COMP",
+      "cantidad": 1
+    },
+    {
+      "n": 420,
+      "codigo": "616",
+      "nombre": "LEVONORGESTREL 0.75MG 2COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 421,
+      "codigo": "BE0154",
+      "nombre": "LEVONORGESTREL 1.5MG 1COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 422,
+      "codigo": "CH7474",
+      "nombre": "LEVONORGESTREL 1.5MG 1COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 423,
+      "codigo": "796",
+      "nombre": "LEVONORGESTREL/ETINILEST 28COMP",
+      "cantidad": 25
+    },
+    {
+      "n": 424,
+      "codigo": "BE0084",
+      "nombre": "LEVONORGESTREL/ETINILEST 28COMP REC",
+      "cantidad": 19
+    },
+    {
+      "n": 425,
+      "codigo": "CH5591",
+      "nombre": "LEVOTIROXINA 100MCG 50COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 426,
+      "codigo": "BE0105",
+      "nombre": "LEVOTIROXINA 100MCG 84COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 427,
+      "codigo": "CH5962",
+      "nombre": "LEVOTIROXINA 112MCG 50COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 428,
+      "codigo": "CH5879",
+      "nombre": "LEVOTIROXINA 125MCG 50COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 429,
+      "codigo": "CH5963",
+      "nombre": "LEVOTIROXINA 137MCG 50COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 430,
+      "codigo": "CH5964",
+      "nombre": "LEVOTIROXINA 175MCG 50COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 431,
+      "codigo": "CH5877",
+      "nombre": "LEVOTIROXINA 25MCG 50COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 432,
+      "codigo": "CH5590",
+      "nombre": "LEVOTIROXINA 50MCG 50COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 433,
+      "codigo": "BE0239",
+      "nombre": "LEVOTIROXINA 50MCG 56COMPRIMIDOS",
+      "cantidad": 6
+    },
+    {
+      "n": 434,
+      "codigo": "CH5589",
+      "nombre": "LEVOTIROXINA 75MCG 50COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 435,
+      "codigo": "BE0240",
+      "nombre": "LEVOTIROXINA 75MCG 56COMPRIMIDOS",
+      "cantidad": 3
+    },
+    {
+      "n": 436,
+      "codigo": "CH5587",
+      "nombre": "LEVOTIROXINA 88MCG 50COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 437,
+      "codigo": "BE0206",
+      "nombre": "LEVOTIROXINA SODICA 100MCG 50COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 438,
+      "codigo": "BE0207",
+      "nombre": "LEVOTIROXINA SODICA 125MCG 50COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 439,
+      "codigo": "BE0208",
+      "nombre": "LEVOTIROXINA SODICA 150MCG 50COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 440,
+      "codigo": "BE0203",
+      "nombre": "LEVOTIROXINA SODICA 25MCG 50COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 441,
+      "codigo": "BE0204",
+      "nombre": "LEVOTIROXINA SODICA 50MCG 50COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 442,
+      "codigo": "BE0205",
+      "nombre": "LEVOTIROXINA SODICA 75MCG 50COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 443,
+      "codigo": "CH6173",
+      "nombre": "LEVOTIROXINA/LIOTIRONINA 0.100/0.020MG 100COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 444,
+      "codigo": "CH6159",
+      "nombre": "LIDOCAINA 11.5% SPRAY TOPICO 10GR",
+      "cantidad": 2
+    },
+    {
+      "n": 445,
+      "codigo": "CH7068",
+      "nombre": "LITIO CARBONATO 300MG 50COMPRIMIDOS",
+      "cantidad": 5
+    },
+    {
+      "n": 446,
+      "codigo": "CH6111",
+      "nombre": "LITIO CARBONATO 450MG 30COMP LP",
+      "cantidad": 2
+    },
+    {
+      "n": 447,
+      "codigo": "CH0060",
+      "nombre": "LOPERAMIDA 2MG 6COMP (BE)",
+      "cantidad": 94
+    },
+    {
+      "n": 448,
+      "codigo": "450",
+      "nombre": "LORATADINA 100MG/100ML JBE 60ML",
+      "cantidad": 5
+    },
+    {
+      "n": 449,
+      "codigo": "CA0075",
+      "nombre": "LORATADINA 10MG 30TAB (BE)",
+      "cantidad": 27
+    },
+    {
+      "n": 450,
+      "codigo": "CH5894",
+      "nombre": "LORATADINA 5MG/5ML JARABE 90ML",
+      "cantidad": 10
+    },
+    {
+      "n": 451,
+      "codigo": "CH7468",
+      "nombre": "LORATADINA/PSEUDO 2.5/15MG SOL 120ML",
+      "cantidad": 9
+    },
+    {
+      "n": 452,
+      "codigo": "CH0152",
+      "nombre": "LORAZEPAM 2MG 30COMP (BE)",
+      "cantidad": 2
+    },
+    {
+      "n": 453,
+      "codigo": "BE0004",
+      "nombre": "LOSARTAN 50MG 30COMP",
+      "cantidad": 74
+    },
+    {
+      "n": 454,
+      "codigo": "BE0130",
+      "nombre": "LOSARTAN POTASICO 100MG 30COMP REC",
+      "cantidad": 8
+    },
+    {
+      "n": 455,
+      "codigo": "1403",
+      "nombre": "LOSARTAN/HIDRO 50/12.5MG 30COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 456,
+      "codigo": "CH5462",
+      "nombre": "LOSARTAN/HIDROC 100/25MG 30COMP",
+      "cantidad": 11
+    },
+    {
+      "n": 457,
+      "codigo": "CH0061",
+      "nombre": "LOVASTATINA 20MG 28COMP (BE)",
+      "cantidad": 1
+    },
+    {
+      "n": 458,
+      "codigo": "2537",
+      "nombre": "MACROGOL 3350 PVO SOL ORAL SOB 17GR",
+      "cantidad": 9
+    },
+    {
+      "n": 459,
+      "codigo": "CH6034",
+      "nombre": "MAGALDRATO/SIMETI 480/100MG 6COMP MAST",
+      "cantidad": 19
+    },
+    {
+      "n": 460,
+      "codigo": "130",
+      "nombre": "MEBENDAZOL 100MG 6COMP MASTICABLES",
+      "cantidad": 12
+    },
+    {
+      "n": 461,
+      "codigo": "CH0237",
+      "nombre": "MEBENDAZOL 100MG/5ML SUSP ORAL 35ML",
+      "cantidad": 3
+    },
+    {
+      "n": 462,
+      "codigo": "CH5996",
+      "nombre": "MEBEVERINA 200MG 20COMP REC LP",
+      "cantidad": 4
+    },
+    {
+      "n": 463,
+      "codigo": "CH7343",
+      "nombre": "MEDROXIPROGES/ESTRADIOL 25/5MG 1SOL INY",
+      "cantidad": 20
+    },
+    {
+      "n": 464,
+      "codigo": "CH0062",
+      "nombre": "MEDROXIPROGESTERONA 5MG 20COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 465,
+      "codigo": "CH4028",
+      "nombre": "MELATONINA 3MG 30CAP",
+      "cantidad": 68
+    },
+    {
+      "n": 466,
+      "codigo": "CH5675",
+      "nombre": "MELISSA/PASSIFLORA 60CAP",
+      "cantidad": 21
+    },
+    {
+      "n": 467,
+      "codigo": "428",
+      "nombre": "MELOXICAM 15MG 10TAB (BE)",
+      "cantidad": 28
+    },
+    {
+      "n": 468,
+      "codigo": "CH7219",
+      "nombre": "MELOXICAM 7.5MG 15COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 469,
+      "codigo": "BE0090",
+      "nombre": "MEMANTINA 10MG 56COMP REC",
+      "cantidad": 7
+    },
+    {
+      "n": 470,
+      "codigo": "BE0215",
+      "nombre": "MEMANTINA 20MG 56COMP REC",
+      "cantidad": 10
+    },
+    {
+      "n": 471,
+      "codigo": "CH5764",
+      "nombre": "MENTOL ALCANFOR 1.35/9GR UNG 12GR",
+      "cantidad": 79
+    },
+    {
+      "n": 472,
+      "codigo": "CH5833",
+      "nombre": "MENTOL/ALCANFOR INHALADOR NASAL675MG",
+      "cantidad": 12
+    },
+    {
+      "n": 473,
+      "codigo": "CH5474",
+      "nombre": "METAMI/CAFEI/CLORFE 322/25/2MG 20COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 474,
+      "codigo": "CH74041",
+      "nombre": "METAMIZOL/CAFEINA/ERGOTAMINA/CLOR 10COMP",
+      "cantidad": 58
+    },
+    {
+      "n": 475,
+      "codigo": "CH5940",
+      "nombre": "METAMIZOL/ESCOPOLAMINA SOL GTS 15ML",
+      "cantidad": 2
+    },
+    {
+      "n": 476,
+      "codigo": "CH5909",
+      "nombre": "METAMIZOL/PARGE 300/6MG/ML SOL GTS",
+      "cantidad": 24
+    },
+    {
+      "n": 477,
+      "codigo": "BE0088",
+      "nombre": "METFORMINA 1000MG 30COMP LP",
+      "cantidad": 27
+    },
+    {
+      "n": 478,
+      "codigo": "BE0028",
+      "nombre": "METFORMINA 500MG 30COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 479,
+      "codigo": "BE0093",
+      "nombre": "METFORMINA 500MG 30COMP REC LP",
+      "cantidad": 20
+    },
+    {
+      "n": 480,
+      "codigo": "BE0094",
+      "nombre": "METFORMINA 750MG 30COMP REC LP",
+      "cantidad": 30
+    },
+    {
+      "n": 481,
+      "codigo": "BE0001",
+      "nombre": "METFORMINA 850MG 30COMP REC",
+      "cantidad": 25
+    },
+    {
+      "n": 482,
+      "codigo": "BE0307",
+      "nombre": "METFORMINA/SITAGLIPTINA 1000/50MG 56",
+      "cantidad": 2
+    },
+    {
+      "n": 483,
+      "codigo": "BE0308",
+      "nombre": "METFORMINA/SITAGLIPTINA 850/50MG 56",
+      "cantidad": 2
+    },
+    {
+      "n": 484,
+      "codigo": "CH5926",
+      "nombre": "METFORMINA/VILDAGLIPTINA 1000/50MG",
+      "cantidad": 6
+    },
+    {
+      "n": 485,
+      "codigo": "BE0299",
+      "nombre": "METFORMINA/VILDAGLIPTINA 850/50 60 COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 486,
+      "codigo": "CH0097",
+      "nombre": "METILDOPA 250MG 20COMP (BE)",
+      "cantidad": 5
+    },
+    {
+      "n": 487,
+      "codigo": "BE0273",
+      "nombre": "METILFENIDATO 20MG 30COMP LP",
+      "cantidad": 2
+    },
+    {
+      "n": 488,
+      "codigo": "CH5477",
+      "nombre": "METOCL/CLORDI/SIMETI 5/5/100MG 20CAP",
+      "cantidad": 14
+    },
+    {
+      "n": 489,
+      "codigo": "BE0033",
+      "nombre": "METOCLOPRAMIDA 10MG 24COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 490,
+      "codigo": "BE0265",
+      "nombre": "METOPROLOL 25MG 30COMP REC LP",
+      "cantidad": 3
+    },
+    {
+      "n": 491,
+      "codigo": "BE0241",
+      "nombre": "METOPROLOL 50MG 30COMP LP",
+      "cantidad": 4
+    },
+    {
+      "n": 492,
+      "codigo": "BE0167",
+      "nombre": "METOTREXATO 2.5MG 100COMPRIMIDOS",
+      "cantidad": 3
+    },
+    {
+      "n": 493,
+      "codigo": "BE0123",
+      "nombre": "METOTREXATO 2.5MG 50COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 494,
+      "codigo": "CH5542",
+      "nombre": "METRONIDAZOL 0.75%GEL 30GR",
+      "cantidad": 2
+    },
+    {
+      "n": 495,
+      "codigo": "141",
+      "nombre": "METRONIDAZOL 500MG 10 OVU",
+      "cantidad": 5
+    },
+    {
+      "n": 496,
+      "codigo": "BE0029",
+      "nombre": "METRONIDAZOL 500MG 20COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 497,
+      "codigo": "BE0132",
+      "nombre": "MICOFENOLATO 500MG 50COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 498,
+      "codigo": "CH6071",
+      "nombre": "MINOXIDIL 5% LOCION CAPILAR 100ML",
+      "cantidad": 9
+    },
+    {
+      "n": 499,
+      "codigo": "BE0300",
+      "nombre": "MIRTAZAPINA 15MG 30 COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 500,
+      "codigo": "BE0270",
+      "nombre": "MIRTAZAPINA 30MG 30COMP BUCODIS",
+      "cantidad": 3
+    },
+    {
+      "n": 501,
+      "codigo": "BE0216",
+      "nombre": "MODAFINILO 200MG 30COMPRIMIDOS",
+      "cantidad": 3
+    },
+    {
+      "n": 502,
+      "codigo": "CA0058",
+      "nombre": "MOMETASONA 0.1% CREMA 15GR",
+      "cantidad": 8
+    },
+    {
+      "n": 503,
+      "codigo": "CH6039",
+      "nombre": "MOMETASONA 50MCG 120DOSIS SPRAY NASAL",
+      "cantidad": 23
+    },
+    {
+      "n": 504,
+      "codigo": "BE0201",
+      "nombre": "MONTELUKAST 10MG 30COMPRIMIDOS REC",
+      "cantidad": 5
+    },
+    {
+      "n": 505,
+      "codigo": "BE0199",
+      "nombre": "MONTELUKAST 4MG 30COMP MAST",
+      "cantidad": 6
+    },
+    {
+      "n": 506,
+      "codigo": "BE0200",
+      "nombre": "MONTELUKAST PED 5MG 30COMP MAST",
+      "cantidad": 9
+    },
+    {
+      "n": 507,
+      "codigo": "CH6144",
+      "nombre": "MORERA EXTRACTO 50MG 50COMPRIMIDOS",
+      "cantidad": 4
+    },
+    {
+      "n": 508,
+      "codigo": "BE0125",
+      "nombre": "MOXIFLOXACINO 400MG 10COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 509,
+      "codigo": "CH6086",
+      "nombre": "MUPIROCINA 2% UNG INTRANASAL 5GR",
+      "cantidad": 4
+    },
+    {
+      "n": 510,
+      "codigo": "613",
+      "nombre": "MUPIROCINA 2% UNGÜENTO 15GR",
+      "cantidad": 12
+    },
+    {
+      "n": 511,
+      "codigo": "CH5994",
+      "nombre": "NAFAZOLINA 0.1% SOL OFT 15ML",
+      "cantidad": 55
+    },
+    {
+      "n": 512,
+      "codigo": "BE0037",
+      "nombre": "NAPROXENO SOD 550MG 10COMP",
+      "cantidad": 124
+    },
+    {
+      "n": 513,
+      "codigo": "CH5997",
+      "nombre": "NAPROXENO/ESOMEPRAZOL 30COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 514,
+      "codigo": "BE0142",
+      "nombre": "NARATRIPTAN 2.5MG 10COMP REC",
+      "cantidad": 15
+    },
+    {
+      "n": 515,
+      "codigo": "BE0275",
+      "nombre": "NEBIVOLOL 5MG 30COMPRIMIDOS",
+      "cantidad": 4
+    },
+    {
+      "n": 516,
+      "codigo": "CH0162",
+      "nombre": "NEOMICINA 500MG 12COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 517,
+      "codigo": "CH6236",
+      "nombre": "NEOMICINA/POLIMIX B/GRAMICIDINA OFT",
+      "cantidad": 6
+    },
+    {
+      "n": 518,
+      "codigo": "CH0257",
+      "nombre": "NICERGOLINA 15MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 519,
+      "codigo": "CH6119",
+      "nombre": "NIFEDIPINO 20MG 30 COMP REC LP",
+      "cantidad": 1
+    },
+    {
+      "n": 520,
+      "codigo": "CH7154",
+      "nombre": "NISTATINA 100000UI 12 OVU",
+      "cantidad": 5
+    },
+    {
+      "n": 521,
+      "codigo": "CH5015",
+      "nombre": "NISTATINA 100000UI UNG 15GR",
+      "cantidad": 10
+    },
+    {
+      "n": 522,
+      "codigo": "CH0273",
+      "nombre": "NISTATINA 100000UI/1ML SUSP ORAL 20ML",
+      "cantidad": 3
+    },
+    {
+      "n": 523,
+      "codigo": "BE0035",
+      "nombre": "NITROFURA MACROCRIS 50MG 20CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 524,
+      "codigo": "BE0156",
+      "nombre": "NITROFURANTOINA 100MG 10CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 525,
+      "codigo": "BE0075",
+      "nombre": "NITROFURANTOINA 100MG 15CAP",
+      "cantidad": 3
+    },
+    {
+      "n": 526,
+      "codigo": "CH57560",
+      "nombre": "NOMEGESTROL/ESTRADIOL 2500/1500MG 28",
+      "cantidad": 7
+    },
+    {
+      "n": 527,
+      "codigo": "CH6254",
+      "nombre": "NORELGESTROMINA ETINILESTRADIOL PARCHES",
+      "cantidad": 4
+    },
+    {
+      "n": 528,
+      "codigo": "CH7174",
+      "nombre": "NOSCAPINA JARABE 5MG/5ML JBE 100ML",
+      "cantidad": 6
+    },
+    {
+      "n": 529,
+      "codigo": "BE0145",
+      "nombre": "OLANZAPINA 10MG 28COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 530,
+      "codigo": "BE0276",
+      "nombre": "OLANZAPINA 10MG 30COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 531,
+      "codigo": "BE0144",
+      "nombre": "OLANZAPINA 5MG 28COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 532,
+      "codigo": "BE0181",
+      "nombre": "OLMESARTAN 20MG 30COMP REC",
+      "cantidad": 14
+    },
+    {
+      "n": 533,
+      "codigo": "BE0182",
+      "nombre": "OLMESARTAN 40MG 30COMP REC",
+      "cantidad": 11
+    },
+    {
+      "n": 534,
+      "codigo": "BE0222",
+      "nombre": "OLMESARTAN/AMLODIPINO 40/5MG 30COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 535,
+      "codigo": "BE0227",
+      "nombre": "OLMESARTAN/HIDROCLO 20/12.5MG 30COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 536,
+      "codigo": "BE0221",
+      "nombre": "OLMESARTAN/HIDROCLO 40/12.5MG 30COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 537,
+      "codigo": "CH5950",
+      "nombre": "OLOPATADINA 0.2% SOL OFT 5ML",
+      "cantidad": 4
+    },
+    {
+      "n": 538,
+      "codigo": "BE0058",
+      "nombre": "OMEPRAZOL 20MG 30CAP",
+      "cantidad": 34
+    },
+    {
+      "n": 539,
+      "codigo": "BE0258",
+      "nombre": "ONDANSETRON 4MG 8COMP BUCODISPERSABLE",
+      "cantidad": 11
+    },
+    {
+      "n": 540,
+      "codigo": "BE0259",
+      "nombre": "ONDANSETRON 8MG 10COMP BUCODISPERSABLE",
+      "cantidad": 8
+    },
+    {
+      "n": 541,
+      "codigo": "BE0217",
+      "nombre": "ONDANSETRON 8MG 10COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 542,
+      "codigo": "CH5224",
+      "nombre": "ORLISTAT 120MG 30CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 543,
+      "codigo": "BE0224",
+      "nombre": "OXCARBAZEPINA 300MG 30 COMP RECUB",
+      "cantidad": 3
+    },
+    {
+      "n": 544,
+      "codigo": "CH5881",
+      "nombre": "OXIBUTININA 5MG 40COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 545,
+      "codigo": "CH0215",
+      "nombre": "OXIDO ZINC/PASTA LASSAR 30GR",
+      "cantidad": 4
+    },
+    {
+      "n": 546,
+      "codigo": "CH5197",
+      "nombre": "OXIMETAZOLINA 0.05% SOL NASAL 15ML",
+      "cantidad": 41
+    },
+    {
+      "n": 547,
+      "codigo": "BE0260",
+      "nombre": "OXIMETAZOLINA 0.05MG/ML SOL NASAL 10ML",
+      "cantidad": 6
+    },
+    {
+      "n": 548,
+      "codigo": "CH0259",
+      "nombre": "OXOLAMINA 28MG/5ML JBE INF 100ML",
+      "cantidad": 20
+    },
+    {
+      "n": 549,
+      "codigo": "CH0258",
+      "nombre": "OXOLAMINA 50MG/5ML JBE AD 100ML",
+      "cantidad": 27
+    },
+    {
+      "n": 550,
+      "codigo": "BE0140",
+      "nombre": "PANTOPRAZOL 40MG 28COMP REC ENT",
+      "cantidad": 9
+    },
+    {
+      "n": 551,
+      "codigo": "BE0278",
+      "nombre": "PANTOPRAZOL 40MG 30COMP REC ENT",
+      "cantidad": 2
+    },
+    {
+      "n": 552,
+      "codigo": "CH5284",
+      "nombre": "PARA/NOSCAPI/CAFEI/VIT C(NOCHE)1SOB",
+      "cantidad": 201
+    },
+    {
+      "n": 553,
+      "codigo": "CH7239",
+      "nombre": "PARA/PAMABR/M PIRILAM 500/25/15MG 10COMP",
+      "cantidad": 11
+    },
+    {
+      "n": 554,
+      "codigo": "CH0197",
+      "nombre": "PARA/PSEUDO/CLOR 500/60/4MG 10COMP",
+      "cantidad": 17
+    },
+    {
+      "n": 555,
+      "codigo": "CH5797",
+      "nombre": "PARACE/CLORZOXAZONA300/250MG 20COMP",
+      "cantidad": 15
+    },
+    {
+      "n": 556,
+      "codigo": "CH5759",
+      "nombre": "PARACET PSEUDO 500/30MG(10)+CLORFEN 4MG(5)COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 557,
+      "codigo": "CH6032",
+      "nombre": "PARACET/CAF/DIHIDROERGOTAMINA 10COMP",
+      "cantidad": 21
+    },
+    {
+      "n": 558,
+      "codigo": "CH6061",
+      "nombre": "PARACET/CAFEINA 400/33MG TIRA C/6COMP",
+      "cantidad": 16
+    },
+    {
+      "n": 559,
+      "codigo": "CH6100",
+      "nombre": "PARACET/NOSC/CAFE/ASCOR DIA+CLORF NOCHE",
+      "cantidad": 15
+    },
+    {
+      "n": 560,
+      "codigo": "CH6007",
+      "nombre": "PARACET/PSEUDO DIA/CLORF NOCHE 15/5 COMP",
+      "cantidad": 41
+    },
+    {
+      "n": 561,
+      "codigo": "CH5685",
+      "nombre": "PARACET/PSEUDO DIA/CLORFE NOCHE 12/6COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 562,
+      "codigo": "CH0075",
+      "nombre": "PARACETAMOL 100MG/1ML SOL 15ML",
+      "cantidad": 13
+    },
+    {
+      "n": 563,
+      "codigo": "CH5942",
+      "nombre": "PARACETAMOL 100MG/ML SOL GTS 30ML",
+      "cantidad": 8
+    },
+    {
+      "n": 564,
+      "codigo": "BE0249",
+      "nombre": "PARACETAMOL 120MG/5ML JBE INF 100ML",
+      "cantidad": 8
+    },
+    {
+      "n": 565,
+      "codigo": "CH53561",
+      "nombre": "PARACETAMOL 120MG/5ML JBE INF 60ML",
+      "cantidad": 6
+    },
+    {
+      "n": 566,
+      "codigo": "CH0225",
+      "nombre": "PARACETAMOL 125MG 6 SUPOS INF",
+      "cantidad": 6
+    },
+    {
+      "n": 567,
+      "codigo": "CH5558",
+      "nombre": "PARACETAMOL 160MG 16COMP MAST",
+      "cantidad": 25
+    },
+    {
+      "n": 568,
+      "codigo": "CH6134",
+      "nombre": "PARACETAMOL 160MG/5ML JBE NIÑOS 90ML",
+      "cantidad": 8
+    },
+    {
+      "n": 569,
+      "codigo": "BE0268",
+      "nombre": "PARACETAMOL 1GR 20 COMPRIMIDOS",
+      "cantidad": 37
+    },
+    {
+      "n": 570,
+      "codigo": "CH6045",
+      "nombre": "PARACETAMOL 1GR PVO EFERV 20 SOBRES",
+      "cantidad": 6
+    },
+    {
+      "n": 571,
+      "codigo": "BE0039",
+      "nombre": "PARACETAMOL 500MG 16COMP",
+      "cantidad": 566
+    },
+    {
+      "n": 572,
+      "codigo": "CH5296",
+      "nombre": "PARACETAMOL 500MG 24COMP (BE)",
+      "cantidad": 74
+    },
+    {
+      "n": 573,
+      "codigo": "CH7197",
+      "nombre": "PARACETAMOL 80MG 16COMP MAST",
+      "cantidad": 9
+    },
+    {
+      "n": 574,
+      "codigo": "CH5973",
+      "nombre": "PARACETAMOL 80MG 20COMP MAST",
+      "cantidad": 14
+    },
+    {
+      "n": 575,
+      "codigo": "CH6065",
+      "nombre": "PARACETAMOL 80MG 20COMP MAST INF",
+      "cantidad": 3
+    },
+    {
+      "n": 576,
+      "codigo": "CH5139",
+      "nombre": "PARACETAMOL/AC ACETILSA/CAFEI 10COMP",
+      "cantidad": 22
+    },
+    {
+      "n": 577,
+      "codigo": "CH7188",
+      "nombre": "PARACETAMOL/CLORFE/PSEUDO JBE 100ML",
+      "cantidad": 13
+    },
+    {
+      "n": 578,
+      "codigo": "CH6158",
+      "nombre": "PARACETAMOL/IBUPROF 300/200MG 12COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 579,
+      "codigo": "CH5255",
+      "nombre": "PARACETAMOL/NOSCA/CAFEI/VIT (DIA) 1SOB",
+      "cantidad": 137
+    },
+    {
+      "n": 580,
+      "codigo": "CH5285",
+      "nombre": "PARACETAMOL/PSEUDO 500/60MG 20COMP",
+      "cantidad": 53
+    },
+    {
+      "n": 581,
+      "codigo": "CH6155",
+      "nombre": "PARACETAMOL/PSEUDO(DIA) PVO 1 SOBRE",
+      "cantidad": 30
+    },
+    {
+      "n": 582,
+      "codigo": "CH6157",
+      "nombre": "PARACETAMOL/PSEUDO/CLORFE PVO(NOCHE)",
+      "cantidad": 29
+    },
+    {
+      "n": 583,
+      "codigo": "CH5807",
+      "nombre": "PARGEVERINA 10MG/ML GTS ORALES 20ML",
+      "cantidad": 10
+    },
+    {
+      "n": 584,
+      "codigo": "CH6074",
+      "nombre": "PARGEVERINA 5MG/ML SOL GOTAS 15ML",
+      "cantidad": 30
+    },
+    {
+      "n": 585,
+      "codigo": "CH7436",
+      "nombre": "PARGEVERINA CLORHIDRATO 5MG/1ML SOL 20ML",
+      "cantidad": 14
+    },
+    {
+      "n": 586,
+      "codigo": "CH5020",
+      "nombre": "PARGEVERINA CLORHIDRATO 5MG/1ML SOL INY",
+      "cantidad": 3
+    },
+    {
+      "n": 587,
+      "codigo": "CH5395",
+      "nombre": "PAROXETINA 20MG 30COMP (BE)",
+      "cantidad": 7
+    },
+    {
+      "n": 588,
+      "codigo": "CH5295",
+      "nombre": "PELARGONIUM SIDOIDES DC 0.8GR/1ML SOL",
+      "cantidad": 9
+    },
+    {
+      "n": 589,
+      "codigo": "CH5491",
+      "nombre": "PICOSULFATO DE SODIO 5MG 10COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 590,
+      "codigo": "CH7428",
+      "nombre": "PICOSULFATO DE SODIO 750MG/100ML GTS",
+      "cantidad": 3
+    },
+    {
+      "n": 591,
+      "codigo": "CH7284",
+      "nombre": "PILOCARPINA 2% SOL OFT 10ML",
+      "cantidad": 3
+    },
+    {
+      "n": 592,
+      "codigo": "CH7285",
+      "nombre": "PILOCARPINA 4% SOL OFT 10ML",
+      "cantidad": 3
+    },
+    {
+      "n": 593,
+      "codigo": "CA0179",
+      "nombre": "PIROXICAM 20MG 10COMP (BE)",
+      "cantidad": 9
+    },
+    {
+      "n": 594,
+      "codigo": "CH6186",
+      "nombre": "POLIMIXINA B/BACITRACINA ZINC UNG 15 G",
+      "cantidad": 3
+    },
+    {
+      "n": 595,
+      "codigo": "CH6122",
+      "nombre": "POLIMIXINA/NEOM/BETAM GTS OTICAS 5ML",
+      "cantidad": 15
+    },
+    {
+      "n": 596,
+      "codigo": "CH9011",
+      "nombre": "POLIVIDONA YODADA 10 % SOL 30ML",
+      "cantidad": 13
+    },
+    {
+      "n": 597,
+      "codigo": "CH6046",
+      "nombre": "POMADA VITAMINICA REPARADORA 10GR",
+      "cantidad": 21
+    },
+    {
+      "n": 598,
+      "codigo": "CH7179",
+      "nombre": "POTASIOGLUC 31.2% ELIX SOL 200ML",
+      "cantidad": 3
+    },
+    {
+      "n": 599,
+      "codigo": "BE0013",
+      "nombre": "PRAMIPEXOL 0.25MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 600,
+      "codigo": "BE0014",
+      "nombre": "PRAMIPEXOL 1MG 30COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 601,
+      "codigo": "CH5160",
+      "nombre": "PREDNISOLONA ACETATO 1% SOL OFT 5ML",
+      "cantidad": 3
+    },
+    {
+      "n": 602,
+      "codigo": "BE0027",
+      "nombre": "PREDNISONA 20MG 20COMP",
+      "cantidad": 37
+    },
+    {
+      "n": 603,
+      "codigo": "CH7476",
+      "nombre": "PREDNISONA 20MG/5ML SUSP ORAL 60ML",
+      "cantidad": 10
+    },
+    {
+      "n": 604,
+      "codigo": "BE0002",
+      "nombre": "PREDNISONA 5MG 20TAB",
+      "cantidad": 18
+    },
+    {
+      "n": 605,
+      "codigo": "BE0124",
+      "nombre": "PREGABALINA 150MG 30CAP",
+      "cantidad": 7
+    },
+    {
+      "n": 606,
+      "codigo": "BE0045",
+      "nombre": "PREGABALINA 150MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 607,
+      "codigo": "BE0089",
+      "nombre": "PREGABALINA 75MG 30CAP",
+      "cantidad": 23
+    },
+    {
+      "n": 608,
+      "codigo": "CH0172",
+      "nombre": "PRIMIDONA 250MG 50COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 609,
+      "codigo": "BE0191",
+      "nombre": "PROGESTERONA 200MG 30CAP BLANDAS",
+      "cantidad": 3
+    },
+    {
+      "n": 610,
+      "codigo": "BE0074",
+      "nombre": "PROPANOLOL 10MG 20COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 611,
+      "codigo": "BE0069",
+      "nombre": "PROPANOLOL 40MG 20TAB",
+      "cantidad": 6
+    },
+    {
+      "n": 612,
+      "codigo": "CH6131",
+      "nombre": "PROTEINSUCCINILATO HIERRO SOL MONODOSIS",
+      "cantidad": 3
+    },
+    {
+      "n": 613,
+      "codigo": "CH5799",
+      "nombre": "PSEUDO/DESLORAT 120/2.5MG 30COMP LP",
+      "cantidad": 3
+    },
+    {
+      "n": 614,
+      "codigo": "CH0202",
+      "nombre": "PSEUDOEFEDRINA/CLORFE 30/1MG SOL 15ML",
+      "cantidad": 3
+    },
+    {
+      "n": 615,
+      "codigo": "BE0087",
+      "nombre": "QUETIAPINA 100MG 30COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 616,
+      "codigo": "BE0162",
+      "nombre": "QUETIAPINA 200MG 30COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 617,
+      "codigo": "BE0016",
+      "nombre": "QUETIAPINA 25MG 30COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 618,
+      "codigo": "BE0122",
+      "nombre": "QUETIAPINA XR 150MG 30COMP REC LP",
+      "cantidad": 3
+    },
+    {
+      "n": 619,
+      "codigo": "BE0121",
+      "nombre": "QUETIAPINA XR 50MG 30COMP REC LP",
+      "cantidad": 3
+    },
+    {
+      "n": 620,
+      "codigo": "BE0115",
+      "nombre": "RASAGILINA 1MG 30COMP",
+      "cantidad": 2
+    },
+    {
+      "n": 621,
+      "codigo": "BE0112",
+      "nombre": "RISPERIDONA 1MG 30COMP",
+      "cantidad": 8
+    },
+    {
+      "n": 622,
+      "codigo": "CH5784",
+      "nombre": "RISPERIDONA 1MG/ML SOL GTS 30ML",
+      "cantidad": 7
+    },
+    {
+      "n": 623,
+      "codigo": "BE0164",
+      "nombre": "RISPERIDONA 3MG 30COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 624,
+      "codigo": "BE0252",
+      "nombre": "RIVAROXABAN 10MG 10COMP REC",
+      "cantidad": 16
+    },
+    {
+      "n": 625,
+      "codigo": "BE0253",
+      "nombre": "RIVAROXABAN 15MG 28COMP REC",
+      "cantidad": 10
+    },
+    {
+      "n": 626,
+      "codigo": "BE0254",
+      "nombre": "RIVAROXABAN 20MG 28COMP REC",
+      "cantidad": 9
+    },
+    {
+      "n": 627,
+      "codigo": "BE0078",
+      "nombre": "ROSUVASTATINA 10MG 30COMP REC",
+      "cantidad": 9
+    },
+    {
+      "n": 628,
+      "codigo": "BE0280",
+      "nombre": "ROSUVASTATINA 20MG 30COMP REC",
+      "cantidad": 21
+    },
+    {
+      "n": 629,
+      "codigo": "CH6165",
+      "nombre": "ROSUVASTATINA/EZETIMIBA 10/10MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 630,
+      "codigo": "CH6166",
+      "nombre": "ROSUVASTATINA/EZETIMIBA 20/10MG 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 631,
+      "codigo": "CH5719",
+      "nombre": "RUPATADINA 10MG 30COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 632,
+      "codigo": "BE0291",
+      "nombre": "RUPATADINA 1MG/ML SOL ORAL 120ML",
+      "cantidad": 7
+    },
+    {
+      "n": 633,
+      "codigo": "CH5740",
+      "nombre": "SACCHAROMYCES B SUSP ORAL 10 SOBRES",
+      "cantidad": 9
+    },
+    {
+      "n": 634,
+      "codigo": "CH5739",
+      "nombre": "SACCHAROMYCES BOULARDII 10 CAP",
+      "cantidad": 22
+    },
+    {
+      "n": 635,
+      "codigo": "CH5724",
+      "nombre": "SAL DE FRUTA EFERV LIMON 100GR",
+      "cantidad": 2
+    },
+    {
+      "n": 636,
+      "codigo": "CH5723",
+      "nombre": "SAL DE FRUTA EFERV REGULAR 100GR",
+      "cantidad": 7
+    },
+    {
+      "n": 637,
+      "codigo": "CH6233",
+      "nombre": "SAL DE FRUTAS LIMON 5GR 2 SOBRES",
+      "cantidad": 39
+    },
+    {
+      "n": 638,
+      "codigo": "CH6232",
+      "nombre": "SAL DE FRUTAS NATURAL 5GR 2 SOBRES",
+      "cantidad": 30
+    },
+    {
+      "n": 639,
+      "codigo": "CH5978",
+      "nombre": "SALBUTAMOL 100MCG INHALACION 250DOSIS",
+      "cantidad": 10
+    },
+    {
+      "n": 640,
+      "codigo": "CH5537",
+      "nombre": "SALBUTAMOL 2MG/5ML JBE 100ML",
+      "cantidad": 1
+    },
+    {
+      "n": 641,
+      "codigo": "CH7102",
+      "nombre": "SALBUTAMOL 5MG/1ML SOL PARA NEBUL 20ML",
+      "cantidad": 3
+    },
+    {
+      "n": 642,
+      "codigo": "1780",
+      "nombre": "SALBUTAMOL SPRAY 200 DOSIS",
+      "cantidad": 35
+    },
+    {
+      "n": 643,
+      "codigo": "CH0284",
+      "nombre": "SALBUTAMOL/BECLOM 100/50MCG 200DOSIS",
+      "cantidad": 1
+    },
+    {
+      "n": 644,
+      "codigo": "CH9034",
+      "nombre": "SALES P/REHIDRATACION 60MEQ 1SACHET INF",
+      "cantidad": 67
+    },
+    {
+      "n": 645,
+      "codigo": "CH7418",
+      "nombre": "SALES REHIDRATACION AD 90MEQ 1SOB",
+      "cantidad": 51
+    },
+    {
+      "n": 646,
+      "codigo": "CH74180",
+      "nombre": "SALES REHIDRATACION AD 90MEQ 4SOB",
+      "cantidad": 9
+    },
+    {
+      "n": 647,
+      "codigo": "CH90340",
+      "nombre": "SALES REHIDRATACION INF 60MEQ 8SOB",
+      "cantidad": 3
+    },
+    {
+      "n": 648,
+      "codigo": "CH5351",
+      "nombre": "SERTRALINA 100MG 30COMP (BE)",
+      "cantidad": 6
+    },
+    {
+      "n": 649,
+      "codigo": "AR2133",
+      "nombre": "SERTRALINA 50MG 30COMP (BE)",
+      "cantidad": 20
+    },
+    {
+      "n": 650,
+      "codigo": "CH5013",
+      "nombre": "SILDENAFIL 100MG 10COMP (BE)",
+      "cantidad": 92
+    },
+    {
+      "n": 651,
+      "codigo": "CA0087",
+      "nombre": "SILDENAFIL 100MG 1COMP REC(BE)",
+      "cantidad": 15
+    },
+    {
+      "n": 652,
+      "codigo": "BE0043",
+      "nombre": "SILDENAFIL 100MG 5COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 653,
+      "codigo": "CH5226",
+      "nombre": "SILDENAFIL 50MG 10COMP (BE)",
+      "cantidad": 35
+    },
+    {
+      "n": 654,
+      "codigo": "BE0012",
+      "nombre": "SILDENAFIL 50MG 5COMP",
+      "cantidad": 17
+    },
+    {
+      "n": 655,
+      "codigo": "CH6146",
+      "nombre": "SILICEA C200 1 ML VIA ORAL GLOBULOS",
+      "cantidad": 67
+    },
+    {
+      "n": 656,
+      "codigo": "CH7464",
+      "nombre": "SIMETICONA 4.0% SOL 15ML",
+      "cantidad": 5
+    },
+    {
+      "n": 657,
+      "codigo": "BE0306",
+      "nombre": "SITAGLIPTINA 100MG 30COMPRIMIDOS REC",
+      "cantidad": 4
+    },
+    {
+      "n": 658,
+      "codigo": "BE0223",
+      "nombre": "SOLIFENACINA 5MG 10 COMP RECUB",
+      "cantidad": 5
+    },
+    {
+      "n": 659,
+      "codigo": "CH6058",
+      "nombre": "SUBSAL BISMUTO 262.5MG/15ML SUSP 240ML",
+      "cantidad": 6
+    },
+    {
+      "n": 660,
+      "codigo": "CH5965",
+      "nombre": "SUCRALFATO 10GR SUSP ORAL",
+      "cantidad": 8
+    },
+    {
+      "n": 661,
+      "codigo": "CH5614",
+      "nombre": "SULFADIAZINA PLATA CREMA 30GR",
+      "cantidad": 2
+    },
+    {
+      "n": 662,
+      "codigo": "CH7388",
+      "nombre": "SULFAG/CARBON ACT 127/127MG 20COMP",
+      "cantidad": 15
+    },
+    {
+      "n": 663,
+      "codigo": "CH0038",
+      "nombre": "SULFAMETOXAZOL/TRIMETOPRIMA SUSP 100ML",
+      "cantidad": 1
+    },
+    {
+      "n": 664,
+      "codigo": "CA4010",
+      "nombre": "SULFATO FERROSO 125MG/1ML SOL 30ML",
+      "cantidad": 3
+    },
+    {
+      "n": 665,
+      "codigo": "CA40100",
+      "nombre": "SULFATO FERROSO 125MG/ML SOL GTS30ML",
+      "cantidad": 3
+    },
+    {
+      "n": 666,
+      "codigo": "CH4040",
+      "nombre": "SULFATO FERROSO 200MG 20COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 667,
+      "codigo": "BE0146",
+      "nombre": "SULPIRIDA 50MG 40 CAPSULAS",
+      "cantidad": 5
+    },
+    {
+      "n": 668,
+      "codigo": "CH6141",
+      "nombre": "TACROLIMUS 0.1% UNG TOPICO 15GR",
+      "cantidad": 1
+    },
+    {
+      "n": 669,
+      "codigo": "BE0148",
+      "nombre": "TADALAFILO 20MG 4COMP REC",
+      "cantidad": 7
+    },
+    {
+      "n": 670,
+      "codigo": "BE0218",
+      "nombre": "TADALAFILO 5MG 14COMP REC",
+      "cantidad": 9
+    },
+    {
+      "n": 671,
+      "codigo": "BE0248",
+      "nombre": "TADALAFILO 5MG 28COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 672,
+      "codigo": "BE0179",
+      "nombre": "TAMOXIFENO 20MG 30COMP",
+      "cantidad": 8
+    },
+    {
+      "n": 673,
+      "codigo": "CH5440",
+      "nombre": "TAMSULOSINA 0.4MG 30CAP LP (BE)",
+      "cantidad": 37
+    },
+    {
+      "n": 674,
+      "codigo": "BE0139",
+      "nombre": "TELMISARTAN 40MG 30COMPRIMIDOS",
+      "cantidad": 5
+    },
+    {
+      "n": 675,
+      "codigo": "BE0138",
+      "nombre": "TELMISARTAN 80MG 30COMPRIMIDOS",
+      "cantidad": 9
+    },
+    {
+      "n": 676,
+      "codigo": "CH5916",
+      "nombre": "TELMISARTAN/HIDRO 80/12.5MG 30COMP",
+      "cantidad": 12
+    },
+    {
+      "n": 677,
+      "codigo": "CH7099",
+      "nombre": "TEOFILINA ANHIDRA 80MG/15ML SOL 250ML",
+      "cantidad": 3
+    },
+    {
+      "n": 678,
+      "codigo": "CH7458",
+      "nombre": "TERBINAFINA 1% SOL 15ML",
+      "cantidad": 25
+    },
+    {
+      "n": 679,
+      "codigo": "CH7486",
+      "nombre": "TERBINAFINA 250MG 30COMP (BE)",
+      "cantidad": 4
+    },
+    {
+      "n": 680,
+      "codigo": "CA4106",
+      "nombre": "TERBINAFINA CREMA 20GR",
+      "cantidad": 20
+    },
+    {
+      "n": 681,
+      "codigo": "CH7159",
+      "nombre": "TETRACICLINA CLORHIDRATO 500MG 8CAP",
+      "cantidad": 16
+    },
+    {
+      "n": 682,
+      "codigo": "CH6171",
+      "nombre": "TIAMAZOL 10 MG 50 COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 683,
+      "codigo": "CH6172",
+      "nombre": "TIAMAZOL 5 MG 50 COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 684,
+      "codigo": "BE0110",
+      "nombre": "TIBOLONA 2.5MG 30COMP",
+      "cantidad": 13
+    },
+    {
+      "n": 685,
+      "codigo": "CH0084",
+      "nombre": "TIMOLOL 0.5% SOL OFT 10ML (BE)",
+      "cantidad": 4
+    },
+    {
+      "n": 686,
+      "codigo": "CH5150",
+      "nombre": "TINIDAZ/MICONAZ 10 OVU CREM 150GR",
+      "cantidad": 3
+    },
+    {
+      "n": 687,
+      "codigo": "CH7180",
+      "nombre": "TINIDAZOL/MICONAZOL 10 OVU",
+      "cantidad": 3
+    },
+    {
+      "n": 688,
+      "codigo": "CH6088",
+      "nombre": "TIOCOLCHICOSIDO 8MG 20COMPRIMIDOS",
+      "cantidad": 9
+    },
+    {
+      "n": 689,
+      "codigo": "CA0378",
+      "nombre": "TOBRAMICINA 0.3 % SOL OFT 5ML",
+      "cantidad": 3
+    },
+    {
+      "n": 690,
+      "codigo": "AR2199",
+      "nombre": "TOBRAMICINA 0.3% UNG OFT 3.5GR",
+      "cantidad": 4
+    },
+    {
+      "n": 691,
+      "codigo": "CH7161",
+      "nombre": "TOBRAMICINA/DEXAMET 0.3/0.1% UNG OFT 3.5GR",
+      "cantidad": 3
+    },
+    {
+      "n": 692,
+      "codigo": "BE0183",
+      "nombre": "TOLTERODINA 2MG 30COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 693,
+      "codigo": "BE0133",
+      "nombre": "TOPIRAMATO 25MG 28COMP REC",
+      "cantidad": 9
+    },
+    {
+      "n": 694,
+      "codigo": "BE0219",
+      "nombre": "TOPIRAMATO 50MG 28COMP REC",
+      "cantidad": 5
+    },
+    {
+      "n": 695,
+      "codigo": "CA03100",
+      "nombre": "TRAMADOL 100MG/ML SOL ORAL GTS 10ML",
+      "cantidad": 3
+    },
+    {
+      "n": 696,
+      "codigo": "CA0310",
+      "nombre": "TRAMADOL 100MG/ML SOL ORAL GTS 10ML",
+      "cantidad": 8
+    },
+    {
+      "n": 697,
+      "codigo": "430",
+      "nombre": "TRAMADOL 50MG 10COMP (BE)",
+      "cantidad": 14
+    },
+    {
+      "n": 698,
+      "codigo": "BE0120",
+      "nombre": "TRAMADOL CLORHIDRATO 50MG 10CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 699,
+      "codigo": "CH5037",
+      "nombre": "TRAMADOL/PARACETAMOL 37.5/325MG 30COMP (BE)",
+      "cantidad": 10
+    },
+    {
+      "n": 700,
+      "codigo": "BE0119",
+      "nombre": "TRAMADOL+PARACE 37.5/325MG 30COMP",
+      "cantidad": 10
+    },
+    {
+      "n": 701,
+      "codigo": "BE0281",
+      "nombre": "TRAZODONA 100MG 30COMP REC",
+      "cantidad": 3
+    },
+    {
+      "n": 702,
+      "codigo": "CH0186",
+      "nombre": "TRIAMTERENO/HIDROCLOR 50/25MG24COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 703,
+      "codigo": "CH5924",
+      "nombre": "TRIBENOSIDO/LIDOCAINA CREMA 30GR",
+      "cantidad": 11
+    },
+    {
+      "n": 704,
+      "codigo": "BE0038",
+      "nombre": "TRIMEBUTINO 100MG 20COMP",
+      "cantidad": 34
+    },
+    {
+      "n": 705,
+      "codigo": "BE0126",
+      "nombre": "VALACICLOVIR 500MG 10COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 706,
+      "codigo": "CH5889",
+      "nombre": "VALERIANA/CHAMOM/PASSIFL 20COMP REC",
+      "cantidad": 6
+    },
+    {
+      "n": 707,
+      "codigo": "CH5890",
+      "nombre": "VALERIANA/PASSIFL/CRATA 20COMP REC",
+      "cantidad": 4
+    },
+    {
+      "n": 708,
+      "codigo": "BE0079",
+      "nombre": "VALSARTAN 160MG 30COMP REC",
+      "cantidad": 23
+    },
+    {
+      "n": 709,
+      "codigo": "BE0282",
+      "nombre": "VALSARTAN 160MG 30COMP RECUBIERTOS",
+      "cantidad": 9
+    },
+    {
+      "n": 710,
+      "codigo": "BE0080",
+      "nombre": "VALSARTAN 80MG 30COMP",
+      "cantidad": 15
+    },
+    {
+      "n": 711,
+      "codigo": "BE0283",
+      "nombre": "VALSARTAN 80MG 30COMP RECUBIERTOS",
+      "cantidad": 1
+    },
+    {
+      "n": 712,
+      "codigo": "BE0251",
+      "nombre": "VALSARTAN/AMLODIPINO 160/10MG 28 COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 713,
+      "codigo": "BE0250",
+      "nombre": "VALSARTAN/AMLODIPINO 160/5MG 28 COMP",
+      "cantidad": 4
+    },
+    {
+      "n": 714,
+      "codigo": "BE0266",
+      "nombre": "VALSARTAN/HIDRO 160/12.5MG 30COMP REC",
+      "cantidad": 10
+    },
+    {
+      "n": 715,
+      "codigo": "BE0234",
+      "nombre": "VALSARTAN/HIDRO 160/25MG 30COMP REC",
+      "cantidad": 2
+    },
+    {
+      "n": 716,
+      "codigo": "BE0233",
+      "nombre": "VALSARTAN/HIDRO 80/12.5MG 30COMP REC",
+      "cantidad": 2
+    },
+    {
+      "n": 717,
+      "codigo": "CH5925",
+      "nombre": "VALSARTAN/HIDROC/AMLODI160/12.5/5MG",
+      "cantidad": 2
+    },
+    {
+      "n": 718,
+      "codigo": "BE0100",
+      "nombre": "VENLAFAXINA 150MG 30CAP LP",
+      "cantidad": 7
+    },
+    {
+      "n": 719,
+      "codigo": "BE0267",
+      "nombre": "VENLAFAXINA 37.5MG 30 CAP REC LP",
+      "cantidad": 4
+    },
+    {
+      "n": 720,
+      "codigo": "CH5737",
+      "nombre": "VENLAFAXINA 75MG 30CAP LP (BE)",
+      "cantidad": 15
+    },
+    {
+      "n": 721,
+      "codigo": "BE0163",
+      "nombre": "VERAPAMILO 120MG 20CAP",
+      "cantidad": 1
+    },
+    {
+      "n": 722,
+      "codigo": "BE0161",
+      "nombre": "VERAPAMILO 80MG 20CAP",
+      "cantidad": 3
+    },
+    {
+      "n": 723,
+      "codigo": "CH6110",
+      "nombre": "VILDAGLIPTINA 50MG 56 COMPRIMIDOS",
+      "cantidad": 3
+    },
+    {
+      "n": 724,
+      "codigo": "BE0271",
+      "nombre": "VILDAGLIPTINA 50MG 56COMPRIMIDOS",
+      "cantidad": 8
+    },
+    {
+      "n": 725,
+      "codigo": "CH6030",
+      "nombre": "VIT D3 50000 UI PVO SUSP ORAL 4SOB",
+      "cantidad": 9
+    },
+    {
+      "n": 726,
+      "codigo": "CH02270",
+      "nombre": "VITAMINA A/C/D SOL GTS ORAL PED30ML",
+      "cantidad": 5
+    },
+    {
+      "n": 727,
+      "codigo": "CH4050",
+      "nombre": "VITAMINA C 500MG 32COMP",
+      "cantidad": 112
+    },
+    {
+      "n": 728,
+      "codigo": "CH6268",
+      "nombre": "VITAMINA D3 100.000 UI SOL 0RAL 4 AMP",
+      "cantidad": 2
+    },
+    {
+      "n": 729,
+      "codigo": "CH6132",
+      "nombre": "ZINC 5MG/ML SOL ORAL GOTAS 30ML (BE)",
+      "cantidad": 1
+    },
+    {
+      "n": 730,
+      "codigo": "BE0135",
+      "nombre": "ZOLPIDEM 10MG 30COMP RECUB",
+      "cantidad": 2
+    },
+    {
+      "n": 731,
+      "codigo": "CH0279",
+      "nombre": "ZOPICLONA 7.5MG 30COMP (BE)",
+      "cantidad": 6
+    },
+    {
+      "n": 732,
+      "codigo": "CH5882 *",
+      "nombre": "ANTITRANS DAMA AEROSOL 0%ALCOHOL 150ML",
+      "cantidad": 9
+    },
+    {
+      "n": 733,
+      "codigo": "CH6128 *",
+      "nombre": "SUERO RETINOL 0.25% 30ML ETERNAL SEC",
+      "cantidad": 3
+    },
+    {
+      "n": 734,
+      "codigo": "CH6049",
+      "nombre": "A CUTICULA/CORTA UÑAS MANO 2 PZAS",
+      "cantidad": 3
+    },
+    {
+      "n": 735,
+      "codigo": "CH5991",
+      "nombre": "ACEITE DE ALMENDRAS 100% FCO 60ML",
+      "cantidad": 5
+    },
+    {
+      "n": 736,
+      "codigo": "CH5995",
+      "nombre": "ACEITE PARA CUIDADO DE LA PIEL 25ML",
+      "cantidad": 13
+    },
+    {
+      "n": 737,
+      "codigo": "CH7347",
+      "nombre": "AEROCAMARA UNIVERSAL DR SIMI 1UNID",
+      "cantidad": 12
+    },
+    {
+      "n": 738,
+      "codigo": "CH5498",
+      "nombre": "AGUA COLONIA INGLESA 400ML",
+      "cantidad": 5
+    },
+    {
+      "n": 739,
+      "codigo": "CH9002",
+      "nombre": "AGUA OXIGENADA 10VOL 110ML",
+      "cantidad": 16
+    },
+    {
+      "n": 740,
+      "codigo": "CH5609",
+      "nombre": "AGUA ROSAS BENJUI LOCION 160ML",
+      "cantidad": 3
+    },
+    {
+      "n": 741,
+      "codigo": "CH5936",
+      "nombre": "ALCOHOL GEL 70 CON ALOE VERA 1LT",
+      "cantidad": 6
+    },
+    {
+      "n": 742,
+      "codigo": "CH5176",
+      "nombre": "ALCOHOL GEL 70 CON ALOE VERA 60ML",
+      "cantidad": 7
+    },
+    {
+      "n": 743,
+      "codigo": "CH6008",
+      "nombre": "ALCOHOL GEL 70% 340ML",
+      "cantidad": 2
+    },
+    {
+      "n": 744,
+      "codigo": "CH7218",
+      "nombre": "ALOE VERA GEL EXTRACTO 25MG 30CAP",
+      "cantidad": 19
+    },
+    {
+      "n": 745,
+      "codigo": "CH5127",
+      "nombre": "ANILLO VIBRADOR 1PZA",
+      "cantidad": 9
+    },
+    {
+      "n": 746,
+      "codigo": "CH7193",
+      "nombre": "BALSAMO LABIAL CON FACTOR 4.2GR",
+      "cantidad": 28
+    },
+    {
+      "n": 747,
+      "codigo": "CH5975",
+      "nombre": "BALSAMO LABIAL FPS 15 BERRY 4.2GR",
+      "cantidad": 27
+    },
+    {
+      "n": 748,
+      "codigo": "CH5976",
+      "nombre": "BALSAMO LABIAL FPS 15 MINT 4.2GR",
+      "cantidad": 24
+    },
+    {
+      "n": 749,
+      "codigo": "CH5348",
+      "nombre": "BLOQUEADOR SOLAR FPS 50+POMO 50ML",
+      "cantidad": 5
+    },
+    {
+      "n": 750,
+      "codigo": "CH5795",
+      "nombre": "BOLSA PAPEL KRAFT DR.SIMI CHICA",
+      "cantidad": 17
+    },
+    {
+      "n": 751,
+      "codigo": "CH5610",
+      "nombre": "CAFEINA MENTOL CRIOGEL 200ML",
+      "cantidad": 2
+    },
+    {
+      "n": 752,
+      "codigo": "CH6041",
+      "nombre": "CEPILLO DESENREDANTE CHICO 1 PZA",
+      "cantidad": 4
+    },
+    {
+      "n": 753,
+      "codigo": "CH6042",
+      "nombre": "CEPILLO DESENREDANTE GRANDE 1 PZA",
+      "cantidad": 5
+    },
+    {
+      "n": 754,
+      "codigo": "CH6212",
+      "nombre": "CEPILLO LIMPIEZA PROTESIS DENTAL 1UN",
+      "cantidad": 8
+    },
+    {
+      "n": 755,
+      "codigo": "CH5888",
+      "nombre": "CERA DEPILATORIA NATURAL PERLAS 100GR",
+      "cantidad": 8
+    },
+    {
+      "n": 756,
+      "codigo": "CH5989",
+      "nombre": "CHAMPU HERBARIO CAIDA CABELLO 100ML",
+      "cantidad": 15
+    },
+    {
+      "n": 757,
+      "codigo": "CH5052",
+      "nombre": "CHUPETE ENTRETENCION SILICONA ESTANDAR",
+      "cantidad": 5
+    },
+    {
+      "n": 758,
+      "codigo": "CH6050",
+      "nombre": "CORTA UÑAS PARA BEBE 1 PIEZA",
+      "cantidad": 2
+    },
+    {
+      "n": 759,
+      "codigo": "CH7421",
+      "nombre": "COTONITOS 100% ALGODON 200UNIDADES",
+      "cantidad": 13
+    },
+    {
+      "n": 760,
+      "codigo": "CH6190",
+      "nombre": "CREMA AC HIALU 40+ ETERNAL SECRET",
+      "cantidad": 2
+    },
+    {
+      "n": 761,
+      "codigo": "CH7100",
+      "nombre": "CREMA AZUFRADA 6% 50GR",
+      "cantidad": 6
+    },
+    {
+      "n": 762,
+      "codigo": "CH7245",
+      "nombre": "CREMA BABA CARACOL 60GR",
+      "cantidad": 6
+    },
+    {
+      "n": 763,
+      "codigo": "CH6055",
+      "nombre": "CREMA CORPORAL HIDRATANTE 400ML",
+      "cantidad": 8
+    },
+    {
+      "n": 764,
+      "codigo": "CH6090",
+      "nombre": "CREMA DENTAL ALIVIO SENSIBILIDAD 90GR",
+      "cantidad": 4
+    },
+    {
+      "n": 765,
+      "codigo": "CH6076",
+      "nombre": "CREMA DENTAL D.SENSIBLES MENTA 100GR",
+      "cantidad": 3
+    },
+    {
+      "n": 766,
+      "codigo": "CH5693",
+      "nombre": "CREMA DEPILATORIA TUBO 80ML",
+      "cantidad": 9
+    },
+    {
+      "n": 767,
+      "codigo": "2376",
+      "nombre": "CREMA FAC C/ASTAXANTINA 50GR ETERNAL SEC",
+      "cantidad": 13
+    },
+    {
+      "n": 768,
+      "codigo": "CH5025",
+      "nombre": "CREMA LECHUGA 60ML",
+      "cantidad": 6
+    },
+    {
+      "n": 769,
+      "codigo": "CH5184",
+      "nombre": "CREMA LECHUGA/PANTENOL/VIT E 55GR",
+      "cantidad": 3
+    },
+    {
+      "n": 770,
+      "codigo": "2633",
+      "nombre": "CREMA MANOS MANTECA KARITE 30GR",
+      "cantidad": 11
+    },
+    {
+      "n": 771,
+      "codigo": "CH6189",
+      "nombre": "CREMA NUTRITIVA 50 + ETERNAL SECRET",
+      "cantidad": 4
+    },
+    {
+      "n": 772,
+      "codigo": "CH5798",
+      "nombre": "DES ANTITRANSPIRANTE CREMA60GR TUBO",
+      "cantidad": 1
+    },
+    {
+      "n": 773,
+      "codigo": "CH6051",
+      "nombre": "ENCRESPADOR PESTAÑA C/REPUESTO 1PZA",
+      "cantidad": 4
+    },
+    {
+      "n": 774,
+      "codigo": "CH5573",
+      "nombre": "ENJUAGUE BUCAL FRASCO 500ML",
+      "cantidad": 11
+    },
+    {
+      "n": 775,
+      "codigo": "CH6204",
+      "nombre": "ENJUAGUE BUCAL NIÑOS CON FLUOR 250ML",
+      "cantidad": 6
+    },
+    {
+      "n": 776,
+      "codigo": "CH6098",
+      "nombre": "ESPEJO DE AUMENTO 10X CON 2 VENTOSAS",
+      "cantidad": 4
+    },
+    {
+      "n": 777,
+      "codigo": "CH6206",
+      "nombre": "ESPONJAS JABONOSAS HIGIENE PERSONAL",
+      "cantidad": 20
+    },
+    {
+      "n": 778,
+      "codigo": "2292",
+      "nombre": "EXFOLIANTE FACIAL VIT E 60GR ETERNAL SEC",
+      "cantidad": 5
+    },
+    {
+      "n": 779,
+      "codigo": "CH5906",
+      "nombre": "FORTALECEDOR DE PESTAÑAS GEL 15GR",
+      "cantidad": 15
+    },
+    {
+      "n": 780,
+      "codigo": "CH7480",
+      "nombre": "GEL CAPILAR 220GR",
+      "cantidad": 7
+    },
+    {
+      "n": 781,
+      "codigo": "2867",
+      "nombre": "GEL FACIAL CARB 120ML ETERNAL SEC",
+      "cantidad": 2
+    },
+    {
+      "n": 782,
+      "codigo": "CH5891",
+      "nombre": "GEL FACIAL CON AC SALICILICO 400ML",
+      "cantidad": 7
+    },
+    {
+      "n": 783,
+      "codigo": "CH5966",
+      "nombre": "GEL OIL PARA PIES TUBO 100ML",
+      "cantidad": 4
+    },
+    {
+      "n": 784,
+      "codigo": "CH6040",
+      "nombre": "GUANTE EXFOLIANTE PARA DUCHA 1 PAR",
+      "cantidad": 2
+    },
+    {
+      "n": 785,
+      "codigo": "CH7478",
+      "nombre": "JABON DE GLICERINA PH NEUTRO 500ML",
+      "cantidad": 3
+    },
+    {
+      "n": 786,
+      "codigo": "CH5634",
+      "nombre": "JABON GEL INTIMO 150ML",
+      "cantidad": 4
+    },
+    {
+      "n": 787,
+      "codigo": "CH6052",
+      "nombre": "LIMA LIJA PARA UÑAS 10PZAS",
+      "cantidad": 2
+    },
+    {
+      "n": 788,
+      "codigo": "CH5706",
+      "nombre": "LOC LIMPIADORA NO LIPIDICA 250ML",
+      "cantidad": 6
+    },
+    {
+      "n": 789,
+      "codigo": "CH6182",
+      "nombre": "LOCION DERMICA PIEL ATOPICA 360 ML",
+      "cantidad": 1
+    },
+    {
+      "n": 790,
+      "codigo": "CH5769",
+      "nombre": "LOCION EMUL CORPORAL UREA 200ML",
+      "cantidad": 4
+    },
+    {
+      "n": 791,
+      "codigo": "CH5369",
+      "nombre": "MAMADERA POLIPROPILENO 280ML",
+      "cantidad": 6
+    },
+    {
+      "n": 792,
+      "codigo": "AR0941",
+      "nombre": "MANTECA CACAO LAPIZ 1PZA",
+      "cantidad": 25
+    },
+    {
+      "n": 793,
+      "codigo": "CH7264",
+      "nombre": "MAQ. AFEITAR DOBLE HOJA BLISTER 5",
+      "cantidad": 3
+    },
+    {
+      "n": 794,
+      "codigo": "1098",
+      "nombre": "MAQ. AFEITAR PIEL SENSIBLE CABALLERO",
+      "cantidad": 14
+    },
+    {
+      "n": 795,
+      "codigo": "3344",
+      "nombre": "MASCARILLA FACIAL ALOE VERA ETERNAL SECRET",
+      "cantidad": 6
+    },
+    {
+      "n": 796,
+      "codigo": "CH6237",
+      "nombre": "MASCARILLA PARA OJOS REVITALIZANTE",
+      "cantidad": 21
+    },
+    {
+      "n": 797,
+      "codigo": "CH7451",
+      "nombre": "MATICO GEL RENOVADOR 100GR",
+      "cantidad": 6
+    },
+    {
+      "n": 798,
+      "codigo": "CH5695",
+      "nombre": "P SOLAR LABIOS FPS 50 TUBO 5GR",
+      "cantidad": 3
+    },
+    {
+      "n": 799,
+      "codigo": "CH6188",
+      "nombre": "P SOLAR SERUM FPS 50 + ETERNAL SECRET",
+      "cantidad": 5
+    },
+    {
+      "n": 800,
+      "codigo": "CH5993",
+      "nombre": "PACK LIMPIEZA DENTAL",
+      "cantidad": 6
+    },
+    {
+      "n": 801,
+      "codigo": "CH5972",
+      "nombre": "PASTA DENTAL TRIPLE PROTECCION 126G",
+      "cantidad": 2
+    },
+    {
+      "n": 802,
+      "codigo": "CH5625",
+      "nombre": "PASTILLERO 7 DIAS 1PIEZA",
+      "cantidad": 9
+    },
+    {
+      "n": 803,
+      "codigo": "CH7420",
+      "nombre": "PETALOS 100% COTTON 80PIEZAS",
+      "cantidad": 5
+    },
+    {
+      "n": 804,
+      "codigo": "CH6245",
+      "nombre": "PETALOS QUITA ESMALTE DE UÑAS",
+      "cantidad": 21
+    },
+    {
+      "n": 805,
+      "codigo": "CH6053",
+      "nombre": "PINZA PARA CEJA RECTA/OBLICUA 2 PZAS",
+      "cantidad": 5
+    },
+    {
+      "n": 806,
+      "codigo": "CH9027",
+      "nombre": "POMADA MENTOLADA 18GR",
+      "cantidad": 6
+    },
+    {
+      "n": 807,
+      "codigo": "CH5696",
+      "nombre": "PROTECTOR SOLAR FPS 50+ SPRAY",
+      "cantidad": 13
+    },
+    {
+      "n": 808,
+      "codigo": "CH5792",
+      "nombre": "PROTECTOR SOLAR FPS 50+CREMA 1L",
+      "cantidad": 4
+    },
+    {
+      "n": 809,
+      "codigo": "CH5443",
+      "nombre": "PRUEBA EMBARAZO LAPIZ 1PIEZAS",
+      "cantidad": 72
+    },
+    {
+      "n": 810,
+      "codigo": "CH6054",
+      "nombre": "REMOVEDOR CALLOS C/MANGO PARA PIES",
+      "cantidad": 4
+    },
+    {
+      "n": 811,
+      "codigo": "CH5237",
+      "nombre": "REPELENTE (DEET) 15% AEROSOL 165ML",
+      "cantidad": 7
+    },
+    {
+      "n": 812,
+      "codigo": "CH6234",
+      "nombre": "REPELENTE KIDS DEET 7.5% CREMA 80GR",
+      "cantidad": 2
+    },
+    {
+      "n": 813,
+      "codigo": "2185",
+      "nombre": "SERUM COLAG HIDRO 50GR ETERNAL SECRET",
+      "cantidad": 9
+    },
+    {
+      "n": 814,
+      "codigo": "CH5627",
+      "nombre": "SIMICURE ANTIESTRIAS CREMA 400ML",
+      "cantidad": 2
+    },
+    {
+      "n": 815,
+      "codigo": "CH5544",
+      "nombre": "SIMICURE GEL 60GR",
+      "cantidad": 11
+    },
+    {
+      "n": 816,
+      "codigo": "CH5138",
+      "nombre": "STEVIA LIQUIDA 270ML",
+      "cantidad": 11
+    },
+    {
+      "n": 817,
+      "codigo": "3378",
+      "nombre": "SUERO AC HIALURONICO ETERNAL SECRET",
+      "cantidad": 4
+    },
+    {
+      "n": 818,
+      "codigo": "3450",
+      "nombre": "SUERO FAC NIACINAMIDA+ZINC 30ML ETERNAL",
+      "cantidad": 5
+    },
+    {
+      "n": 819,
+      "codigo": "3449",
+      "nombre": "SUERO FAC VIT C 10% 30ML ETERNAL SEC",
+      "cantidad": 8
+    },
+    {
+      "n": 820,
+      "codigo": "3391",
+      "nombre": "SUERO RETINOL 0.15% 30ML ETERNAL SECRET",
+      "cantidad": 5
+    },
+    {
+      "n": 821,
+      "codigo": "CH6187",
+      "nombre": "SUERO RETINOL 0.30% ETERNAL SECRET",
+      "cantidad": 5
+    },
+    {
+      "n": 822,
+      "codigo": "CH6021",
+      "nombre": "TALCO DESODORANTE PIES 100GR",
+      "cantidad": 16
+    },
+    {
+      "n": 823,
+      "codigo": "CH6213",
+      "nombre": "TAMPONES REGULAR F MODERADO 8UNID",
+      "cantidad": 3
+    },
+    {
+      "n": 824,
+      "codigo": "CH6214",
+      "nombre": "TAMPONES SUPER F ABUNDANTE 8 UNID",
+      "cantidad": 4
+    },
+    {
+      "n": 825,
+      "codigo": "CH6215",
+      "nombre": "TAMPONES SUPER PLUS F INTENSO 8UNID",
+      "cantidad": 8
+    },
+    {
+      "n": 826,
+      "codigo": "CH5243",
+      "nombre": "TINTURA SECRETO 1/0 NEGRO CREMA 1PZA",
+      "cantidad": 3
+    },
+    {
+      "n": 827,
+      "codigo": "CH5249",
+      "nombre": "TINTURA SECRETO 4/0 CASTAÑO MEDIO 1PZA",
+      "cantidad": 3
+    },
+    {
+      "n": 828,
+      "codigo": "CH5248",
+      "nombre": "TINTURA SECRETO 5/0 CASTAÑO CLARO 1PZA",
+      "cantidad": 5
+    },
+    {
+      "n": 829,
+      "codigo": "CH5245",
+      "nombre": "TINTURA SECRETO 6/0 RUBIO OSCURO 1PZA",
+      "cantidad": 4
+    },
+    {
+      "n": 830,
+      "codigo": "CH5251",
+      "nombre": "TINTURA SECRETO 6/7 CHOCOLATE CREMA 1PZA",
+      "cantidad": 5
+    },
+    {
+      "n": 831,
+      "codigo": "CH5250",
+      "nombre": "TINTURA SECRETO 7/0 RUBIO MEDIO 1PZA",
+      "cantidad": 3
+    },
+    {
+      "n": 832,
+      "codigo": "CH5247",
+      "nombre": "TINTURA SECRETO 7/1 RUBIO CENIZA 1PZA",
+      "cantidad": 3
+    },
+    {
+      "n": 833,
+      "codigo": "CH5244",
+      "nombre": "TINTURA SECRETO 7/35 MIEL CREMA 1PZA",
+      "cantidad": 3
+    },
+    {
+      "n": 834,
+      "codigo": "CH5246",
+      "nombre": "TINTURA SECRETO 8/0 RUBIO CLARO 1PZA",
+      "cantidad": 3
+    },
+    {
+      "n": 835,
+      "codigo": "CH6205",
+      "nombre": "TOALLA HUMEDA EXTRA GRANDE AD 60UN",
+      "cantidad": 4
+    },
+    {
+      "n": 836,
+      "codigo": "CH5959",
+      "nombre": "TOALLITAS ANTISEPTICAS 10 UNID",
+      "cantidad": 9
+    },
+    {
+      "n": 837,
+      "codigo": "CH6238",
+      "nombre": "TOALLITAS DESMAQ DETOX ETERNAL SECRET",
+      "cantidad": 5
+    },
+    {
+      "n": 838,
+      "codigo": "CH6239",
+      "nombre": "TOALLITAS DESMAQ ETERNAL SECRET GREEN T",
+      "cantidad": 10
+    },
+    {
+      "n": 839,
+      "codigo": "CH5943",
+      "nombre": "TOALLITAS HUMEDAS C/A EMU 50 PIEZAS",
+      "cantidad": 14
+    },
+    {
+      "n": 840,
+      "codigo": "2267",
+      "nombre": "TONIFICANTE COLAG/AC HIALU 120ML ETERNAL",
+      "cantidad": 3
+    },
+    {
+      "n": 841,
+      "codigo": "CH5639",
+      "nombre": "TRICLOSAN 0.3% JABON 90GR",
+      "cantidad": 7
+    },
+    {
+      "n": 842,
+      "codigo": "AR4039",
+      "nombre": "VASELINA LIQUIDA ORAL100ML/ML 125ML",
+      "cantidad": 10
+    },
+    {
+      "n": 843,
+      "codigo": "CH7187",
+      "nombre": "VASELINA SOLIDA 24GR",
+      "cantidad": 7
+    },
+    {
+      "n": 844,
+      "codigo": "CH6084",
+      "nombre": "VIT A/D/AC BORICO/OXIDO ZINC CREMA 20GR",
+      "cantidad": 11
+    },
+    {
+      "n": 845,
+      "codigo": "CH6121",
+      "nombre": "A DEPORTISTAS ALTO EN PROTEINAS 990GR",
+      "cantidad": 1
+    },
+    {
+      "n": 846,
+      "codigo": "CH6178",
+      "nombre": "A SUPLEMENTADO OMEGA 3/6/9 PREB 800GR",
+      "cantidad": 9
+    },
+    {
+      "n": 847,
+      "codigo": "CH5901",
+      "nombre": "AC FOLICO/OMEGA 3/VIT/MIN 30CAP",
+      "cantidad": 17
+    },
+    {
+      "n": 848,
+      "codigo": "CH4003",
+      "nombre": "ACEITE HIG BACALAO 40MG 60CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 849,
+      "codigo": "CH4004",
+      "nombre": "ACEITE PEPA CALAB 1000MG 30CAP",
+      "cantidad": 16
+    },
+    {
+      "n": 850,
+      "codigo": "CH4005",
+      "nombre": "ACEITE PESCAD PURIF 1000MG 30CAP",
+      "cantidad": 7
+    },
+    {
+      "n": 851,
+      "codigo": "CH4052",
+      "nombre": "ACEITE SARDINAS 1000MG 90CAP",
+      "cantidad": 32
+    },
+    {
+      "n": 852,
+      "codigo": "CH6258",
+      "nombre": "AGUA CON FITOESTEROLES 2GR 30 SACHETS",
+      "cantidad": 5
+    },
+    {
+      "n": 853,
+      "codigo": "CH4006",
+      "nombre": "AJO BULBO SECO 341MG 40CAP",
+      "cantidad": 6
+    },
+    {
+      "n": 854,
+      "codigo": "CH4002",
+      "nombre": "AJO/PEREJIL 341/100MG 40CAP",
+      "cantidad": 23
+    },
+    {
+      "n": 855,
+      "codigo": "CH7475",
+      "nombre": "ALFALFA 150MG 40CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 856,
+      "codigo": "CH4010",
+      "nombre": "ALOE FEROX 150MG 60CAP",
+      "cantidad": 16
+    },
+    {
+      "n": 857,
+      "codigo": "CH5853",
+      "nombre": "AMILOPECTINA100%(CARBOHID)PVO 1.5KG",
+      "cantidad": 2
+    },
+    {
+      "n": 858,
+      "codigo": "CH5847",
+      "nombre": "AMINOACIDOS ESENCIALES120CAP BLANDA",
+      "cantidad": 2
+    },
+    {
+      "n": 859,
+      "codigo": "CH5867",
+      "nombre": "ARANDANO ROJO/MAQUI/MORA 60CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 860,
+      "codigo": "CH5802",
+      "nombre": "BEBIDA INSTANT ALMENDRA PVO 200GR",
+      "cantidad": 4
+    },
+    {
+      "n": 861,
+      "codigo": "CH5803",
+      "nombre": "BEBIDA INSTANTANEA COCO PVO 200GR",
+      "cantidad": 4
+    },
+    {
+      "n": 862,
+      "codigo": "CH6133",
+      "nombre": "BETA ALANINA 100% PURA POLVO 200GR",
+      "cantidad": 3
+    },
+    {
+      "n": 863,
+      "codigo": "CH7248",
+      "nombre": "BETACAROTENO/VIT A 5.4MG/3000UI 90CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 864,
+      "codigo": "CH6105",
+      "nombre": "BIFIDOBACTERIUM LONGUM UFC 30CAP",
+      "cantidad": 24
+    },
+    {
+      "n": 865,
+      "codigo": "CH5852",
+      "nombre": "CAFEINA MICROENCAPSULADA/ANHIDRA 60CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 866,
+      "codigo": "CH7444",
+      "nombre": "CALCIO CARB/MAGN CARB/ZINC/VIT C 60CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 867,
+      "codigo": "CH7232",
+      "nombre": "CALCIO FORTE/MAGNESIO/VIT D 30COMP",
+      "cantidad": 3
+    },
+    {
+      "n": 868,
+      "codigo": "CH5254",
+      "nombre": "CALCIO FORTE/MAGNESIO/VIT D 60CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 869,
+      "codigo": "CH5774",
+      "nombre": "CALCIO/MULTIVIT TUBO 20TAB EFER",
+      "cantidad": 20
+    },
+    {
+      "n": 870,
+      "codigo": "CH6028",
+      "nombre": "CALCIO/VIT D3 320/1.250MG 60CAP",
+      "cantidad": 7
+    },
+    {
+      "n": 871,
+      "codigo": "CH6026",
+      "nombre": "CALCIO/VIT D3 500/4MG 60CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 872,
+      "codigo": "CH5637",
+      "nombre": "CALCIO/VIT D3 500MG/400UI 30CAP",
+      "cantidad": 7
+    },
+    {
+      "n": 873,
+      "codigo": "CH5773",
+      "nombre": "CALCIO/VIT D3 TUBO 20TAB EFER",
+      "cantidad": 11
+    },
+    {
+      "n": 874,
+      "codigo": "CH6025",
+      "nombre": "CALCIO/VITAMINA D3 450/1.75MG 60CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 875,
+      "codigo": "CH6027",
+      "nombre": "CALCIO/VITAMINA D3 500/8MG 60CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 876,
+      "codigo": "CH5562",
+      "nombre": "CAPSICUM EXTRACTO THERMO GEL 200ML",
+      "cantidad": 5
+    },
+    {
+      "n": 877,
+      "codigo": "CH0281",
+      "nombre": "CARBOCISTEINA 100MG/5ML JBE 100ML (BE)",
+      "cantidad": 12
+    },
+    {
+      "n": 878,
+      "codigo": "CH5344",
+      "nombre": "CASTAÑA DE INDIAS 340MG 30CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 879,
+      "codigo": "CH4014",
+      "nombre": "CENTELLA ASIATICA 30MG 30COMP",
+      "cantidad": 9
+    },
+    {
+      "n": 880,
+      "codigo": "CH5598",
+      "nombre": "CHLORELLA 500MG 90TAB",
+      "cantidad": 5
+    },
+    {
+      "n": 881,
+      "codigo": "442",
+      "nombre": "CIMICIFUGA RACEMOSA 40MG 60TAB",
+      "cantidad": 10
+    },
+    {
+      "n": 882,
+      "codigo": "CH6112",
+      "nombre": "CITRATO DE MAGNESIO 200MG 60CAP",
+      "cantidad": 168
+    },
+    {
+      "n": 883,
+      "codigo": "CH6120",
+      "nombre": "CITRATO DE POTASIO 800MG 60CAP",
+      "cantidad": 20
+    },
+    {
+      "n": 884,
+      "codigo": "CH5528",
+      "nombre": "CLORURO MAGNESIO 1 SOBRE 33GR",
+      "cantidad": 12
+    },
+    {
+      "n": 885,
+      "codigo": "CH7500",
+      "nombre": "COENZIMA CON UBIQUINONA 10MG 60CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 886,
+      "codigo": "CH5763",
+      "nombre": "COLAGENO H/VIT D3/MAGN(CAJA 30 SOBRES)",
+      "cantidad": 22
+    },
+    {
+      "n": 887,
+      "codigo": "CH5539",
+      "nombre": "COLAGENO HIDROLIZADO 400MG 90CAP",
+      "cantidad": 22
+    },
+    {
+      "n": 888,
+      "codigo": "CH5560",
+      "nombre": "COLAGENO HIDROLIZADO NJA 30SOB",
+      "cantidad": 12
+    },
+    {
+      "n": 889,
+      "codigo": "CH5712",
+      "nombre": "COLAGENO HIDROLIZADO SIN SABOR 30SOB",
+      "cantidad": 5
+    },
+    {
+      "n": 890,
+      "codigo": "CH5868",
+      "nombre": "COLAGENO/CALCIO/MAGN/A.BACALAO 60CAP",
+      "cantidad": 44
+    },
+    {
+      "n": 891,
+      "codigo": "CH7222",
+      "nombre": "CRANBERRY/VIT C/VIT E 30CAP",
+      "cantidad": 76
+    },
+    {
+      "n": 892,
+      "codigo": "CH5851",
+      "nombre": "CREATINA MONOHIDRATADA POLVO 300GR",
+      "cantidad": 41
+    },
+    {
+      "n": 893,
+      "codigo": "CH5327",
+      "nombre": "CYNARA COMPUESTA SOL 30ML",
+      "cantidad": 2
+    },
+    {
+      "n": 894,
+      "codigo": "CH6247",
+      "nombre": "ELECTROLITOS ORALES SIN AZUCAR ARANDANO",
+      "cantidad": 85
+    },
+    {
+      "n": 895,
+      "codigo": "CH6249",
+      "nombre": "ELECTROLITOS ORALES SIN AZUCAR NARANJA",
+      "cantidad": 61
+    },
+    {
+      "n": 896,
+      "codigo": "CH6248",
+      "nombre": "ELECTROLITOS ORALES SIN AZUCAR PIÑA",
+      "cantidad": 46
+    },
+    {
+      "n": 897,
+      "codigo": "CH6267",
+      "nombre": "ELECTROLITOS SABOR CITRICO 20TAB EFERV",
+      "cantidad": 46
+    },
+    {
+      "n": 898,
+      "codigo": "201",
+      "nombre": "FORZE VIT FORTE 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 899,
+      "codigo": "CH4016",
+      "nombre": "FOSFATIDILCOLINA 190MG 30CAP",
+      "cantidad": 26
+    },
+    {
+      "n": 900,
+      "codigo": "CH5334",
+      "nombre": "FUCOZXANTINA CAPSIIUM 30/200MG 60CAP",
+      "cantidad": 16
+    },
+    {
+      "n": 901,
+      "codigo": "CH5990",
+      "nombre": "GEL DE OPUNTIA SIN AZUCAR JBE 200ML",
+      "cantidad": 32
+    },
+    {
+      "n": 902,
+      "codigo": "CH4018",
+      "nombre": "GELATINA 350MG 60CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 903,
+      "codigo": "CH72540",
+      "nombre": "GINSENG R/L SOYA/VIT E/MAGN 60CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 904,
+      "codigo": "CH4063",
+      "nombre": "GLUCONATO DE ZINC 15MG 30COMP",
+      "cantidad": 42
+    },
+    {
+      "n": 905,
+      "codigo": "CH7409",
+      "nombre": "GUARANA/L CARNITINA/COLINA/INOSTOL 60CAP",
+      "cantidad": 2
+    },
+    {
+      "n": 906,
+      "codigo": "CH7401",
+      "nombre": "L CARNITINA 150MG 60CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 907,
+      "codigo": "CH5986",
+      "nombre": "L METIONINA/L CISTEINA/BIOTINA 60CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 908,
+      "codigo": "CH5899",
+      "nombre": "LACTASA 9000 FCC 30COMP",
+      "cantidad": 6
+    },
+    {
+      "n": 909,
+      "codigo": "CH5705",
+      "nombre": "LACTOBACILLUS REUTERI P GTS 5ML",
+      "cantidad": 7
+    },
+    {
+      "n": 910,
+      "codigo": "CH5333",
+      "nombre": "LACTOBACILLUS/FUCOXAN/PIÑA/TE 60CAP",
+      "cantidad": 8
+    },
+    {
+      "n": 911,
+      "codigo": "434",
+      "nombre": "LECITINA SOYA 1200MG 100CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 912,
+      "codigo": "CH74140",
+      "nombre": "LIMON (CITRUS LIMON)/MEJORANA 50CAP",
+      "cantidad": 17
+    },
+    {
+      "n": 913,
+      "codigo": "CH7452",
+      "nombre": "MAGNESIO CARBONATO 200MG 30CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 914,
+      "codigo": "CH5793",
+      "nombre": "MAGNESIO+B1/B2/B6/B12 20TAB EFERV",
+      "cantidad": 11
+    },
+    {
+      "n": 915,
+      "codigo": "CH5619",
+      "nombre": "MAQUI 400MG 60CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 916,
+      "codigo": "CH73910",
+      "nombre": "MEJORANA/CILANTRO/LAUREL 60CAP",
+      "cantidad": 24
+    },
+    {
+      "n": 917,
+      "codigo": "CH7434",
+      "nombre": "MELISA/LIMON/ROMERO/MENTA/CLAVO/CANELA",
+      "cantidad": 10
+    },
+    {
+      "n": 918,
+      "codigo": "CH5449",
+      "nombre": "MELISSA TILIA SOL 30ML",
+      "cantidad": 8
+    },
+    {
+      "n": 919,
+      "codigo": "CH6135",
+      "nombre": "MEMBRANA DE HUEVO 500MG 60CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 920,
+      "codigo": "CH5207",
+      "nombre": "MIEL PROPOLEO 10 STICK",
+      "cantidad": 32
+    },
+    {
+      "n": 921,
+      "codigo": "CH5672",
+      "nombre": "MIEL PROPOLEO 8 CARAMELOS",
+      "cantidad": 48
+    },
+    {
+      "n": 922,
+      "codigo": "CH5957",
+      "nombre": "MIEL/E PROPOLEO SIN AZUCAR S MENTA",
+      "cantidad": 7
+    },
+    {
+      "n": 923,
+      "codigo": "CH5958",
+      "nombre": "MIEL/E PROPOLEO SIN AZUCAR S MIEL",
+      "cantidad": 36
+    },
+    {
+      "n": 924,
+      "codigo": "CH5297",
+      "nombre": "MIEL/PROPOLEO/MENTA SOBRE",
+      "cantidad": 36
+    },
+    {
+      "n": 925,
+      "codigo": "CH73920",
+      "nombre": "MORA/CARDAMOMO CON STEVIA 50CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 926,
+      "codigo": "CH5444",
+      "nombre": "MORINGA PVO 300MG 60CAP",
+      "cantidad": 10
+    },
+    {
+      "n": 927,
+      "codigo": "CH5479",
+      "nombre": "MULT/MINE/PROB SABOR TUTTI FRUTTI 30COMP",
+      "cantidad": 14
+    },
+    {
+      "n": 928,
+      "codigo": "CH6092",
+      "nombre": "MULTIVIT + MULTIMINERAL 30COMP MAST",
+      "cantidad": 6
+    },
+    {
+      "n": 929,
+      "codigo": "CH6089",
+      "nombre": "MULTIVIT S ALIMENT SIN AZUCAR JBE",
+      "cantidad": 5
+    },
+    {
+      "n": 930,
+      "codigo": "CH5775",
+      "nombre": "MULTIVIT/BIOTINA TUBO 20TAB EFER",
+      "cantidad": 14
+    },
+    {
+      "n": 931,
+      "codigo": "CH6006",
+      "nombre": "MULTIVIT/MINERAL/PROBIOTICO INF 30COMP",
+      "cantidad": 5
+    },
+    {
+      "n": 932,
+      "codigo": "CH6001",
+      "nombre": "MULTIVIT+MINERALES NJA 20TAB EFERV",
+      "cantidad": 19
+    },
+    {
+      "n": 933,
+      "codigo": "CH6246",
+      "nombre": "MULTIVITAMINICO + MULTIMINERAL HOMBRE",
+      "cantidad": 14
+    },
+    {
+      "n": 934,
+      "codigo": "CH6259",
+      "nombre": "MULTIVITAMINICO + MULTIMINERAL MUJER",
+      "cantidad": 17
+    },
+    {
+      "n": 935,
+      "codigo": "CH4029",
+      "nombre": "MULTIVITAMINICO 30CAP",
+      "cantidad": 13
+    },
+    {
+      "n": 936,
+      "codigo": "CH5897",
+      "nombre": "MULTIVITAMINICO LIBRE AZUCAR 30CAP",
+      "cantidad": 6
+    },
+    {
+      "n": 937,
+      "codigo": "CH5811",
+      "nombre": "MULTIVITAMINICO MULTIMINERAL 30CAP",
+      "cantidad": 12
+    },
+    {
+      "n": 938,
+      "codigo": "CH7262",
+      "nombre": "MULTIVITAMINICO NATURAL JBE INF 125ML",
+      "cantidad": 7
+    },
+    {
+      "n": 939,
+      "codigo": "CH5543",
+      "nombre": "MULTIVITAMINICO/COMPLEJO B 60CAP",
+      "cantidad": 51
+    },
+    {
+      "n": 940,
+      "codigo": "CH5499",
+      "nombre": "MULTIVITAMINICO/MINE/PROB 30COMP",
+      "cantidad": 62
+    },
+    {
+      "n": 941,
+      "codigo": "CH7438",
+      "nombre": "MULTIVITAMINICO/PREBIOTICOS 30CAP",
+      "cantidad": 5
+    },
+    {
+      "n": 942,
+      "codigo": "CH6113",
+      "nombre": "NAN 1 F LACTEA INFANTIL LATA 800GR",
+      "cantidad": 4
+    },
+    {
+      "n": 943,
+      "codigo": "CH6114",
+      "nombre": "NAN 2 F LACTEA INFANTIL LATA 800GR",
+      "cantidad": 6
+    },
+    {
+      "n": 944,
+      "codigo": "CH6115",
+      "nombre": "NIDAL 1 F LACTEA LACTANTES PVO 800GR",
+      "cantidad": 5
+    },
+    {
+      "n": 945,
+      "codigo": "CH6116",
+      "nombre": "NIDAL 2 F LACTEA LACTANTES PVO 800GR",
+      "cantidad": 3
+    },
+    {
+      "n": 946,
+      "codigo": "CH6117",
+      "nombre": "NIDO 1 F LACTEA NIÑOS PVO 700GR",
+      "cantidad": 3
+    },
+    {
+      "n": 947,
+      "codigo": "CH5311",
+      "nombre": "OMEGA 3 (DHA Y EPA) KIDS 150ML SOL",
+      "cantidad": 12
+    },
+    {
+      "n": 948,
+      "codigo": "CH5345",
+      "nombre": "OMEGA 3( DHA Y EPA) 30CALUGAS MAST",
+      "cantidad": 33
+    },
+    {
+      "n": 949,
+      "codigo": "690",
+      "nombre": "OMEGA 3/6/9 60CAP SIMIOMEGA PLUS",
+      "cantidad": 18
+    },
+    {
+      "n": 950,
+      "codigo": "CH5553",
+      "nombre": "OXIDO DE ZINC 1 SOBRE 30GR",
+      "cantidad": 8
+    },
+    {
+      "n": 951,
+      "codigo": "CH5533",
+      "nombre": "PAPAYA 350MG 60CAP",
+      "cantidad": 2
+    },
+    {
+      "n": 952,
+      "codigo": "CH7242",
+      "nombre": "PARCHE CON MENTOL 36MG 10PARCHES",
+      "cantidad": 28
+    },
+    {
+      "n": 953,
+      "codigo": "CH6057",
+      "nombre": "PARCHE DERMICO 18X13CM 1PZA",
+      "cantidad": 10
+    },
+    {
+      "n": 954,
+      "codigo": "CH5566",
+      "nombre": "PAREIRA/BERBERIS/SOLIDAGO/ARENARIA/CHIM",
+      "cantidad": 4
+    },
+    {
+      "n": 955,
+      "codigo": "CH5047",
+      "nombre": "PASIFLORA COMPUESTA SOL 30ML",
+      "cantidad": 3
+    },
+    {
+      "n": 956,
+      "codigo": "CH6139",
+      "nombre": "PICOLINATO DE CROMO 562MG 30CAP",
+      "cantidad": 9
+    },
+    {
+      "n": 957,
+      "codigo": "CH72580",
+      "nombre": "POTASIO CARB/PEREJIL/APIO 50CAP",
+      "cantidad": 7
+    },
+    {
+      "n": 958,
+      "codigo": "CH5982",
+      "nombre": "PROBIOTICO 350MG 30CAP",
+      "cantidad": 28
+    },
+    {
+      "n": 959,
+      "codigo": "CH6009",
+      "nombre": "PROPOLEO 1% MENTOL/EUCALIPTO SP 30ML",
+      "cantidad": 37
+    },
+    {
+      "n": 960,
+      "codigo": "CH6019",
+      "nombre": "PROPOLEO/J REAL/VIT C/D/ZINC 125ML",
+      "cantidad": 20
+    },
+    {
+      "n": 961,
+      "codigo": "CH6035",
+      "nombre": "PROPOLEO/JENGIBRE/MENTOL SPRAY 30ML",
+      "cantidad": 55
+    },
+    {
+      "n": 962,
+      "codigo": "CH5836",
+      "nombre": "PROPOLEO/NJA/LIMON/AVENA JBE 125ML",
+      "cantidad": 87
+    },
+    {
+      "n": 963,
+      "codigo": "CH7203",
+      "nombre": "PROPOLEO/VIT C JBE 125ML",
+      "cantidad": 27
+    },
+    {
+      "n": 964,
+      "codigo": "CH5473",
+      "nombre": "PROPOLEO/VIT C/ZINC SOBRE 4GR",
+      "cantidad": 127
+    },
+    {
+      "n": 965,
+      "codigo": "CH7449",
+      "nombre": "PROPOLEO/VITAMINA C 200/100MG 40CAP",
+      "cantidad": 26
+    },
+    {
+      "n": 966,
+      "codigo": "CH5846",
+      "nombre": "PROTEINA LECHE/VIT/MIN PVO S.CHOCO",
+      "cantidad": 3
+    },
+    {
+      "n": 967,
+      "codigo": "CH5845",
+      "nombre": "PROTEINA LECHE/VIT/MIN PVO S.FRUTIL",
+      "cantidad": 5
+    },
+    {
+      "n": 968,
+      "codigo": "CH5844",
+      "nombre": "PROTEINA LECHE/VIT/MIN PVO S.VAINI",
+      "cantidad": 2
+    },
+    {
+      "n": 969,
+      "codigo": "CH0286",
+      "nombre": "SALICILATO DE METILO/MENTOL CREMA 30/8GR",
+      "cantidad": 8
+    },
+    {
+      "n": 970,
+      "codigo": "CH5659",
+      "nombre": "SANGUINARIA/B ACEBO/P UVA 30CAP",
+      "cantidad": 2
+    },
+    {
+      "n": 971,
+      "codigo": "CH57150",
+      "nombre": "SAUCE BLANCO/CAPSICUM/MAGNESIO 50CAP",
+      "cantidad": 19
+    },
+    {
+      "n": 972,
+      "codigo": "CH5033",
+      "nombre": "SCHOLT/MENTA/MANZANILLA/TILO/HINOJO 60ML",
+      "cantidad": 2
+    },
+    {
+      "n": 973,
+      "codigo": "CH6072",
+      "nombre": "SIMI CLIMA TR 30 CAP F ALIMENTICIA",
+      "cantidad": 4
+    },
+    {
+      "n": 974,
+      "codigo": "CH5839",
+      "nombre": "SIMI F F.ALIMENTICIA LIQUIDA 120ML",
+      "cantidad": 89
+    },
+    {
+      "n": 975,
+      "codigo": "CH6149",
+      "nombre": "SIMI GUMMIES BIOTINA Y MULTIVITAMINAS",
+      "cantidad": 18
+    },
+    {
+      "n": 976,
+      "codigo": "CH6151",
+      "nombre": "SIMI GUMMIES CON COLAGENO Y VIT C",
+      "cantidad": 7
+    },
+    {
+      "n": 977,
+      "codigo": "CH6153",
+      "nombre": "SIMI GUMMIES CON FIBRA Y PROBIOTICO",
+      "cantidad": 28
+    },
+    {
+      "n": 978,
+      "codigo": "CH6148",
+      "nombre": "SIMI GUMMIES CON MULTIVITAMINAS",
+      "cantidad": 24
+    },
+    {
+      "n": 979,
+      "codigo": "CH6152",
+      "nombre": "SIMI GUMMIES DETOX S MANZANA VERDE",
+      "cantidad": 53
+    },
+    {
+      "n": 980,
+      "codigo": "CH6150",
+      "nombre": "SIMI GUMMIES DREAMS 60 GOMITAS",
+      "cantidad": 10
+    },
+    {
+      "n": 981,
+      "codigo": "CH5838",
+      "nombre": "SIMIBROX N F.ALIMENTICIA LIQ 125ML",
+      "cantidad": 56
+    },
+    {
+      "n": 982,
+      "codigo": "1482",
+      "nombre": "SIMIFIBRA CON CACAO 300GR",
+      "cantidad": 39
+    },
+    {
+      "n": 983,
+      "codigo": "CH5734",
+      "nombre": "SIMIGOLD MULTIVIT CON PROBIOTICOS COMP",
+      "cantidad": 18
+    },
+    {
+      "n": 984,
+      "codigo": "CH5898",
+      "nombre": "SIMIGOLD MULTIVITAMINICO POLVO 500GR",
+      "cantidad": 3
+    },
+    {
+      "n": 985,
+      "codigo": "CH5840",
+      "nombre": "SIMILYPTUS SORBI/PROP F.A. LIQ120ML",
+      "cantidad": 6
+    },
+    {
+      "n": 986,
+      "codigo": "CH7195",
+      "nombre": "SIMIPOWER GUAR/L TAU/J REAL/VIT E 30CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 987,
+      "codigo": "CH7333",
+      "nombre": "SIMIPOWER MUJER 30CAP",
+      "cantidad": 11
+    },
+    {
+      "n": 988,
+      "codigo": "1500",
+      "nombre": "SIMISPORT C/ARGININA 524GR SAB FRUTAS",
+      "cantidad": 2
+    },
+    {
+      "n": 989,
+      "codigo": "653",
+      "nombre": "SIMIVITAMINAS 30CAP VIT/MINE/LEC D SOYA",
+      "cantidad": 15
+    },
+    {
+      "n": 990,
+      "codigo": "CH5716",
+      "nombre": "SOLANUM/TE VERDE 250/150MG 60CAP",
+      "cantidad": 23
+    },
+    {
+      "n": 991,
+      "codigo": "CH5680",
+      "nombre": "SPIRULINA 500MG 90TAB",
+      "cantidad": 11
+    },
+    {
+      "n": 992,
+      "codigo": "CH5850",
+      "nombre": "TAURINA/CAFEINA/COMP.B/S FRUTAS PVO",
+      "cantidad": 3
+    },
+    {
+      "n": 993,
+      "codigo": "CH5849",
+      "nombre": "TAURINA/CAFEINA/COMP.B/S.GUARANA PVO",
+      "cantidad": 4
+    },
+    {
+      "n": 994,
+      "codigo": "CH5804",
+      "nombre": "TRIPTOFANO/VIT B2 B3 B6/MAGN 60CAP",
+      "cantidad": 4
+    },
+    {
+      "n": 995,
+      "codigo": "CH4043",
+      "nombre": "VINAGRE MANZANA 500MG 60CAP",
+      "cantidad": 42
+    },
+    {
+      "n": 996,
+      "codigo": "CH5525",
+      "nombre": "VIT A/C/D 3333UI/75MG/800UI SOL 30ML",
+      "cantidad": 3
+    },
+    {
+      "n": 997,
+      "codigo": "CH4001",
+      "nombre": "VIT B1/B6/B12 3 SOL INY",
+      "cantidad": 35
+    },
+    {
+      "n": 998,
+      "codigo": "CH5791",
+      "nombre": "VIT C EFERV 1GR PVO 10SOBRES",
+      "cantidad": 12
+    },
+    {
+      "n": 999,
+      "codigo": "CH6069",
+      "nombre": "VIT C/E/ZINC/D3 POMELO 20TAB EFERV",
+      "cantidad": 6
+    },
+    {
+      "n": 1000,
+      "codigo": "CH6037",
+      "nombre": "VIT C/JALEA REAL/ VIT D3 AD 30COMP",
+      "cantidad": 20
+    },
+    {
+      "n": 1001,
+      "codigo": "CH6038",
+      "nombre": "VIT C/ZINC/JALEA REAL INF 30COMP",
+      "cantidad": 7
+    },
+    {
+      "n": 1002,
+      "codigo": "CH6264",
+      "nombre": "VIT D3 /VIT K2 S DURAZNO 20TAB EFER",
+      "cantidad": 9
+    },
+    {
+      "n": 1003,
+      "codigo": "CH6263",
+      "nombre": "VIT D3 800 U.I. S CEREZA 20TAB EFERV",
+      "cantidad": 26
+    },
+    {
+      "n": 1004,
+      "codigo": "CH4044",
+      "nombre": "VITAMINA C 100MG 100CAP",
+      "cantidad": 98
+    },
+    {
+      "n": 1005,
+      "codigo": "CH6010",
+      "nombre": "VITAMINA C 1GR LIMON 20TAB EFERV",
+      "cantidad": 56
+    },
+    {
+      "n": 1006,
+      "codigo": "CH5666",
+      "nombre": "VITAMINA C/MAQUI 32COMP MAST",
+      "cantidad": 7
+    },
+    {
+      "n": 1007,
+      "codigo": "CH5628",
+      "nombre": "VITAMINA D3 800UI 30COMP",
+      "cantidad": 32
+    },
+    {
+      "n": 1008,
+      "codigo": "CH5827",
+      "nombre": "VITAMINA D3 800UI/4 GOTAS 30ML",
+      "cantidad": 22
+    },
+    {
+      "n": 1009,
+      "codigo": "CH4045",
+      "nombre": "VITAMINA E 400MG 30CAP",
+      "cantidad": 53
+    },
+    {
+      "n": 1010,
+      "codigo": "CH6176",
+      "nombre": "X GEAR AMINOACIDOS S B COLA GEL SACHET 35GR",
+      "cantidad": 22
+    },
+    {
+      "n": 1011,
+      "codigo": "CH6175",
+      "nombre": "X GEAR AMINOACIDOS S LIMON GEL SACHET 35GR",
+      "cantidad": 9
+    },
+    {
+      "n": 1012,
+      "codigo": "CH5302",
+      "nombre": "ZINC/CALCIO/VITAMINA D 30COMP MAST",
+      "cantidad": 7
+    },
+    {
+      "n": 1013,
+      "codigo": "3448",
+      "nombre": "LIBRO MI VIDA ES LUCHA",
+      "cantidad": 3
+    },
+    {
+      "n": 1014,
+      "codigo": "CH6217",
+      "nombre": "LLAVERO DR SIMI 1 PIEZA",
+      "cantidad": 10
+    },
+    {
+      "n": 1015,
+      "codigo": "CH6219",
+      "nombre": "LLAVERO DR SIMI BOMBERO 1 PIEZA",
+      "cantidad": 6
+    },
+    {
+      "n": 1016,
+      "codigo": "CH6220",
+      "nombre": "LLAVERO DR SIMI CANTINFLAS 1 PIEZA",
+      "cantidad": 3
+    },
+    {
+      "n": 1017,
+      "codigo": "CH6221",
+      "nombre": "LLAVERO DR SIMI CHAPATIN 1 PIEZA",
+      "cantidad": 7
+    },
+    {
+      "n": 1018,
+      "codigo": "CH6222",
+      "nombre": "LLAVERO DR SIMI CHAPULIN 1 PIEZA",
+      "cantidad": 8
+    },
+    {
+      "n": 1019,
+      "codigo": "CH6223",
+      "nombre": "LLAVERO DR SIMI CHAVO DEL OCHO 1 PIEZA",
+      "cantidad": 12
+    },
+    {
+      "n": 1020,
+      "codigo": "CH6228",
+      "nombre": "MUÑECO DR SIMI CANTINFLAS",
+      "cantidad": 2
+    },
+    {
+      "n": 1021,
+      "codigo": "CH6230",
+      "nombre": "MUÑECO DR SIMI CHAPULIN COLORADO",
+      "cantidad": 2
+    },
+    {
+      "n": 1022,
+      "codigo": "CH6229",
+      "nombre": "MUÑECO DR SIMI CHAVO DEL OCHO",
+      "cantidad": 5
+    },
+    {
+      "n": 1023,
+      "codigo": "CH6227",
+      "nombre": "MUÑECO DR SIMI RBD",
+      "cantidad": 2
+    },
+    {
+      "n": 1024,
+      "codigo": "CH6241",
+      "nombre": "ROMPECABEZA DR SIMI 1 60 PIEZAS",
+      "cantidad": 3
+    },
+    {
+      "n": 1025,
+      "codigo": "CH6242",
+      "nombre": "ROMPECABEZA DR SIMI 2 60 PIEZAS",
+      "cantidad": 2
+    },
+    {
+      "n": 1026,
+      "codigo": "CH6243",
+      "nombre": "ROMPECABEZA SIMI CHESPIRITO 1 60 PZAS",
+      "cantidad": 2
+    },
+    {
+      "n": 1027,
+      "codigo": "CH6244",
+      "nombre": "ROMPECABEZA SIMI CHESPIRITO 2 60 PZAS",
+      "cantidad": 3
+    },
+    {
+      "n": 1028,
+      "codigo": "CH6181",
+      "nombre": "SIMISTICKERS CHAPULIN COLORADO",
+      "cantidad": 30
+    },
+    {
+      "n": 1029,
+      "codigo": "CH6179",
+      "nombre": "SIMISTICKERS CHAVO DEL OCHO",
+      "cantidad": 19
+    },
+    {
+      "n": 1030,
+      "codigo": "CH6180",
+      "nombre": "SIMISTICKERS DR CHAPATIN",
+      "cantidad": 26
+    },
+    {
+      "n": 1031,
+      "codigo": "CH6118",
+      "nombre": "VASO SHAKER C/MEZCLADOR Y PASTILLERO",
+      "cantidad": 2
+    },
+    {
+      "n": 1032,
+      "codigo": "CH5944",
+      "nombre": "VASO SHAKER DE COLORES",
+      "cantidad": 2
+    },
+    {
+      "n": 1033,
+      "codigo": "CH9001",
+      "nombre": "ACIDO BORICO PVO 10GR",
+      "cantidad": 25
+    },
+    {
+      "n": 1034,
+      "codigo": "2007",
+      "nombre": "ADHESIVO DENTAL POLVO 20GR",
+      "cantidad": 12
+    },
+    {
+      "n": 1035,
+      "codigo": "CH6091",
+      "nombre": "ADHESIVO MAX SELLADO PROTESIS CREMA 70GR",
+      "cantidad": 26
+    },
+    {
+      "n": 1036,
+      "codigo": "CH5400",
+      "nombre": "ADHESIVO PARA PROTESIS CREMA 40GR",
+      "cantidad": 26
+    },
+    {
+      "n": 1037,
+      "codigo": "CH5635",
+      "nombre": "ADHESIVO PROTESIS MENTA CREMA 40GR",
+      "cantidad": 9
+    },
+    {
+      "n": 1038,
+      "codigo": "CH6216",
+      "nombre": "AGUJAS PARA LAPIZ DE INSULINA 5 UNID",
+      "cantidad": 26
+    },
+    {
+      "n": 1039,
+      "codigo": "CH5878",
+      "nombre": "ALCOHOL 70% DESNAT SPRAY 140ML",
+      "cantidad": 5
+    },
+    {
+      "n": 1040,
+      "codigo": "CH5971",
+      "nombre": "ALCOHOL 70% DESNATURALIZADO 250ML",
+      "cantidad": 3
+    },
+    {
+      "n": 1041,
+      "codigo": "CH7465",
+      "nombre": "ALCOHOL 70% GEL 340ML",
+      "cantidad": 7
+    },
+    {
+      "n": 1042,
+      "codigo": "CA9003",
+      "nombre": "ALCOHOL DESNATURALIZADO 95 500ML",
+      "cantidad": 25
+    },
+    {
+      "n": 1043,
+      "codigo": "954",
+      "nombre": "ALGODON PAQUETE C/50GR",
+      "cantidad": 5
+    },
+    {
+      "n": 1044,
+      "codigo": "CH9003",
+      "nombre": "ALGODON PRENSADO HIDROFILO 100GR",
+      "cantidad": 13
+    },
+    {
+      "n": 1045,
+      "codigo": "CH6207",
+      "nombre": "APLICADOR DE HILO DENTAL 30 UNIDADES",
+      "cantidad": 2
+    },
+    {
+      "n": 1046,
+      "codigo": "AR9027",
+      "nombre": "BICARBONATO SODIO 250GR",
+      "cantidad": 13
+    },
+    {
+      "n": 1047,
+      "codigo": "CH5708",
+      "nombre": "BICARBONATO SODIO POTE 250GR",
+      "cantidad": 8
+    },
+    {
+      "n": 1048,
+      "codigo": "CH5379",
+      "nombre": "BOLSA AGUA CON FUNDA 2LT",
+      "cantidad": 16
+    },
+    {
+      "n": 1049,
+      "codigo": "1191",
+      "nombre": "CALCETIN REC DIABETICO AZUL M UNISEX",
+      "cantidad": 3
+    },
+    {
+      "n": 1050,
+      "codigo": "1190",
+      "nombre": "CALCETIN REC DIABETICO GRIS UNISEX",
+      "cantidad": 3
+    },
+    {
+      "n": 1051,
+      "codigo": "945",
+      "nombre": "CEPILLO DENTAL AD 1PZA",
+      "cantidad": 6
+    },
+    {
+      "n": 1052,
+      "codigo": "CH6078",
+      "nombre": "CEPILLO DENTAL ADULTO SUAVE 1 PIEZA",
+      "cantidad": 7
+    },
+    {
+      "n": 1053,
+      "codigo": "CH6208",
+      "nombre": "CEPILLO DENTAL CERDAS ULTRA SUAVES 1UN",
+      "cantidad": 5
+    },
+    {
+      "n": 1054,
+      "codigo": "946",
+      "nombre": "CEPILLO DENTAL INF 1PZA",
+      "cantidad": 5
+    },
+    {
+      "n": 1055,
+      "codigo": "CH6209",
+      "nombre": "CEPILLO DENTAL TRAT ORTODONCIA 1UN",
+      "cantidad": 7
+    },
+    {
+      "n": 1056,
+      "codigo": "CH6063",
+      "nombre": "CEPILLOS INTERDENTALES 0.6MM 8UNID",
+      "cantidad": 10
+    },
+    {
+      "n": 1057,
+      "codigo": "CH6064",
+      "nombre": "CEPILLOS INTERDENTALES 0.8MM 8UNID",
+      "cantidad": 11
+    },
+    {
+      "n": 1058,
+      "codigo": "CH6210",
+      "nombre": "CEPILLOS INTERDENTALES ANGULO 0.6MM",
+      "cantidad": 12
+    },
+    {
+      "n": 1059,
+      "codigo": "CH6211",
+      "nombre": "CEPILLOS INTERDENTALES ANGULO 0.8MM",
+      "cantidad": 15
+    },
+    {
+      "n": 1060,
+      "codigo": "CH5823",
+      "nombre": "CHITOSAN 375MG 60CAPSULAS",
+      "cantidad": 7
+    },
+    {
+      "n": 1061,
+      "codigo": "CH6070",
+      "nombre": "CLORURO DE SODIO 0.9GR SOL NASAL 50ML",
+      "cantidad": 7
+    },
+    {
+      "n": 1062,
+      "codigo": "CH6099",
+      "nombre": "CLORURO DE SODIO 0.9GR SOL NASAL INF",
+      "cantidad": 30
+    },
+    {
+      "n": 1063,
+      "codigo": "CH6138",
+      "nombre": "CLORURO DE SODIO 0.9GR SOL NASAL NIÑOS",
+      "cantidad": 5
+    },
+    {
+      "n": 1064,
+      "codigo": "CH5454",
+      "nombre": "CONDON COLORES/SABOR 3PIEZAS",
+      "cantidad": 4
+    },
+    {
+      "n": 1065,
+      "codigo": "CH5682",
+      "nombre": "CONDON LATEX RETARDANTE 3PZAS",
+      "cantidad": 6
+    },
+    {
+      "n": 1066,
+      "codigo": "CH5895",
+      "nombre": "CONDON LUBRICADO CLASICO 12PZAS",
+      "cantidad": 5
+    },
+    {
+      "n": 1067,
+      "codigo": "CH5813",
+      "nombre": "CONDON LUBRICADO CLASICO 3PZAS",
+      "cantidad": 4
+    },
+    {
+      "n": 1068,
+      "codigo": "CH5814",
+      "nombre": "CONDON LUBRICADO TEXTURIZADO 3PZAS",
+      "cantidad": 8
+    },
+    {
+      "n": 1069,
+      "codigo": "CH5921",
+      "nombre": "CONDON LUBRICADO ULTRA SENSIBLE 12PZAS",
+      "cantidad": 6
+    },
+    {
+      "n": 1070,
+      "codigo": "CH5992",
+      "nombre": "CONDON SENSIBLE ULTRA DELGADO 3PZAS",
+      "cantidad": 6
+    },
+    {
+      "n": 1071,
+      "codigo": "CH5524",
+      "nombre": "CONDON SIN LATEX LUBRICADO 3PIEZAS",
+      "cantidad": 12
+    },
+    {
+      "n": 1072,
+      "codigo": "CH5809",
+      "nombre": "COPA MENSTRUAL REUTILIZABLE (L)UNID",
+      "cantidad": 3
+    },
+    {
+      "n": 1073,
+      "codigo": "CH5808",
+      "nombre": "COPA MENSTRUAL REUTILIZABLE (S)UNID",
+      "cantidad": 2
+    },
+    {
+      "n": 1074,
+      "codigo": "CH5624",
+      "nombre": "CORTADOR DE UÑAS CROMADO GRANDE 1PIEZA",
+      "cantidad": 4
+    },
+    {
+      "n": 1075,
+      "codigo": "CH5623",
+      "nombre": "CORTADOR UÑAS CROMADO PEQUEÑO 1PIEZA",
+      "cantidad": 5
+    },
+    {
+      "n": 1076,
+      "codigo": "CH6080",
+      "nombre": "GASA ESTERIL 10X10CM 2PIEZAS",
+      "cantidad": 145
+    },
+    {
+      "n": 1077,
+      "codigo": "CH9008",
+      "nombre": "GASA SOBRE 1X1 YDS",
+      "cantidad": 33
+    },
+    {
+      "n": 1078,
+      "codigo": "CH7472",
+      "nombre": "GEL LUBRICANTE INTIMO 50GR",
+      "cantidad": 3
+    },
+    {
+      "n": 1079,
+      "codigo": "CH6060",
+      "nombre": "GEL LUBRICANTE INTIMO BASE AGUA 30ML",
+      "cantidad": 5
+    },
+    {
+      "n": 1080,
+      "codigo": "CH6255",
+      "nombre": "GOTAS LUBRICANTES SOL OFT 10 ML",
+      "cantidad": 3
+    },
+    {
+      "n": 1081,
+      "codigo": "CH6022",
+      "nombre": "GUANTES NITRILO TALLA M 100 UNID",
+      "cantidad": 3
+    },
+    {
+      "n": 1082,
+      "codigo": "CH5385",
+      "nombre": "GUANTES VINILO DESECH CHICO 100PZA",
+      "cantidad": 9
+    },
+    {
+      "n": 1083,
+      "codigo": "CH5387",
+      "nombre": "GUANTES VINILO DESECH LARGO 100PZA",
+      "cantidad": 9
+    },
+    {
+      "n": 1084,
+      "codigo": "CH5386",
+      "nombre": "GUANTES VINILO DESECH MEDIANO 100PZA",
+      "cantidad": 4
+    },
+    {
+      "n": 1085,
+      "codigo": "CH6137",
+      "nombre": "HIALURONATO DE SODIO 0.2GR GEL 30GR",
+      "cantidad": 4
+    },
+    {
+      "n": 1086,
+      "codigo": "CH6136",
+      "nombre": "HIALURONATO DE SODIO GEL DENTICION",
+      "cantidad": 11
+    },
+    {
+      "n": 1087,
+      "codigo": "CH5523",
+      "nombre": "HILO DENTAL CON CERA 50M",
+      "cantidad": 5
+    },
+    {
+      "n": 1088,
+      "codigo": "CH6077",
+      "nombre": "HILO DENTAL CON CERA 50MTS (PACK X 2)",
+      "cantidad": 14
+    },
+    {
+      "n": 1089,
+      "codigo": "CH5585",
+      "nombre": "HIPROMELOSA 0.7% SOL 10ML",
+      "cantidad": 9
+    },
+    {
+      "n": 1090,
+      "codigo": "CH9009",
+      "nombre": "JERINGA 10ML AGUJA 40X08 1PIEZA",
+      "cantidad": 103
+    },
+    {
+      "n": 1091,
+      "codigo": "CH9020",
+      "nombre": "JERINGA 3ML AGUJA 40X08",
+      "cantidad": 148
+    },
+    {
+      "n": 1092,
+      "codigo": "AR9010",
+      "nombre": "JERINGA 5ML AGUJA 40X08",
+      "cantidad": 203
+    },
+    {
+      "n": 1093,
+      "codigo": "AR9008",
+      "nombre": "JERINGA P/INSULI 1ML AGUJA 13X04",
+      "cantidad": 90
+    },
+    {
+      "n": 1094,
+      "codigo": "CH5980",
+      "nombre": "KIT MEDIDOR DE GLUCOSA F BLUETOOTH",
+      "cantidad": 8
+    },
+    {
+      "n": 1095,
+      "codigo": "CH5911",
+      "nombre": "LANCETAS ESTERILES(DIAM 30G) 50UNID",
+      "cantidad": 11
+    },
+    {
+      "n": 1096,
+      "codigo": "CH5732",
+      "nombre": "LIMPIADOR PROTESIS DENTAL 30TAB EFERV",
+      "cantidad": 6
+    },
+    {
+      "n": 1097,
+      "codigo": "CH6017",
+      "nombre": "MASCARILLA 3 PLIEGUES BOLSA 50 UNID",
+      "cantidad": 8
+    },
+    {
+      "n": 1098,
+      "codigo": "CH5241",
+      "nombre": "PAÑUELOS DESECHABLES BOLSILLO",
+      "cantidad": 180
+    },
+    {
+      "n": 1099,
+      "codigo": "CH9010",
+      "nombre": "PARCHES 100 TIRAS",
+      "cantidad": 16
+    },
+    {
+      "n": 1100,
+      "codigo": "AR8001",
+      "nombre": "PEINE PEDICULOSIS METALICO 1PIEZA",
+      "cantidad": 4
+    },
+    {
+      "n": 1101,
+      "codigo": "CH6145",
+      "nombre": "PEROXIDO HIDROGENO 3% SP PARA OIDO",
+      "cantidad": 5
+    },
+    {
+      "n": 1102,
+      "codigo": "CH6203",
+      "nombre": "PLACA MANDIBULAR ANTI BRUXISMO 1 UN",
+      "cantidad": 3
+    },
+    {
+      "n": 1103,
+      "codigo": "947",
+      "nombre": "PLANTILLA ACOJINADA CABALLERO 1 PAR",
+      "cantidad": 3
+    },
+    {
+      "n": 1104,
+      "codigo": "948",
+      "nombre": "PLANTILLA ACOJINADA DAMA 1 PAR",
+      "cantidad": 3
+    },
+    {
+      "n": 1105,
+      "codigo": "CH5720",
+      "nombre": "PRESERVATIVO LONG XL (3PZAS)",
+      "cantidad": 21
+    },
+    {
+      "n": 1106,
+      "codigo": "CH5003",
+      "nombre": "PROTECTOR DIARIO 20PIEZAS",
+      "cantidad": 6
+    },
+    {
+      "n": 1107,
+      "codigo": "CH7419",
+      "nombre": "PROTECTORES MAMARIOS DESCARTABLE 30PZAS",
+      "cantidad": 4
+    },
+    {
+      "n": 1108,
+      "codigo": "1972",
+      "nombre": "SIMICONDON EXTREME TEXTURIZADO 3 PZAS",
+      "cantidad": 43
+    },
+    {
+      "n": 1109,
+      "codigo": "CH5612",
+      "nombre": "SIMICONDON LUBRICADOS 12 PZAS",
+      "cantidad": 14
+    },
+    {
+      "n": 1110,
+      "codigo": "1008",
+      "nombre": "SIMICONDON LUBRICADOS 3 PZAS",
+      "cantidad": 66
+    },
+    {
+      "n": 1111,
+      "codigo": "CH6257",
+      "nombre": "SOLUCION DESINFECTANTE ESTERIL 355ML",
+      "cantidad": 4
+    },
+    {
+      "n": 1112,
+      "codigo": "CH5487",
+      "nombre": "TELA MICROPOROSA 5CMX9M 1PIEZA",
+      "cantidad": 38
+    },
+    {
+      "n": 1113,
+      "codigo": "CH7494",
+      "nombre": "TELA TRANSP 2.5CMX9.14M 1PIEZA",
+      "cantidad": 6
+    },
+    {
+      "n": 1114,
+      "codigo": "CH6062",
+      "nombre": "TENSIOMETRO DE BRAZO AUT DIGITAL 1UNID",
+      "cantidad": 5
+    },
+    {
+      "n": 1115,
+      "codigo": "CH5979",
+      "nombre": "TERMOMETRO DIGITAL PUNTA FLEXIBLE",
+      "cantidad": 12
+    },
+    {
+      "n": 1116,
+      "codigo": "AR0950",
+      "nombre": "TERMOMETRO PRISMATICO",
+      "cantidad": 10
+    },
+    {
+      "n": 1117,
+      "codigo": "CH5835",
+      "nombre": "TEST DE DROGAS (COCAINA/THC) 1PZA",
+      "cantidad": 2
+    },
+    {
+      "n": 1118,
+      "codigo": "CH5910",
+      "nombre": "TIRAS REACTIVA PARA GLICEMIA 50UNID",
+      "cantidad": 24
+    },
+    {
+      "n": 1119,
+      "codigo": "CH5380",
+      "nombre": "TOALLA HIGIENICA ULTRAFINA DIA 8PIEZAS",
+      "cantidad": 9
+    },
+    {
+      "n": 1120,
+      "codigo": "CH5461",
+      "nombre": "TOALLA HIGIENICA ULTRAFINA NOCHE 8PIEZAS",
+      "cantidad": 6
+    },
+    {
+      "n": 1121,
+      "codigo": "CH5730",
+      "nombre": "TOALLITA ESTERIL CON ALCOHOL 1 SACHET",
+      "cantidad": 700
+    },
+    {
+      "n": 1122,
+      "codigo": "3852",
+      "nombre": "VENDA ADHESIVA KIDS CHESPIRITO 30UNID",
+      "cantidad": 25
+    },
+    {
+      "n": 1123,
+      "codigo": "CH9028",
+      "nombre": "VENDA ELASTICA 10CMX4.57M",
+      "cantidad": 8
+    },
+    {
+      "n": 1124,
+      "codigo": "CH9018",
+      "nombre": "VENDA ELASTICA 7.5CMX4MTS",
+      "cantidad": 6
+    },
+    {
+      "n": 1125,
+      "codigo": "CH6012",
+      "nombre": "BOLSA PAPEL KRAFT DR.SIMI GRANDE",
+      "cantidad": 10
+    },
+    {
+      "n": 1126,
+      "codigo": "CH6202",
+      "nombre": "CALCETIN DOCTOR SIMI CHAPATIN 1 PAR",
+      "cantidad": 2
+    },
+    {
+      "n": 1127,
+      "codigo": "CH6200",
+      "nombre": "CALCETIN DOCTOR SIMI CHAPULIN 1 PAR",
+      "cantidad": 3
+    },
+    {
+      "n": 1128,
+      "codigo": "CH6201",
+      "nombre": "CALCETIN DOCTOR SIMI CHAVO 1 PAR",
+      "cantidad": 2
+    }
+  ]
+}

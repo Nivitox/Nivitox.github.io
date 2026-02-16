@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajustes - SimiAPP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/settings.css">
+</head>
+
+<body>
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-md">
+                <a href="/pages/home.html" class="btn btn-sm btn-back">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px;"></i>
+                </a>
+                <h1 class="page-title">Ajustes</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger btn-logout">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="subheader-fixed">
+        <div class="container-fluid">
+            <div class="tabs-rail">
+                <button id="tabs-scroll-left" class="tabs-scroll-btn" type="button" aria-label="Desplazar pestañas a la izquierda">
+                    <i data-lucide="chevron-left" style="width:16px; height:16px;"></i>
+                </button>
+                <div id="settings-tabs-scroller" class="tabs-scroller">
+                    <div id="settings-tabs-nav" class="tabs-nav"></div>
+                </div>
+                <button id="tabs-scroll-right" class="tabs-scroll-btn" type="button" aria-label="Desplazar pestañas a la derecha">
+                    <i data-lucide="chevron-right" style="width:16px; height:16px;"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="settings-access-message" class="settings-tab">
+                <div class="card">
+                    <h2 class="card-title">Ajustes</h2>
+                    <p class="subtitle">No tienes modulos disponibles para configurar en este momento.</p>
+                </div>
+            </section>
+
+            <div id="module-panels-container"></div>
+
+            <section id="tab-sa" class="settings-tab">
+                <div class="card">
+                    <h2 class="card-title">Configuracion Especial Super Admin</h2>
+                    <p class="subtitle">Ordena los botones del Home para todos los trabajadores.</p>
+                    <div id="sa-order-panel">
+                        <ul id="module-order-list" class="module-order-list"></ul>
+                        <div class="order-actions">
+                            <button id="save-order-btn" class="btn btn-success">Guardar orden</button>
+                            <button id="reset-order-btn" class="btn">Restablecer</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="settings-motives-config-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span id="settings-motives-config-close" class="close-button">&times;</span>
+            <h2>Configuración</h2>
+            <p class="text-muted">Motivos para agregar productos en Tránsito u otras listas.</p>
+            <div id="settings-motives-input-list" class="form-group"></div>
+            <div class="flex justify-end gap-md mt-md">
+                <button id="settings-motives-config-cancel" class="btn btn-secondary">Cancelar</button>
+                <button id="settings-motives-config-save" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/pages/settings.js"></script>
+</body>
+
+</html>

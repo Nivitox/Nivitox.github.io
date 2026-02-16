@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fondo - SimiAPP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/fondo.css">
+</head>
+
+<body>
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/home.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 id="page-title" style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Fondo</h1>
+            </div>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="card fondo-shell">
+                <div class="fondo-toolbar">
+                    <div class="toolbar-group">
+                        <label class="form-label" for="fecha-select">Fecha</label>
+                        <select id="fecha-select" class="form-control"></select>
+                    </div>
+                    <div class="toolbar-group">
+                        <label class="form-label" for="hora-select">Hora</label>
+                        <select id="hora-select" class="form-control"></select>
+                    </div>
+                    <div class="toolbar-actions">
+                        <button id="btn-new" class="btn btn-primary"><i data-lucide="plus"></i><span>Ingresar Nuevo</span></button>
+                        <button id="btn-edit" class="btn"><i data-lucide="pencil"></i><span>Editar</span></button>
+                        <button id="btn-report" class="btn"><i data-lucide="file-text"></i><span>Informe</span></button>
+                    </div>
+                </div>
+
+                <div class="fondo-summary-top">
+                    <div class="summary-pill"><span>Trabajador</span><strong id="top-worker">-</strong></div>
+                    <div class="summary-pill"><span>Fondo Local</span><strong id="top-fondo-local">$0</strong></div>
+                    <div class="summary-pill"><span>Fondo en Efectivo</span><strong id="top-fondo-fijo">$0</strong></div>
+                    <div class="summary-pill"><span>Sencillo</span><strong id="top-sencillo">$0</strong></div>
+                    <div class="summary-pill"><span>Gastos</span><strong id="top-gastos">$0</strong></div>
+                    <div class="summary-pill"><span>Fondo AF</span><strong id="top-af">$0</strong></div>
+                    <div class="summary-pill diff"><span>Diferencia</span><strong id="top-diferencia">$0</strong></div>
+                </div>
+
+                <div class="fondo-columns">
+                    <article class="fondo-col">
+                        <h3>Registros Previos</h3>
+                        <div class="table-scroll">
+                            <table class="table fondo-table" id="preview-fixed-table">
+                                <thead>
+                                    <tr>
+                                        <th>Denominación</th>
+                                        <th>Unidades</th>
+                                        <th>Directo</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="fondo-col">
+                        <h3>Detalle Gastos</h3>
+                        <div class="table-scroll">
+                            <table class="table fondo-table" id="preview-gastos-table">
+                                <thead>
+                                    <tr>
+                                        <th>Concepto</th>
+                                        <th>Monto</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <article class="fondo-col">
+                        <h3>Detalle Fondos AF</h3>
+                        <div class="table-scroll">
+                            <table class="table fondo-table" id="preview-af-table">
+                                <thead>
+                                    <tr>
+                                        <th>Concepto</th>
+                                        <th>Monto</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="fondo-comment card">
+                    <h3>Comentario</h3>
+                    <p id="preview-comment">Sin comentario.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="fondo-modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-content fondo-modal-content">
+            <button class="close-button" id="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-title">Nuevo Registro de Fondo</h2>
+
+            <div class="modal-workspace">
+                <aside class="modal-left-panel">
+                    <div class="modal-meta-row">
+                        <div class="form-group">
+                            <label class="form-label" for="modal-date">Fecha</label>
+                            <input id="modal-date" class="form-control" type="date" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="modal-time">Hora</label>
+                            <input id="modal-time" class="form-control" type="time" step="60" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="modal-worker">Trabajador</label>
+                            <input id="modal-worker" class="form-control" type="text" readonly>
+                        </div>
+                    </div>
+
+                    <section class="modal-summary">
+                        <h3>Resumen Contable</h3>
+                        <table class="table fondo-table compact" id="modal-summary-table">
+                            <tbody></tbody>
+                        </table>
+                        <div class="summary-status" id="summary-status">Pendiente</div>
+                    </section>
+                </aside>
+
+                <div class="modal-tabs-panel">
+                    <ul class="tabs-nav" id="fondo-tabs">
+                        <li class="tab-item active" data-tab="tab-fijo"><a href="#">Fondo en Efectivo</a></li>
+                        <li class="tab-item" data-tab="tab-sencillo"><a href="#">Sencillo</a></li>
+                        <li class="tab-item" data-tab="tab-gastos"><a href="#">Gastos</a></li>
+                        <li class="tab-item" data-tab="tab-af"><a href="#">Fondos AF</a></li>
+                        <li class="tab-item" data-tab="tab-local"><a href="#">Fondo Local</a></li>
+                    </ul>
+
+                    <div class="tab-content fondo-tab-content">
+                        <div id="tab-fijo" class="tab-pane active"></div>
+                        <div id="tab-sencillo" class="tab-pane"></div>
+                        <div id="tab-gastos" class="tab-pane"></div>
+                        <div id="tab-af" class="tab-pane"></div>
+                        <div id="tab-local" class="tab-pane"></div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="form-group">
+                <label class="form-label" for="modal-comment">Comentario</label>
+                <textarea id="modal-comment" class="form-control" rows="3" placeholder="Agregar comentario..."></textarea>
+            </section>
+
+            <div class="modal-footer-actions">
+                <button id="save-modal" class="btn btn-primary">Guardar</button>
+                <button id="cancel-modal" class="btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="report-modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-content fondo-modal-content report-modal-content">
+            <button class="close-button" id="close-report-modal" aria-label="Cerrar">&times;</button>
+            <h2>Informe de Fondo de Local</h2>
+            <div id="report-content"></div>
+            <div class="modal-footer-actions">
+                <button id="print-report" class="btn btn-primary">Imprimir</button>
+                <button id="close-report" class="btn">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="/pages/fondo.js"></script>
+</body>
+
+</html>

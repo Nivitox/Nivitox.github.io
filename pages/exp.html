@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extractor de Texto de PDF - SimiAPP</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- PDF.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.3.136/pdf.min.mjs" type="module"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+</head>
+<body>
+
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a id="back-button" href="/pages/home.html" class="btn btn-sm"
+                    style="background: transparent; color: var(--text-main); border: 1px solid var(--border-color);">
+                    <i data-lucide="arrow-left" style="width:16px; height:16px; vertical-align:middle;"></i>
+                </a>
+                <h1 id="page-title" style="font-size: 1.2rem; margin: 0; color: var(--primary-color);">Extractor de Texto de PDF</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <input type="file" id="pdf-upload" accept=".pdf" style="display: none;">
+            <button id="process-pdf-btn" class="btn btn-primary btn-lg" style="width: 100%; max-width: 400px; margin: 2rem auto; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <i data-lucide="file-scan" style="width:20px; height:20px;"></i>
+                <span>Procesar PDF de Inventario</span>
+            </button>
+            
+            <div id="results-container" style="display: none; margin-top: 1.5rem;">
+                <hr class="my-4">
+                <h3>Resultado del Procesamiento:</h3>
+                <pre id="file-content" style="white-space: pre-wrap; word-wrap: break-word; background-color: #f5f5f5; border: 1px solid #ddd; padding: 15px; border-radius: 4px;"></pre>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script type="module" src="/pages/exp.js"></script>
+</body>
+</html>

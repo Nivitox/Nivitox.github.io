@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Gestión Financiera</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/home.css">
+</head>
+
+<body>
+
+    <header class="header-fixed">
+        <div class="container-fluid flex items-center justify-between">
+            <h1 class="brand-title">SimiAPP</h1>
+
+            <div class="user-info">
+                <div id="user-sigla" class="user-sigla">--</div>
+                <div class="user-name">
+                    <span id="user-name-text" class="name">Cargando...</span>
+                    <span id="user-cargo-text" class="cargo">...</span>
+                </div>
+                <button id="logout-btn" class="btn btn-danger"
+                    style="padding: 0.4rem 0.8rem; font-size: 0.8rem; margin-left: 10px;">
+                    <i data-lucide="log-out" style="width: 16px; height: 16px; margin: 0;"></i>
+                    <span class="pc-only">Salir</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="subheader-fixed">
+        <div class="container-fluid">
+            <div class="subheader-selectors">
+                <div class="select-wrapper">
+                    <select id="local-select" class="form-control form-select-sm">
+                        <!-- Locales populate here -->
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="worker-select" class="form-control form-select-sm">
+                        <option value="">Vista Trabajador...</option>
+                        <!-- Workers populate here -->
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="home-hero">
+                <div class="home-hero-head">
+                    <h2>Panel principal</h2>
+                    <span id="home-date-badge" class="home-date-badge">--</span>
+                </div>
+                <p>Accede a cada módulo con la navegación rápida.</p>
+                <div id="home-info-banner" class="home-info-banner hidden-banner" role="status" aria-live="polite"></div>
+            </section>
+            <div class="home-grid" id="home-grid">
+                <div class="home-card-col" data-page="caja">
+                    <a href="/pages/caja.html" class="home-btn">
+                        <i data-lucide="calculator"></i>
+                        <span>Caja</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="diario">
+                    <a href="/pages/diario.html" class="home-btn">
+                        <i data-lucide="book-open"></i>
+                        <span>Diario</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="inventario">
+                    <a href="/pages/inventario.html" class="home-btn">
+                        <i data-lucide="circle-pile"></i>
+                        <span>Inventario</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="revision">
+                    <a href="/pages/revision.html" class="home-btn">
+                        <i data-lucide="search"></i>
+                        <span>Revisión de Inventario</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="fondo">
+                    <a href="/pages/fondo.html" class="home-btn">
+                        <i data-lucide="wallet"></i>
+                        <span>Fondo</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="recon">
+                    <a href="/pages/recon.html" class="home-btn">
+                        <i data-lucide="repeat"></i>
+                        <span>Recon</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="locales">
+                    <a href="/pages/locales.html" class="home-btn">
+                        <i data-lucide="store"></i>
+                        <span>Locales</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="info">
+                    <a href="/pages/info.html" class="home-btn">
+                        <i data-lucide="info"></i>
+                        <span>Información</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="trabajadores">
+                    <a href="/pages/trabajadores.html" class="home-btn">
+                        <i data-lucide="users"></i>
+                        <span>Trabajadores</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="calendario">
+                    <a href="/pages/calendario.html" class="home-btn">
+                        <i data-lucide="calendar"></i>
+                        <span>Calendario</span>
+                        <span id="calendar-today-badge" class="home-module-badge hidden-badge">0</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="formatos">
+                    <a href="/pages/formatos.html" class="home-btn">
+                        <i data-lucide="file-text"></i>
+                        <span>Formatos</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="settings">
+                    <a href="/pages/settings.html" class="home-btn">
+                        <i data-lucide="settings"></i>
+                        <span>Ajustes</span>
+                    </a>
+                </div>
+                <div class="home-card-col" data-page="users">
+                    <a href="/pages/users.html" class="home-btn" id="admin-btn">
+                        <i data-lucide="shield-check"></i>
+                        <span>Usuarios</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <style>
+        .pc-only {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .pc-only {
+                display: inline;
+                margin-left: 4px;
+            }
+        }
+    </style>
+
+    <script type="module" src="/core/js/auth.js"></script>
+    <script type="module" src="/pages/home.js"></script>
+</body>
+
+</html>

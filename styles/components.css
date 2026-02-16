@@ -1,0 +1,339 @@
+/* Components */
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    border-radius: var(--border-radius);
+    transition: transform 0.2s ease, color 0.15s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-primary {
+    color: #fff;
+    background: var(--hero-gradient);
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+    filter: saturate(1.06);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* Cards */
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.card-title {
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-lg);
+}
+
+/* Forms & Inputs */
+.form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: var(--spacing-xs);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-main);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    color: var(--text-main);
+    background-color: var(--surface-soft);
+    background-clip: padding-box;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: var(--text-main);
+    background-color: var(--bg-card);
+    border-color: var(--primary-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--focus-ring);
+}
+
+/* Tables */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid var(--border-color);
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid var(--border-color);
+    text-align: left;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: var(--surface-soft);
+}
+
+/* Alerts */
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: var(--border-radius);
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Tabs Navigation */
+.tabs-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: var(--spacing-md);
+    list-style: none;
+    border-bottom: 1px solid var(--border-color);
+    gap: 0.35rem;
+}
+
+.tab-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    border-bottom: none;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    margin-bottom: -1px;
+    background-color: var(--surface-soft);
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.tab-item:hover {
+    background-color: var(--card-hover-bg);
+    border-color: var(--border-color);
+}
+
+.tab-item.active {
+    color: var(--primary-color);
+    background-color: var(--bg-card);
+    border-color: var(--border-color);
+    border-top: 2px solid var(--primary-color);
+    font-weight: var(--font-weight-bold);
+}
+
+.tab-item.active a {
+    color: var(--primary-color);
+}
+
+.tab-item a {
+    text-decoration: none;
+    color: var(--text-main);
+}
+
+/* Tab Content */
+.tab-content {
+    margin-top: var(--spacing-md);
+}
+
+.tab-pane {
+    display: none;
+    padding: var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-top: none;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    background-color: var(--bg-card);
+    box-shadow: var(--shadow-sm);
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Ensure data-table in tab-pane uses existing styles */
+.tab-pane .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Reset top border as tab-pane already has one */
+    border-top: none; 
+}
+
+.tab-pane .data-table th,
+.tab-pane .data-table td {
+    padding: 0.75rem;
+    vertical-align: middle; /* Align content vertically */
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.tab-pane .data-table thead th {
+    background-color: var(--background-muted);
+    font-weight: var(--font-weight-bold);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.tab-pane .data-table tbody tr:last-child td {
+    border-bottom: none; /* Remove border for last row */
+}
+
+/* Additional button styling for icon-only buttons if needed in table */
+.btn-sm.btn-icon {
+    padding: 0.25rem;
+    width: 28px; /* Fixed width for small icon button */
+    height: 28px; /* Fixed height for small icon button */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1001; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(9, 16, 28, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: var(--bg-card);
+    margin: auto;
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    width: 80%; /* Could be more specific, e.g., max-width: 500px */
+    max-width: 500px;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
+    color: var(--primary-color);
+}
+
+.modal .close-button {
+    color: var(--text-muted);
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.modal .close-button:hover,
+.modal .close-button:focus {
+    color: var(--text-main);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Adjustments for modal form controls */
+.modal .form-group {
+    margin-bottom: var(--spacing-sm);
+}
+
+.modal .form-label {
+    font-size: var(--font-size-sm);
+}
+
+.modal .form-control {
+    font-size: var(--font-size-base);
+    padding: 0.4rem 0.6rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Info Bubbles */
+.info-bubble {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    color: white; /* Default text color for bubbles */
+}
+
+/* Existing bubble colors from revision.js */
+.info-bubble-red {
+    background-color: var(--danger-color);
+}
+
+.info-bubble-green {
+    background-color: var(--success-color);
+}
+
+.info-bubble-blue {
+    background-color: var(--primary-color);
+}
+
+/* New bubble color for gray */
+.info-bubble-gray {
+    background-color: var(--secondary-color);
+}

@@ -1,0 +1,196 @@
+/* styles/asignacion.css */
+
+.toggle-group {
+    display: flex;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    width: 100%;
+    max-width: 420px;
+}
+
+.toggle-group input[type="radio"] {
+    display: none; /* Oculta el radio button real */
+}
+
+.toggle-button {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    background-color: var(--background-color-light);
+    color: var(--text-muted);
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    border-left: 1px solid var(--border-color);
+}
+
+.toggle-button:first-of-type {
+    border-left: none;
+}
+
+.toggle-group input[type="radio"]:checked + .toggle-button {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-button:hover {
+    background-color: var(--background-color-hover);
+}
+
+.toggle-group input[type="radio"]:checked + .toggle-button:hover {
+    background-color: var(--primary-color-dark);
+}
+
+.assignment-card .card-body {
+    background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+    border-radius: 0 0 12px 12px;
+}
+
+.assignment-subtitle {
+    margin: 0 0 1rem 0;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+}
+
+.assignment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.assignment-block {
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.assignment-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: var(--text-main);
+}
+
+.assignment-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.assignment-actions #assign-button {
+    min-width: 170px;
+}
+
+.assignment-top-row {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) 1fr;
+    gap: 1rem;
+    align-items: stretch;
+    margin-bottom: 1rem;
+}
+
+.assignment-upload-col .home-btn {
+    height: 100%;
+    min-height: 132px;
+}
+
+.assignment-summary-col h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+#inventory-summary-display {
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: #fff;
+    padding: 0.85rem 1rem;
+}
+
+/* Style for reviewed rows */
+.data-table tbody .reviewed-row {
+    background-color: #e6ffe6; /* Subtle green for reviewed items */
+}
+
+/* New styles for storage management */
+.list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.list-group-item {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.input-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input-group .form-control {
+    flex-grow: 1;
+}
+
+.product-list-storage {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+.product-item-storage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color-light);
+}
+
+.product-item-storage:last-child {
+    border-bottom: none;
+}
+
+.product-item-storage span {
+    flex-basis: 60%;
+}
+
+.product-item-storage select {
+    flex-basis: 35%;
+    padding: 0.3rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+
+/* Style for products with non-standard storage */
+.product-item-storage.non-standard-storage {
+    background-color: #e6f7ff; /* Subtle light blue */
+}
+
+@media (max-width: 900px) {
+    .assignment-top-row {
+        grid-template-columns: 1fr;
+    }
+
+    .assignment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .assignment-actions {
+        justify-content: stretch;
+    }
+
+    .assignment-actions #assign-button {
+        width: 100%;
+    }
+}
